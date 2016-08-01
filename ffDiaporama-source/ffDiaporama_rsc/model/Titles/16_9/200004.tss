@@ -1,0 +1,41 @@
+<!DOCTYPE ffDiaporama>
+<Model>
+    <TitleModel NextIndexKey="9" ShotNumber="1">
+        <ObjectComposition TypeComposition="1" CompositionNumber="3">
+            <Composition-0 FontName="Comic Sans MS" FontSize="14" w="0,5" FontShadowColor="#442e0e" x="0,25" y="0,25" h="0,5" SameAsPrevShot="0" TypeComposition="1" Text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'Comic Sans MS'; font-size:14pt; color:#a38557;&quot;>%CCI%/%CCT%&lt;/span>&lt;/p>&#xa;&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'Comic Sans MS'; font-size:20pt; color:#a38557;&quot;>%CLD%&lt;/span>&lt;/p>&#xa;&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'Comic Sans MS'; font-size:28pt; color:#fff7c1;&quot;>%CCN%&lt;/span>&lt;/p>&lt;/body>&lt;/html>" IsVisible="1" IndexKey="5" StyleText="4" FontColor="#fff7c1" TMType="0">
+                <BackgroundBrush BrushType="0" TypeComposition="1">
+                    <ImageCorrection X="0" Y="0" AspectRatio="0,5625" ZoomFactor="1"/>
+                </BackgroundBrush>
+            </Composition-0>
+            <Composition-1 FontName="Comic Sans MS" FontSize="10" w="0,5" FontShadowColor="#442e0e" x="0,25" y="0,25" h="0,5" SameAsPrevShot="0" TypeComposition="1" Text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'Comic Sans MS'; font-size:10pt; color:#a38557;&quot;>%PLD%&lt;/span>&lt;/p>&lt;/body>&lt;/html>" IsVisible="1" VAlign="2" IndexKey="7" HAlign="0" StyleText="4" FontColor="#a38557" TMType="0">
+                <BackgroundBrush BrushType="0" TypeComposition="1">
+                    <ImageCorrection X="0" Y="0" AspectRatio="0,5625" ZoomFactor="1"/>
+                </BackgroundBrush>
+            </Composition-1>
+            <Composition-2 FontName="Comic Sans MS" FontSize="10" w="0,5" FontShadowColor="#442e0e" x="0,25" y="0,25" h="0,5" SameAsPrevShot="0" TypeComposition="1" Text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'Comic Sans MS'; font-size:10pt; color:#fff7c1;&quot;>%PTT%&lt;/span>&lt;/p>&lt;/body>&lt;/html>" IsVisible="1" VAlign="2" IndexKey="8" HAlign="2" StyleText="4" FontColor="#fff7c1" TMType="0">
+                <BackgroundBrush BrushType="0" TypeComposition="1">
+                    <ImageCorrection X="0" Y="0" AspectRatio="0,5625" ZoomFactor="1"/>
+                </BackgroundBrush>
+            </Composition-2>
+        </ObjectComposition>
+        <Shot-0 StaticDuration="6000">
+            <ShotComposition TypeComposition="2" CompositionNumber="3">
+                <Composition-0 w="0,9000000000000001" x="0,04999999999999999" y="0,05" h="0,9" SameAsPrevShot="0" TypeComposition="2" IsVisible="1" IndexKey="5" TMType="0">
+                    <BackgroundBrush BrushType="0" TypeComposition="2">
+                        <ImageCorrection X="0" Y="0" AspectRatio="0,5625" ZoomFactor="1"/>
+                    </BackgroundBrush>
+                </Composition-0>
+                <Composition-1 w="0,3223684210526315" x="0,05" y="0,8133719511319752" h="0,1366280488680247" SameAsPrevShot="0" TypeComposition="2" IsVisible="1" IndexKey="7" TMType="0">
+                    <BackgroundBrush BrushType="0" TypeComposition="2">
+                        <ImageCorrection X="0" Y="0" AspectRatio="0,5625" ZoomFactor="1"/>
+                    </BackgroundBrush>
+                </Composition-1>
+                <Composition-2 w="0,5776315789473685" x="0,3723684210526316" y="0,8133719511319752" h="0,1366280488680249" SameAsPrevShot="0" TypeComposition="2" IsVisible="1" IndexKey="8" TMType="0">
+                    <BackgroundBrush BrushType="0" TypeComposition="2">
+                        <ImageCorrection X="0" Y="0" AspectRatio="0,5625" ZoomFactor="1"/>
+                    </BackgroundBrush>
+                </Composition-2>
+            </ShotComposition>
+        </Shot-0>
+    </TitleModel>
+</Model>

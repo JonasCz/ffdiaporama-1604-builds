@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Project properties</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="Content-Language" content="en-US">
+    <meta content="ffDiaporama Team" name="author">
+    <link rel="stylesheet" type="text/css" href="wiki.css"/>
+</head>
+<body>
+    <div>
+        This dialog allows you to define the information which qualifies the project.
+        <br>This information will then be registered in the form of TAGs in the rendered video files.
+        <br>
+        <h4>Remarks:</h4>
+        <ul>
+            <li>The properties of the project are a partial implementation of the <a href="http://en.wikipedia.org/wiki/MPEG-7">MPEG-7</a> standard on the descriptors of multimedia contents.</li>
+            <li>These properties are written into the video files during the rendering and can be exploited by indexing systems (collection managers) or by <a href="http://en.wikipedia.org/wiki/Media_center">Media Center Systems</a>.</li>
+        </ul>
+    </div>
+
+    <br>
+    <h2>Settable fields</h2>
+    <table border="1" cellpadding="2" cellspacing="0"><tbody>
+        <tr>
+            <td style="background-color: rgb(0, 0, 65); font-weight: bold; color: white;">Fields</td>
+            <td style="background-color: rgb(0, 0, 65); font-weight: bold; color: white;">Remark</td>
+        </tr>
+        <tr>
+            <td nowrap valign="top">Project geometry</td>
+            <td>This field allows you to select the geometry to be used for the project.
+                <div><br>Remark:<ul>
+                    <li>This field is only editable when the dialog box is used for creating a new project. Subsequently, it is not possible to change this value.</li>
+                </ul></div></td>
+        </tr>
+        <tr>
+            <td nowrap valign="top">Title</td>
+            <td>The title of the project
+            <div><br>Remark:<ul>
+                <li>If the id3v2 compatibility option is set in <a href="0101.html">option dialog</a>, this fields is limited to 30 characters</li>
+            </ul></div></td>
+        </tr>
+        <tr>
+            <td nowrap valign="top">Author</td>
+            <td>The name of the author of the project.
+                <div><br>Remarks:<ul>
+                    <li>This field is often shown by indexing system and <a href="http://en.wikipedia.org/wiki/Media_center">Media Center Systems</a> under the term Artist.</li>
+                    <li>If the id3v2 compatibility option is set in <a href="0101.html">option dialog</a>, this fields is limited to 30 characters</li>
+                </ul></div></td>
+        </tr>
+        <tr>
+            <td nowrap valign="top">Album</td>
+            <td>The album of the project
+                <div><br>Remark:<ul>
+                    <li>If the id3v2 compatibility option is set in <a href="0101.html">option dialog</a>, this fields is limited to 30 characters</li>
+                </ul></div></td>
+        </tr>
+        <tr>
+            <td nowrap valign="top">Language</td>
+            <td>The language of the audio track <a href="http://www.loc.gov/standards/iso639-2/php/code_list.php">(ISO 639 standard - 3 characters)</a></td>
+        </tr>
+        <tr>
+            <td nowrap valign="top">Thumbnail</td>
+            <td>These options allow you to define the thumbnail that will be attached to the video file when rendering
+                <table border="0" cellpadding="2" cellspacing="0"><tbody>
+                    <tr>
+                        <td nowrap valign="top"><img src="img/AutoTS.png"></td>
+                        <td>Create a new model from this thumbnail or edit custom thumbnail. Opens the <a href="0117.html">Edit thumbnail dialog</a>.</td>
+                    </tr>
+                    <tr>
+                        <td nowrap valign="top"><img src="img/action_edit.png"></td>
+                        <td>Customize the thumbnail only for this project (without creating a new thumbnail model). Opens the <a href="0117.html">Edit thumbnail dialog</a>.</td>
+                    </tr>
+                    <tr>
+                        <td nowrap valign="top"><img src="img/filesave.png"></td>
+                        <td>Expor thumbnail to a jpeg file. By default, the proposed file name is "folder.jpg". ffDiaporama and many <a href="http://en.wikipedia.org/wiki/Media_center">Media Center Systems</a> recognize this file as the icon to be used for the directory that contains it.</td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td nowrap valign="top">Event date</td>
+            <td>The date of the event of the project</td>
+        </tr>
+        <tr>
+            <td nowrap valign="top">Override date</td>
+            <td>Check this box to override the date and offer you to enter the date as a free multi-line text</td>
+        </tr>
+        <tr>
+            <td nowrap valign="top">Event location</td>
+            <td>The location where the project's event took place<ul>
+                <li>Click on this <img src="img/EditGMaps.png"> button to select a location from the <a href="0123.html">Add or modify a location</a> dialog or using a favorite</li>
+                <li>Click on this <img src="img/trash.png"> button to remove actual location (set to empty)</li>
+            </ul></td>
+        </tr>
+        <tr>
+            <td nowrap valign="top">Comment</td>
+            <td>A free comment which can spread out on several lines.
+                <div><br>Remark:<ul>
+                    <li>Numerous indexing systems or <a href="http://en.wikipedia.org/wiki/Media_center">Media Center Systems</a> will read only the 1<sup>st</sup> line.</li>
+                </ul></div></td>
+        </tr>
+        <tr>
+            <td nowrap valign="top">Options for speed waves</td>
+            <td>These options sets the value of the velocity curves for use whenever the corresponding options are set to &quot;Project Default&quot;
+                <table border="0" cellpadding="2" cellspacing="0"><tbody>
+                    <tr>
+                        <td nowrap valign="top">Transition</td>
+                        <td>Defined default speed curve for transitions</td>
+                    </tr>
+                    <tr>
+                        <td nowrap valign="top">Block animations</td>
+                        <td>Defined default speed curve for block animations</td>
+                    </tr>
+                    <tr>
+                        <td nowrap valign="top">Image animations</td>
+                        <td>Defined default speed curve for image animations</td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+    </tbody></table>
+    <br>
+    <div style="margin-left: 40px;">
+        <h4>Remarks:</h4>
+        <ul>
+            <li>Some fields are automatically filled and do not appear in this dialog:
+            <table border="0" cellpadding="0" cellspacing="10"><tbody>
+                <tr>
+                    <td nowrap valign="top">Timestamp</td>
+                    <td>Date and time of generation of the video.</td>
+                </tr>
+                <tr>
+                    <td nowrap valign="top">Composer</td>
+                    <td>Contains the version of ffDiaporama with which the video was produced.</td>
+                </tr>
+                <tr>
+                    <td nowrap valign="top">Encoder</td>
+                    <td>Contains the version of libavformat (ffmpeg) with which the video was produced.</td>
+                </tr>
+            </tbody></table></li>
+            <li>For more compatibility with indexing systems and <a href="http://en.wikipedia.org/wiki/Media_center">Media Center Systems</a>, ffDiaporama does not include the whole video TAGs but is closer rather to the standard id3v2 than is the most used by these systems today. Furthermore, the video formats do not support every TAG in the same way.</li>
+        </ul>
+    </div>
+    <h3>Chapters</h3>
+    <div style="margin-left: 40px;">
+        Chapters defined in the project are listed for consultation. (To modify chapters use Chapter button in <a href="0119.html">modify slide dialog</a>.)
+        <br>
+        <br>The following fields appear:
+        <table border="1" cellpadding="2" cellspacing="0"><tbody>
+            <tr>
+                <td style="background-color: rgb(0, 0, 65); font-weight: bold; color: white;">Fields</td>
+                <td style="background-color: rgb(0, 0, 65); font-weight: bold; color: white;">Remark</td>
+            </tr>
+            <tr>
+                <td>#</td>
+                <td>Chapter number</td>
+            </tr>
+            <tr>
+                <td>Slide</td>
+                <td>Slide number in wich chapter is defined</td>
+            </tr>
+            <tr>
+                <td>Title</td>
+                <td>Chapter title</td>
+            </tr>
+            <tr>
+                <td>Start</td>
+                <td>Chapter start position</td>
+            </tr>
+            <tr>
+                <td>End</td>
+                <td>Chapter end position</td>
+            </tr>
+            <tr>
+                <td>Duration</td>
+                <td>Chapter duration</td>
+            </tr>
+        </tbody></table>
+        <div><br>Remark: Video formats do not support all the chapters in the same way:</div>
+        <table border="1" cellpadding="2" cellspacing="0"><tbody>
+            <tr>
+                <td style="background-color: rgb(0, 0, 65); font-weight: bold; color: white;">Format</td>
+                <td style="background-color: rgb(0, 0, 65); font-weight: bold; color: white;">Remark</td>
+            </tr>
+            <tr>
+                <td>3GP/MP4/MKV</td>
+                <td>Full support</td>
+            </tr>
+            <tr>
+                <td>AVI/MPG/FLV/OGV/WEBM</td>
+                <td>No support</td>
+            </tr>
+        </tbody></table>
+    </div>
+    <br>
+    <h2>See also</h2>
+    <table border="0" cellpadding="0" cellspacing="0"><tbody>
+        <tr>
+            <td nowrap valign="top"><a href="http://en.wikipedia.org/wiki/Overscan"><img src="wiki_img/Wikipedia.png"></a></td>
+            <td valign="top"><ul>
+                <li><a href="http://www.loc.gov/standards/iso639-2/php/code_list.php">ISO 639</a></li>
+                <li><a href="http://ffmpeg.org/doxygen/trunk/group__metadata__api.html#_details">TAG in ffmpeg</a></li>
+                <li><a href="http://www.id3.org/ID3v2Easy">Standard ID3v2</a></li>
+                <li><a href="http://en.wikipedia.org/wiki/MPEG-7">Standard MPEG-7 on the descriptors of multimedia contents</a></li>
+            </ul></td>
+        </tr>
+    </tbody></table>
+</body>
+</html>

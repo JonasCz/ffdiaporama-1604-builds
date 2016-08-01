@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <title>The timeline</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="Content-Language" content="en-US">
+    <meta content="ffDiaporama Team" name="author">
+    <link rel="stylesheet" type="text/css" href="wiki.css"/>
+</head>
+<body>
+    <div>The timeline lists the slides which compose the project. The slides are listed from left to right.<br></div>
+    <div style="margin-left: 40px;"><img src="wiki_img/Timeline.png"></div>
+    <br>
+    <div>Each slide is represented by the 3 tracks:</div>
+    <div style="margin-left: 40px;">
+        <h4>The background track:</h4>
+        <ul>
+          <li>An icon corresponding to the transition selected to pass from the previous background to this slide (if a new background is defined). .</li>
+          <li>A thumbnail representing the background associated with this slide.</li>
+          <li>The slide number.</li>
+          <li><img src="img/Chapter.png"> Possibly this icon may appear at the upper left if the slide is used as chapter start</li>
+        </ul>
+        <h4>The mounting track:</h4>
+        <ul>
+          <li>An icon corresponding to the transition selected to pass from the previous slide to this slide, under which is indicated the duration of the transition in seconds.</li>
+          <li>A thumbnail in the form of a static image for slides consisting of title or photo, or in the form of a video (under which is placed a soundtrack).</li>
+          <li><img src="img/TimelineBlocks.png"> Possibly this icon may appear at the upper left if the slide is composed of several blocks.</li>
+          <li><img src="img/TimelineShots.png"> Possibly this icon may appear at the upper right if the slide is animated (that is consisting of more than one shot).</li>
+          <li><img src="img/Transform.png"> Possibly this icon may appear at the bottom right if the slide contains at least an image for which you defined a transformation.</li>
+          <li><img src="img/AutoTS.png"> Possibly this icon may appear at the bottom left if the slide is an automatic predefined slide.</li>
+          <li><img src="img/object_text.png"> Possibly this icon may appear at the bottom right if the predefined slide is a project title slide.</li>
+          <li><img src="img/Chapter.png"> Possibly this icon may appear at the bottom right if the predefined slide is a chapter title slide.</li>
+          <li><img src="img/medal.png"> Possibly this icon may appear at the bottom right if the predefined slide is a generic title slide.</li>
+        </ul>
+        <div style="margin-left: 40px;">Remark: The thumbnail represents the first image on the slide.</div>
+        <br>
+        <h4>The music track:</h4>
+        <ul>
+          <li>Every play-list is shown by a change of color.</li>
+          <li>The track is more or less filled according to the sound volume selected, displaying the variation in volume.</li>
+          <li>The musical transitions (fade in/out) are shown as crossings.</li>
+          <li>On slide associated with the music, the cover, artist and song title are displayed</li>
+        </ul>
+        <div style="margin-left: 40px;">Remark: Possible pauses are symbolized by a change in the volume to zero and the display of this icon: <img src="img/player_pause_small.png"></div>
+        <br>
+    </div>
+    <h2>To select the current slide:</h2>
+    <ul>
+      <li>Click on a slide to define it as current slide.</li>
+      <li>Use the mouse wheel to change the current slide.</li>
+    </ul>
+    <div style="margin-left: 40px;">Note: When previewing the selected slide is automatically defined on the current slide preview.</div>
+    <div>&nbsp;</div>
+    <h2>To modify an element:</h2>
+    <ul>
+      <li>To modify the background, double-click the thumbnail of the background. This action opens the <a href="0104.html">Define background</a> dialog.</li>
+      <li>To modify the entering slide transition, double-click the slide transition. This action opens the <a href="0122.html">Define the entering slides transitions</a> dialog.</li>
+      <li>To modify the slide (framing, filter, animation, etc.) double-click the thumbnail. This action opens the <a href="0119.html">slides properties dialog</a> if it's a standard slide or open the <a href="0103.html">predefined title slide properties dialog</a> if it's a predefined title slide.</li>
+      <li>To modify the music associated with the slide, double-click the zone corresponding to the slide musical track. This action opens the <a href="0114.html">Define the music track</a> dialog.</li>
+    </ul>
+    <div style="margin-left: 40px;">You can also call a contextual menu by doing a right click ahead the thumbnail or click on the Edit button. This contextual menu allows you to select an action.</div>
+    <br>
+
+    <h2>To modify several elements at one time:</h2>
+    <div style="margin-left: 40px;">
+        <div>You can select several slides by using the mouse and the CTRL and SHIFT:</div>
+        <ul>
+          <li>CTRL + click on a slide: add or removes the slide of the selection</li>
+          <li>SHIFT + click on a slide: add all the slides understood between the last one selected and the slide which you have just clicked</li>
+        </ul>
+    </div>
+    <div style="margin-left: 40px;">Then, by making a right click on one of the slides of the selection, a contextual menu appears.</div>
+    <div style="margin-left: 40px;">This menu suggests various actions making on all the slides of the selection such as:</div>
+    <ul style="margin-left: 40px;">
+      <li>Copy/Cut/Paste/Remove all slide of the selection</li>
+      <li>Modify the duration of the 1st shot for all the slides of the selection</li>
+      <li>Modify the transition for all the slides of the selection</li>
+      <li>Modify the music for all the slides of the selection</li>
+      <li>etc...</li>
+    </ul>
+
+    <h2>To reorder the slide in the timeline:</h2>
+    <div style="margin-left: 40px;">Simply drag the slide to a new position with the mouse (drag &amp; drop)</div>
+    <br>
+
+    <h2>To move the music or the background associated to a slide to another slide:</h2>
+    <div style="margin-left: 40px;">Simply drag the music or background to a new position with the mouse (drag &amp; drop)</div>
+    <br>
+
+    <h2>To modify the display of the timeline:</h2>
+    <div style="margin-left: 40px;">
+        <div>The timeline settings commands are in the status bar, to the right, at the bottom of the main window.</div>
+        <div><img src="img/zoomup.png"> Increases the size of the thumbnails but reduces the number of thumbnails shown in the timeline.</div>
+        <div><img src="img/zoomdown.png"> Reduces the size of the thumbnails and increases the number of thumbnails shown in the timeline.</div>
+    </div>
+    <br>
+
+</body>
+</html>

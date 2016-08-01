@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="298.09372" height="264.12558" id="svg2" version="1.1" inkscape:version="0.48.3.1 r9886" sodipodi:docname="Nuevo documento 1">
+  <defs id="defs4"/>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="1.4" inkscape:cx="264.7788" inkscape:cy="137.96639" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="false" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:window-width="1366" inkscape:window-height="709" inkscape:window-x="0" inkscape:window-y="27" inkscape:window-maximized="1"/>
+  <g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1" transform="translate(-176.92248,-379.30744)">
+    <path style="fill:#ed171a;fill-opacity:1;stroke:none" d="m 326.13839,379.30803 c -5.42187,0.0486 -10.73798,3.0802 -15.90625,9.46875 l -133.21875,228.5625 c -1.01717,19.52138 6.66173,23.41217 15,26.09375 l 268.21875,-0.71875 c 17.81369,-7.26625 14.77906,-16.62135 14.28125,-25.71875 L 342.73214,387.71428 c -5.64427,-5.51151 -11.17188,-8.45485 -16.59375,-8.40625 z m -0.15625,34.96875 118.1875,202.53125 -235.375,-0.5 117.1875,-202.03125 z" id="path2996" inkscape:connector-curvature="0"/>
+    <path style="fill:#000000;fill-opacity:1;stroke:none" d="m 306.32277,476.51715 c -3.32003,-0.053 -6.49765,1.3762 -9.5,4.5 -4.66533,5.18019 -3.59469,10.89114 -0.6875,16.78125 5.36005,4.17269 10.59923,5.87879 15.6875,2.875 l 1.09375,2.84375 c -3.03585,2.22177 -5.89322,5.06677 -8.21875,9.65625 0.63987,7.78646 1.42608,15.52518 3.9375,22.84375 -2.65815,3.31769 -4.62497,6.92531 -6.09375,10.71875 -1.50834,4.22619 -2.28258,8.4613 -2.125,12.6875 l -11.875,7.40625 c 0.25008,-1.97028 -0.0723,-2.63425 -1.71875,-3.65625 -2.02599,-2.49126 -4.65837,-2.49004 -7.125,-3.21875 0.41329,-2.61905 -2.32436,-5.25595 -4.65625,-7.875 -1.53694,-0.69951 -3.10552,-1.28057 -5.34375,-0.34375 -2.82316,-2.24482 -6.36219,-2.38663 -10.375,-1.0625 l -31.40625,57.125 72.5,-0.34375 c -0.44668,-12.36659 -3.22968,-24.39663 -10.09375,-35.8125 l 10.09375,-5.96875 8.90625,0.34375 2.5,-7.5 11.4375,-6.0625 -3.5625,8.21875 -1.0625,40.34375 c -8.65041,1.62263 -12.06715,3.96955 -12.15625,6.78125 l 24.65625,0 7.65625,-34.5625 -2.03125,-0.25 0.4375,-5.1875 c 5.53767,-5.21007 9.28771,-12.72426 13.21875,-20 -0.4256,8.87124 3.03931,16.16333 7.125,23.5625 8.19554,9.40394 17.95071,17.63482 28.03125,25.625 -0.61213,4.72176 -4.84516,7.8005 -7.84375,11.4375 l 9.71875,-0.25 4.375,-3.21875 10,-17.5 -5.6875,-1.4375 -20.8125,-23.5625 -1,2.125 c -4.8598,-3.49367 -4.93861,-8.81389 -5.6875,-13.90625 0.67537,-8.89703 -2.65948,-15.59443 -6.1875,-22.15625 l 2.59375,-2.15625 c 0.31205,1.41593 0.89705,1.53856 1.4375,1.8125 3.74797,-1.12786 6.26435,-3.41033 7.15625,-7.15625 -0.67959,-1.87126 -1.74552,-3.48178 -4.3125,-3.9375 l -1.40625,-8.21875 c -5.54805,-23.04323 -12.00367,-20.481 -18.21875,-24.625 -10.54385,1.34293 -21.27377,2.20086 -29.28125,10 -0.9757,-0.0957 -2.07643,-0.0709 -1.4375,-1.78125 0.57498,-7.43705 -1.96195,-10.4521 -4.65625,-13.21875 -2.75168,-1.73555 -5.41776,-2.67756 -8,-2.71875 z m 43.96875,21.375 c 5.59695,-0.18822 8.56615,7.18339 12.28125,23.5 l -2.5,2.28125 -15.15625,-23.875 c 2.05243,-1.20705 3.80785,-1.85355 5.375,-1.90625 z m -31,25.65625 c 2.35048,1.29263 4.53194,2.31491 11.46875,12.125 l -2.90625,7.0625 -17.78125,11.09375 c 0.93931,-6.01934 5.22684,-9.49667 8.6875,-13.625 1.23294,-5.37841 1.31737,-10.94133 0.53125,-16.65625 z" id="path3769" inkscape:connector-curvature="0"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Open Clip Art Library</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Men at work</dc:title>
+        <dc:date>2012-07-15T20:34:33</dc:date>
+        <dc:description>SeÃ±al de 'Hombres trabajando'&#13;\n'Men at work' signal</dc:description>
+        <dc:source>http://openclipart.org/detail/171191/men-at-work-by-developingo-171191</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>developingo</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>hombres trabajando</rdf:li>
+            <rdf:li>men at work</rdf:li>
+            <rdf:li>sign</rdf:li>
+            <rdf:li>signal</rdf:li>
+            <rdf:li>work</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

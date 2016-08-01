@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <title>The multimedia file browser</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="Content-Language" content="en-US">
+    <meta content="ffDiaporama Team" name="author">
+    <link rel="stylesheet" type="text/css" href="wiki.css"/>
+</head>
+<body>
+    <div>ffDiaporama offers a multimedia file browser which is shown in the main window when you select the file browser mode in the main window. It is designed for quick access to the multimedia files on your computer.</div>
+    <div>The main advantages are, that you can view the multimedia information of specific files even without or before adding them to your project. For instance, you can filter the view to obtain information of only photos, video files or music files.</div>
+    <div>And moreover, you can select one or more multimedia files and add them to your project with drag &amp; drop.</div>
+    <div>The main purpose of the file browser is therefore the viewing and use of (multimedia) files. Some file management tasks are integrated for your convenience, i.e. creating folders deleting files or folders and renaming files or folders.</div>
+    <br>
+    <h4>Remark:</h4>
+    <ul>
+      <li>Files can be presented differently than by the system file browser (presence of filters showing only some files - management of the file/icon pairs - etc.)</li>
+      <li>The multimedia file browser follows the display rules used by the majority of multimedia systems (gateway, multimedia hard drive, etc.):
+      <ul>
+          <li>If a drive or a folder contains a folder.jpg file, then this image file is used as icon for the drive or the folder</li>
+          <li>If a video or music file is accompanied with an image file with the .jpg extension carrying the same name, then this image file is used as icon for this file (example: holidays.mkv and holidays.jpg in the same folder</li>
+        </ul>
+      </li>
+      <li>The ffDiaporama multimedia file browser is not designed to manage files: so you cannot make copies of files or move files.</li>
+    </ul>
+
+    <h2><img src="img/MediaIcons/16x16/directory.png"> Folder tree</h2>
+    <div style="margin-left: 40px;">
+        <div>The folder tree shows the drives and folders of your system. Under every drive the folders of that drive are listed, then under every folder the subfolders, if present and so on.</div>
+        <div>You can:</div>
+        <ul>
+          <li>Click a drive or a folder to select it</li>
+          <li>Click the triangle preceding the drive name or folder name to display or hide the list of subfolders</li>
+          <li>Make a right click on a drive or a folder to call the contextual menu on this drive or folder. The contextual menu proposes then the following options:<ul>
+              <li><B>Refresh all</B> to update the whole tree (as so if you have to insert a CD-ROM, a DVD or an USB drive, this one is shown in the tree)</li>
+              <li><B>Refresh from here</B> to update the tree from this folder (update only what is under this folder)</li>
+              <li>Create a new folder</li>
+              <li>Remove a folder</li>
+              <li>Rename a folder</li>
+          </ul></li>
+        </ul>
+        <br>
+        <div>The current folder view lists files and subfolders present in the current folder.</div>
+        <div>Files are shown:<ul>
+          <li>Either as a table with numerous information if you selected the details view in the settings menu of the browser</li>
+          <li>Or as image if you selected the icons view in the settings menu of the browser</li>
+        </ul></div>
+        <br>
+        <div>Files are shown according to the filter of file selection in the settings menu of the browser</div>
+        <div>You can:<ul>
+          <li>Select a file or a folder by clicking it</li>
+          <li>Select several files or folders by using SHIFT and CTRL keys<ul>
+              <li>CTRL+Click on a file: Add to the current selection or remove from the current selection</li>
+              <li>SHIFT+Click on a file: Select all the files between the last selected and the one which you have just clicked</li>
+          </ul></li>
+          <li>Double click a file or a folder:<ul>
+              <li>If it's a folder: select it as the current folder and opens it</li>
+              <li>If it's a file: open the program that is by default associated with the file type in the system. For example, if you have associated GIMP with .jpg files in the system file browser, then a double click on a .jpg file will open the file with GIMP. (Remark: A double click on a ffDiaporama project file, opens the ffDiaporama project)</li>
+          </ul></li>
+          <li>Perform a right click on one of the files or folders of the selection to open the contextual menu. According to the elements that are present in the selection, the menu will propose different actions</li>
+        </ul></div>
+        <br>
+        <div>You can also use Drag &amp; Drop to move selected files towards the timeline to:<ul>
+          <li>Add them to the project, if they are images, videos or ffDiaporama project files</li>
+          <li>Use them as playlist, if they are audio files</li>
+        </ul></div>
+    </div>
+
+    <h2>Status bar to the current selection</h2>
+    <div style="margin-left: 40px;">The status bar to the current selection shows information about one or several selected files.</div>
+    <br>
+    <div style="margin-left: 40px;">For a single file selection, the following information is shown:</div>
+    <table border="1" cellpadding="2" cellspacing="0"><tbody>
+        <tr>
+            <td rowspan="3">Image of the file</td>
+            <td>Filename (Filesize)</td>
+        </tr>
+        <tr>
+            <td>According to the file type:
+                <br>Image: Information about the size of the image / copyright / camera / orientation
+                <br>Video: Information about the format of the images / the video track / the audio track / duration
+                <br>Music: Information about the audio format / duration
+                <br>ffDiaporama project: Version of ffDiaporama / Format / Number of slide and chapter / duration of the project
+            </td>
+        </tr>
+        <tr>
+            <td>According to the file type:
+                <br>Image : Information about the picture shooting (Aperture and Focal / Lens / With or without flash)
+                <br>Video: TAG contents (Title / Artist / Album / Year)
+                <br>Music: TAG contents (Title / Artist / Album / Year)
+                <br>ffDiaporama project: TAG contents (Title / Artist / Album / Year)
+            </td>
+        </tr>
+    </tbody></table>
+    <br>
+    <div style="margin-left: 40px;">For a multiple files selection, the following information is shown:</div>
+    <table border="1" cellpadding="2" cellspacing="0"><tbody>
+        <tr>
+            <td rowspan="3">Icon of the file type</td>
+            <td>Number of files and type of files</td>
+        </tr>
+        <tr><td>Durations accumulated by files</td></tr>
+        <tr><td>Size accumulated by files</td></tr>
+    </tbody></table>
+    <br>
+
+    <h2>Status bar of the current folder</h2>
+    <div style="margin-left: 40px;">The status bar of the current folder shows the following information about the current folder:</div>
+    <table border="1" cellpadding="2" cellspacing="0">
+        <tbody>
+          <tr>
+            <td><img src="img/MediaIcons/16x16/file.png"> Number of files</td>
+            <td><img src="img/MediaIcons/16x16/directory.png"> Number of sub-folders</td>
+          </tr>
+          <tr>
+            <td><img src="img/MediaIcons/16x16/hdd.png"> Total size of shown files</td>
+            <td><img src="img/MediaIcons/16x16/delayed.png"> Total duration of shown files</td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align: center;">Space occupied on the disk / Total space of the disk</td>
+          </tr>
+    </tbody></table>
+    <br>
+
+    <h2><img src="img/favorite_menu.png"> Favorites menu</h2>
+    <div style="margin-left: 40px;">
+        <div>The list of the favourite folders can be managed in the favorites menu.</div>
+        <ul>
+          <li>First line of the menu: <img src="img/favorite_add.png"><u><b> Add to favorite</b></u> adds the current folder to the list. Then an edit box allows you to give a name for this favorite</li>
+          <li>Between the first and the last line: <img src="img/favorite.png"> <u><b>The list of favorites folders</b></u> is displayed. Select one of the favorite folders to access it directly</li>
+          <li>Last line of the menu: <img src="img/favorite_manage.png"><u><b> Manage favorite</b></u> allows to rename or to delete entries of the list. A dialogbox for the modification of the list is displayed</li>
+        </ul>
+    </div>
+    <br>
+    <h2><img src="img/config_menu.png"> Settings menu</h2>
+    <div style="margin-left: 40px;">The settings menu allows to modify the display of the current folder:</div>
+    <br>
+    <table border="0" cellpadding="2" cellspacing="0"><tbody>
+          <tr>
+            <td colspan="3"><h4>Settings of the display mode</h4></td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><img src="img/DISPLAY_DATA.png"></td>
+            <td style="vertical-align: top;">Details view</td>
+            <td style="vertical-align: top;">Switch the display of the current folder to detail mode. In this mode, the present elements in the folder are shown in a table with numerous information</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><img src="img/DISPLAY_JUKEBOX.png"></td>
+            <td style="vertical-align: top;">Icon view</td>
+            <td style="vertical-align: top;">Switch the display of the current folder to icon mode. In this mode, the present elements in the folder are shown as images</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">&nbsp;</td>
+            <td style="vertical-align: top;">&nbsp;</td>
+            <td style="vertical-align: top;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="3"><h4>Settings of the sort order</h4></td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><img src="img/SortByNumber.png"></td>
+            <td style="vertical-align: top;">Sort by number</td>
+            <td style="vertical-align: top;">This option sorts the files in order of their numerical suffix : Example: if you select IMG_0025, IMG_0032, MVI_0029 and MVI_0040, the files will be inserted as follows : IMG_0025, MVI_0029, IMG_0032 and MVI_0040</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><img src="img/SortByDate.png"></td>
+            <td style="vertical-align: top;">Sort by date</td>
+            <td style="vertical-align: top;">This option sorts the files in order of their creation date</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><img src="img/SortByName.png"></td>
+            <td style="vertical-align: top;">Sort by name</td>
+            <td style="vertical-align: top;">This option sorts the files in alphabetical order</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><img src="img/SortByDate.png"></td>
+            <td style="vertical-align: top;">Sort by date</td>
+            <td style="vertical-align: top;">This option sorts the files in order of last modification date</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><img src="img/MediaIcons/16x16/directory.png"></td>
+            <td style="vertical-align: top;">Show folder first</td>
+            <td style="vertical-align: top;">If this option is enabled, the directories will be displayed first</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">&nbsp;</td>
+            <td style="vertical-align: top;">&nbsp;</td>
+            <td style="vertical-align: top;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="3"><h4>Settings of the filter on files</h4></td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><img src="img/MediaIcons/16x16/file.png"></td>
+            <td style="vertical-align: top;">All files</td>
+            <td style="vertical-align: top;">Show all the present elements in the current folder</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><img src="img/MediaIcons/16x16/file.png"></td>
+            <td style="vertical-align: top;">Managed files</td>
+            <td style="vertical-align: top;">Limit the display to the usable elements of the current folder:<ul>
+                <li>Image, video and audio files of which the format is recognized by ffDiaporama</li>
+                <li>Subfolders</li>
+            </ul></td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><img src="img/MediaIcons/16x16/image.png"></td>
+            <td style="vertical-align: top;">Image files</td>
+            <td style="vertical-align: top;">Limit the display of the current folder to the image files of which the format is recognized by ffDiaporama in the present subfolders</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><img src="img/MediaIcons/16x16/image.png"></td>
+            <td style="vertical-align: top;">Image vector files</td>
+            <td style="vertical-align: top;">Limit the display of the current folder to the image vector files of which the format is recognized by ffDiaporama in the present subfolders</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><img src="img/MediaIcons/16x16/video.png"></td>
+            <td style="vertical-align: top;">Video files</td>
+            <td style="vertical-align: top;">Limit the display of the current folder to the video files of which the format is recognized by ffDiaporama in the present subfolders</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><img src="img/MediaIcons/16x16/audio.png"></td>
+            <td style="vertical-align: top;">Audio files</td>
+            <td style="vertical-align: top;">Limit the display of the current folder to the audio files of which the format is recognized by ffDiaporama inthe present subfolders</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><img src="img/MediaIcons/16x16/ffDiaporama.png"></td>
+            <td style="vertical-align: top;">ffDiaporama projects</td>
+            <td style="vertical-align: top;">Limit the display of the current folder to the ffDiaporama project files in the present subfolders</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">&nbsp;</td>
+            <td style="vertical-align: top;">&nbsp;</td>
+            <td style="vertical-align: top;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="3"><h4>Additional settings</h4></td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;">
+              <div><img src="img/Visible_OK.png"></div>
+            </td>
+            <td style="vertical-align: top;">Display hidden files and folders</td>
+            <td style="vertical-align: top;">Show or hide the hidden files and folders.
+              <br>Under Windows, hidden files and folders have the <b>Hide</b> file attribute activated.
+              <br>Under Linux, hidden files and folders have a name beginning with a dot "."
+              <br>This option accumulates both versions for both systems. So, even under Windows, files and folders with a name beginning with a "." are considered as hidden files or folders.
+              <br>Remark: <img src="img/Visible_OK.png"> or <img src="img/Visible_KO.png"> One of this icon is displayed in front of the name of the option as this one is activated or not.</td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><img src="img/Visible_KO.png"></td>
+            <td style="vertical-align: top;">Hide filename</td>
+            <td style="vertical-align: top;">This option is available only for the icon view mode. If this option is activated, the file names will not be shown under the file images. It allows to increase the number of images shown in the view of the current directory.
+              <br>Remark: <img src="img/Visible_OK.png"> or <img src="img/Visible_KO.png"> One of this icon is displayed in front of the name of the option as this one is activated or not.</td>
+          </tr>
+    </tbody></table>
+</body>
+</html>

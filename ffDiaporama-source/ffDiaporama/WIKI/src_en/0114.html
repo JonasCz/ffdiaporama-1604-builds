@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Music properties</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="Content-Language" content="en-US">
+    <meta content="ffDiaporama Team" name="author">
+    <link rel="stylesheet" type="text/css" href="wiki.css"/>
+</head>
+<body>
+    <div>The Music properties dialog allows you to specify the music track.</div>
+    <div>&nbsp;</div>
+    <h2>Functional Principles</h2>
+    <div style="margin-left: 40px;">
+        The main functional principle for music tracks is that as long as you do not change the settings, the previous settings apply. So, if:
+        <ul>
+            <li>Slide 1 - Defines a play list</li>
+            <li>Slide 2 - Contains no settings</li>
+            <li>Slide 3 - Contains no settings</li>
+            <li>Slide 4 - Defines a play list</li>
+            <li>Slide 5 - Contains no settings</li>
+        </ul>
+        <div>Then:</div>
+        <ul>
+            <li>Slide 2 and 3 continue to play the play list defined in slide 1</li>
+            <li>Slide 5 continues to play the play list define in slide 4</li>
+        </ul>
+    </div>
+    <div>&nbsp;</div>
+    <h2>Settings for the music track (upper part of the dialog)</h2>
+    <div style="margin-left: 40px;">The following options are apply to the current music during the slide:</div>
+    <div>&nbsp;</div>
+    <div style="margin-left: 40px;">
+        <table border="0" cellpadding="0" cellspacing="5"><tbody>
+            <tr>
+                <td nowrap valign="top">Normal</td>
+                <td>No specific settings</td>
+            </tr>
+            <tr>
+                <td nowrap valign="top">Change sound level</td>
+                <td>Specifies that the sound volume is reduced during this slide. (This option is particularly useful, for example, to reduce the sound of the music during the play of a video.)</td>
+            </tr>
+            <tr>
+                <td nowrap valign="top">Set to pause</td>
+                <td>Pauses the current play list.</td>
+            </tr>
+        </tbody></table>
+    </div>
+    <div>&nbsp;</div>
+    <h2>The playlist (bottom part of the dialog)</h2>
+    <div style="margin-left: 40px;">
+        <h3>Start a new playlist</h3>
+        <div style="margin-left: 40px;">Allows you to create a new playlist. If a list defined in a previous slide, is still playing, it is stopped with a fade-out effect (progressive decline of the sound volume up to complete stop).</div>
+        <div>&nbsp;</div>
+        <div style="margin-left: 40px;">
+            This playlist section consists of two parts:
+            <ul>
+                <li>The toolbar containing controls for the playlist</li>
+                <li>The list of the music files composing the playlist</li>
+            </ul>
+            <h3>The toolbar</h3>
+            <table border="0" cellpadding="0" cellspacing="5"><tbody>
+                <tr>
+                    <td><img src="img/add_sound.png"></td>
+                    <td>Adds a file to the playlist A file selection dialog appears, allowing you to select a file.</td>
+                </tr>
+                <tr>
+                    <td><img src="img/EditSound.png"></td>
+                    <td>Cut the currently selected file from the playlist. The <a href="0124.html">Cut a sound file</a> dialog appears.</td>
+                </tr>
+                <tr>
+                    <td><img src="img/trash.png"></td>
+                    <td>Removes the currently selected file from the playlist.</td>
+                </tr>
+                <tr>
+                    <td><img src="img/arrow_up.png"></td>
+                    <td>Changes the order in which the music files will be played. Moves the currently selected file one step up.</td>
+                </tr>
+                <tr>
+                    <td><img src="img/arrow_down.png"></td>
+                    <td>Changes the order in which the music files will be played. Moves the currently selected file one step down.</td>
+                </tr>
+            </tbody></table>
+            <h3>The playlist</h3>
+            <div style="margin-left: 40px;">
+                <div>The music files are listed in the order in which they will be played, from top to bottom.</div>
+                <div>The Volume column defines the &quot; Master volume &quot; for the file. This volume is independent of any reductions in the volume that you define in the upper part of the dialog.</div>
+                <div>The Credit column defines if the file should appear or not when using %STM% variable in a credit title. For more information on variables, see: <a href="0013.html">Dynamic variables</a></div>
+            </div>
+        </div>
+        <div>&nbsp;</div>
+        <h3>Remarks</h3>
+        <div style="margin-left: 40px;">The fade in/out effects and the increase/decrease of volume take place during the entering slide transitions. Consequently:
+            <ul>
+                <li>They last for the same time as the entering transition.</li>
+                <li>If a slide has an entering transition set to &quot;No transition&quot;, the sound effect is not progressive but instantaneous.</li>
+            </ul>
+        </div>
+        <div style="margin-left: 40px;">You can double click a music file from the playlist to edit it, the <a href="0124.html">Cut a sound file</a> dialog appears.</div>
+    </div>
+</body>
+</html>

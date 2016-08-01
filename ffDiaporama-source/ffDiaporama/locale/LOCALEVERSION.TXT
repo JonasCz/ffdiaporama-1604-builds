@@ -1,0 +1,13 @@
+20140701
+cz = 14% (276/1925) 1649 to translate
+de = 99% (1923/1925) 2 to translate
+el = 99% (1923/1925) 2 to translate
+es = 100% (1925/1925)
+fr = 100% (1925/1925)
+gl = 99% (1923/1925) 2 to translate
+it = 99% (1923/1925) 2 to translate
+nl = 53% (1025/1925) 900 to translate
+pt = 99% (1923/1925) 2 to translate
+pt_br = 0% (0/1925) 1925 to translate
+ru = 95% (1844/1925) 81 to translate
+zh_tw = 31% (603/1925) 1322 to translate

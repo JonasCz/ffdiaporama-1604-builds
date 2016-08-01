@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Correct, reframe or cut image or video</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="Content-Language" content="en-US">
+    <meta content="ffDiaporama Team" name="author">
+    <link rel="stylesheet" type="text/css" href="wiki.css"/>
+</head>
+<body>
+    <div>This dialog box allows you to:</div>
+    <ul>
+        <li>Change image framing (select a part of the image).</li>
+        <li>Rotate image (change or restore the orientation portrait/landscape).</li>
+        <li>Correct image (change the color and/or exposure parameters) but also applying graphical filters.</li>
+        <li>Define the beginning and end of a video sequence.</li>
+        <li>Define a Google Maps map.</li>
+    </ul>
+    <div>&nbsp;</div>
+    <div>this dialog box is organized in tab that are available depending on the type of the object to edit.</div>
+    <ul>
+        <li><a href="#IMAGETAG">The image correct and reframe tag</a> is available with all object types</li>
+        <li><a href="#VIDEOTAG">The video tag</a> is available only with video object</li>
+        <li><a href="#GMAPSMAPTAG">The Google Maps map tag</a> is available only with Google Maps map object</li>
+    </ul>
+    <div style="margin-left: 20px;">For more information on available types of objects see: <a href="0045.html">Types of objects in ffDiaporama</a></div>
+    <div>&nbsp;</div>
+
+    <h2><a name="IMAGETAG"><img src="img/EditImage.png"> The image correct and reframe tag</a></h2>
+    <div style="margin-left: 40px;">
+        <div>This tab is available for both images and video. It is divided into two parts:</div>
+        <ul>
+            <li>To the left: The interactive area</li>
+            <li>To the right: The settings area</li>
+        </ul>
+        <div>At the bottom of the interactive zone, is an area for changing the image or video file:</div>
+        <div style="margin-left: 40px;">
+            <img src="img/FolderOpen.png"> This button allows you to change the file
+            <br>Warning! If you replace a file (image or video) with another one with a different image geometry, you will need to review the image framing in all shots.
+        </div>
+        <div>&nbsp;</div>
+        <div>At the bottom of the dialog box:</div>
+        <div style="margin-left: 40px;">
+            <img src="img/ruler_ok.png"> This button enables or disables the magnetic rulers: When rulers are enabled, the mouse will automatically snap to the edges of the photo, facilitating the framing.
+        </div>
+        <div>&nbsp;</div>
+
+        <h3>The interactive area</h3>
+        <div style="margin-left: 40px;">You can use the interactive zone to set the framing with the mouse or the keyboard:</div>
+        <table border="1" cellpadding="2" cellspacing="0"><tbody>
+            <tr>
+                <td valign="top">With the mouse</td>
+                <td>Click one of the handles and, with the mouse button down, drag the mouse to modify the size (to increase or reduce the part of the image to be kept).
+                    <br>Click the image and, with the mouse button down, drag the mouse to modify the part of the image which will be kept.</td>
+            </tr>
+            <tr>
+                <td valign="top">With the keyboard</td>
+                <td>Use the arrows to move the part of the image which will be kept.
+                    <br>Use SHIFT+arrows to move the upper left corner handle or CTRL+arraows to move the lower right corner handle, to change the size of the part of the image which will be kept.</td>
+            </tr>
+        </tbody></table>
+        <div>&nbsp;</div>
+
+        <h3>The settings area - Framing and form</h3>
+        <table border="1" cellpadding="2" cellspacing="0"><tbody>
+            <tr>
+                <td valign="top"><img src="img/Geometry.png"></td>
+                <td>Allows to select a framing from a list of predefined framings. The framings are classified in different categories:
+                    <br>
+                    <br>
+                    <table border="1" cellpadding="2" cellspacing="0" class="background"><tbody>
+                        <tr>
+                            <td valign="top"><img src="img/Geometry_ProjectLock.png"></td>
+                            <td nowrap valign="top">Lock on the project geometry</td>
+                            <td valign="top">Lock the image framing selection rectangle to the same geometry as the project. If you place the image in full screen, the reframed part will correspond to the whole screen.</td>
+                        </tr>
+                        <tr>
+                            <td valign="top"><img src="img/Geometry_ImageLock.png"></td>
+                            <td nowrap valign="top">Lock on the image geometry</td>
+                            <td valign="top">Lock the image framing selection rectangle to the same geometry as the image</td>
+                        </tr>
+                        <tr>
+                            <td valign="top"><img src="img/Geometry_Unlock.png"></td>
+                            <td nowrap valign="top">No constraint</td>
+                            <td valign="top">No constraint is applied to the image framing selection rectangle.</td>
+                        </tr>
+                        <tr>
+                            <td valign="top"><img src="img/Geometry_Lock.png"></td>
+                            <td nowrap valign="top">Lock on this geometry</td>
+                            <td valign="top">Lock image framing selection rectangle to the actual geometry. This only has meaning when a shape has been defined in &quot;no constraint&quot; mode.</td>
+                        </tr>
+                    </tbody></table>
+                    <br>According to the image format, various choices will be proposed to you. For example:
+                    <div style="margin-left: 40px;"><img src="wiki_img/AutoFraming1.png"> <img src="wiki_img/AutoFraming2.png"></div>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">Shape</td>
+                <td>Select a shape for the current block.</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/PosSize_X.png"></td>
+                <td>The horizontal position from the left (X). This position is expressed as a percentage (%) of the width of the image.<br>Example: if X=25% then the 1st quarter to the left of the image is eliminated.</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/PosSize_Y.png"></td>
+                <td>The vertical position from the top of the image ( Y ). This position is expressed as a percentage (%) of the height of the image.<br>Example: if Y=25% the 1st quarter at the top of the image is eliminated.</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/PosSize_Width.png"></td>
+                <td>The width. This value is expressed as a percentage (%) of the original width of the image.<br>Example: if Width=33%, the re-framed image will represent 1/3 of the original.</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/PosSize_Height.png"></td>
+                <td>The height. This value is expressed as a percentage (%) of the original height of the image.<br>Example: if Height=33%, the re-framed image will represent 1/3 of the original.</td>
+            </tr>
+        </tbody></table>
+        <div style="margin-left: 40px;">
+            <h4>Remarks:</h4>
+            <ul>
+                <li>You can use the + and - buttons in each input field to change the settings, or directly enter values for the four parameters.</li>
+                <li>When the image does not correspond to the geometry of the video to be produced, transparent zones appear. For example: an 4:3 image used in a 16:9 project will be shown by default with a transparent zone on each side.</li>
+            </ul>
+        </div>
+        <div>&nbsp;</div>
+
+        <h3>The settings area - Annimation settings</h3>
+        <table border="1" cellpadding="2" cellspacing="0"><tbody>
+            <tr>
+                <td valign="top">Speed wave</td>
+                <td>Defined speed curve for image animations.</td>
+            </tr>
+        </tbody></table>
+        <div>&nbsp;</div>
+
+        <h3>The settings area - Image rotation</h3>
+        <table border="0" cellpadding="0" cellspacing="5"><tbody>
+            <tr>
+                <td valign="top"><img src="img/RotateZ.png"></td>
+                <td>The rotation angle for the z axis. This position is expressed in degrees. Example: if Rotation=90&deg;, the image is turned by a quarter to the right.</td>
+            </tr>
+            <tr>
+                <td><img src="img/rotationg.png"></td>
+                <td>Turn the image to the left (to the nearest multiple of 90&deg;).</td>
+            </tr>
+            <tr>
+                <td><img src="img/rotationd.png"></td>
+                <td>Turn the image to the right (to the nearest multiple of 90&deg;).</td>
+            </tr>
+        </tbody></table>
+        <div>&nbsp;</div>
+
+        <h3>The settings area - Luminosity, contrast and gamma and Color enhancement</h3>
+        <table border="0" cellpadding="0" cellspacing="5"><tbody>
+            <tr>
+                <td valign="top"><img src="img/Filter/Brightness.png"></td>
+                <td>Allows you to increase or decrease the luminosity of the image</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/Filter/Contrast.png"></td>
+                <td>Allows you to increase or decrease the contrast of the image</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/Filter/Gamma.png"></td>
+                <td>Allows you to to increase or decrease the gamma value of the image</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/Filter/Grayscale.png"></td>
+                <td>Allows you to activate the grayscale (black & white) filter.</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/Filter/Equalize.png"></td>
+                <td>Allows you to activate the equalize (Histogram equalization) filter.</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/Red.png"></td>
+                <td>Allows you to modify the colorization of an image by changing the primary color red. Example : Reducing the red component makes the image more yellow - increasing it makes make the image more red</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/Green.png"></td>
+                <td>Allows you to modify the colorization of an image by changing the primary color green. Example : Reducing the green component makes the image more red - increasing it makes the image more green</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/Blue.png"></td>
+                <td>Allows you to modify the colorization of an image by changing the primary color blue. Example : Reducing the green component makes the image more red - increasing it makes the image more blue</td>
+            </tr>
+        </tbody></table>
+        <div style="margin-left: 40px;">
+            <br>
+            <h4>Remarks:</h4>
+            <ul>
+                <li>All the combinations are possible. For example: you can increase the red and reduce the green at the same time. The results depend on the initial strength of the primary color components of the source image.</li>
+                <li><img src="img/undo.png"> This button allows the value to be reset to zero for all correction settings.</li>
+            </ul>
+        </div>
+        <div>&nbsp;</div>
+
+        <h3>The settings area - Image enhancement</h3>
+        <div style="margin-left: 40px;">
+            Apply a filter to the photo or video images. The following filters are available:
+        </div>
+        <table border="0" cellpadding="0" cellspacing="5"><tbody>
+            <tr>
+                <td valign="top"><img src="img/Filter/Blur.png"></td>
+                <td>Blur/Sharpen
+                    <ul>
+                        <li>Type: Select the blur/sharpen algorythm</li>
+                        <li>Increase the blur with a negative value, using radius.</li>
+                        <li>Increase the sharpen with a positive value, using radius.</li>
+                    </ul>
+                    <div style="margin-left: 20px;"><img src="img/undo.png"> This button allows you to reset the value to zero. (For some transformation settings.)</div>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/Filter/Despeckle.png"></td>
+                <td>Allows you to activate the despeckle (Noise reduction) filter.</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/Filter/Antialias.png"></td>
+                <td>Allows you to activate the antialias (minimizing the distortion artifacts) filter.</td>
+            </tr>
+        </tbody></table>
+        <div>&nbsp;</div>
+
+        <h3>The settings area - Artistic effects</h3>
+        <div style="margin-left: 40px;">
+            Apply a filter to the photo or video images. The following filters are available:
+        </div>
+        <table border="0" cellpadding="0" cellspacing="5"><tbody>
+            <tr>
+                <td valign="top"><img src="img/Filter/Negative.png"></td>
+                <td>Allows you to activate the negative filter..</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/Filter/Emboss.png"></td>
+                <td>Allows you to activate the emboss filter.</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/Filter/Edge.png"></td>
+                <td>Allows you to activate the edge filter.</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/Filter/Charcoal.png"></td>
+                <td>Allows you to activate the charcoal filter.</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/Filter/Oilpaint.png"></td>
+                <td>Allows you to activate the oilpaint filter.</td>
+            </tr>
+        </tbody></table>
+        <div>&nbsp;</div>
+
+        <h3>The settings area - Image distortion</h3>
+        <div style="margin-left: 40px;">
+            Apply a filter to the photo or video images. The following filters are available:
+        </div>
+        <table border="0" cellpadding="0" cellspacing="5"><tbody>
+            <tr>
+                <td valign="top"><img src="img/Filter/Swirl.png"></td>
+                <td>Allows you to activate the swirl transformation. Image swirling is a non-linear image deformation that creates a whirlpool effect.</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/Filter/Implode.png"></td>
+                <td>Allows you to activate the implode transformation</td>
+            </tr>
+        </tbody></table>
+        <div style="margin-left: 40px;">
+            <h4>Remarks:</h4>
+            <ul>
+                <li>A value of 0 disables the filter.</li>
+                <li>A negative or positive value active the filter in one direction or the other.</li>
+                <li><img src="img/undo.png"> This button allows the value to be reset to zero.</li>
+            </ul>
+        </div>
+        <div>&nbsp;</div>
+    </div>
+    <br>
+
+    <h2><a name="VIDEOTAG"><img src="img/EditMovie.png"> The video tag</a></h2>
+    <div style="margin-left: 40px;">
+        <div>This tag is available only for video.</div>
+        <h3>The progress bar</h3>
+            <ul>
+                <li>Displays as follows:
+                    <ul>
+                        <li>The wave form of the sound of the video is displayed under a white background.</li>
+                        <li>The ruler representing the duration of the video is dispayed under a black background. Remark than the length of the ruler is increased in proportion to the duration of the video.</li>
+                        <li>The blue part, on wave form and ruler, represents the part of the video which is selected (which will be used in the assembly).</li>
+                    </ul>
+                </li>
+                <li><img src="img/player_play_small.png"> This button starts playback. Click again on this button to pause. <img src="img/player_pause_small.png"></li>
+                <li>You can move with the mouse the <img src="wiki_img/PosBT.png"> handle, on the progress bar, to move the current position</li>
+                <li>You can move with the mouse the two <img src="wiki_img/StartBT.png"> and <img src="wiki_img/EndBT.png"> handles, on the progress bar, to move the Start and End positions</li>
+            </ul>
+        <h3>The working range</h3>
+            <ul>
+                <li><img src="img/player_rew.png"> Positions the cursor at the starting point</li>
+                <li><img src="img/PosStart.png"> Uses the current cursor position as starting point (carries out an edit)</li>
+                <li><img src="img/player_fwd.png"> Positions the cursor at the end point</li>
+                <li><img src="img/PosEnd.png"> Uses the current cursor position as end point (carries out an edit)</li>
+            </ul>
+        <h3>The additional settings zone</h3>
+            <ul>
+                <li><strong>Volume</strong> allows you to define the &quot;Master Volume&quot; for the file</li>
+                <li><strong>Deinterlace video</strong> allows you to activate the deinterlace filter</li>
+            </ul>
+    </div>
+    <br>
+
+    <h2><a name="GMAPSMAPTAG"><img src="img/EditGMaps.png"> The Google Maps Map tag</a></h2>
+    <div style="margin-left: 40px;">
+        <div>This tag is available only for Google Maps map.</div>
+        <ul>
+            <li>On the upper left part, you define the map properties</li>
+            <li>On the bottom left part, the map is displayed with markers</li>
+            <li>On the upper right part, the table of location is displayed</li>
+            <li>On the bottom right part, you define the properties of the selected location</li>
+        </ul>
+        <h3>The map properties</h3>
+        <div style="margin-left: 40px;">
+            <table border="0" cellpadding="0" cellspacing="5"><tbody>
+                <tr>
+                    <td valign="top">Map type</td>
+                    <td>Define the type of the map. You can select between the four Google Maps possibilities:<ul>
+                    <li>Roadmap</li>
+                    <li>Satellite</li>
+                    <li>Terrain</li>
+                    <li>Hybrid</li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td valign="top">Map size</td>
+                    <td>Define the size of the map. This size represents the distance in width and height of the map.<ul>
+                        <li>Smaller the zoom is and huger the area represented by the map is.</li>
+                        <li>Higher the zoom is and smaller the area represented by the map is.</li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td valign="top">Image size</td>
+                    <td>Define the size of the image generated for the map. ffDiaporama proposes to generate maps of several image sizes, so, to create a fluid zoom animation, you can use a large image.</td>
+                </tr>
+            </tbody></table>
+        </div>
+        <br>
+        <h3>The table of locations</h3>
+        <div style="margin-left: 40px;">
+            <table border="0" cellpadding="0" cellspacing="5"><tbody>
+                <tr>
+                    <td valign="top"><img src="img/gmap_add.png"></td>
+                    <td>Select a location from the <a href="0123.html">Add or modify a location</a> dialog or using a favorite.</td>
+                </tr>
+                <tr>
+                    <td valign="top"><img src="img/action_edit.png"></td>
+                    <td>Edit current location. Open the <a href="0123.html">Add or modify a location</a> dialog.</td>
+                </tr>
+                <tr>
+                    <td valign="top"><img src="img/trash.png"></td>
+                    <td>Remove current location.</td>
+                </tr>
+            </tbody></table>
+        </div>
+        <br>
+        <h3>The marker properties</h3>
+        <div style="margin-left: 40px;">
+            <h4>Properties for all shots</h4>
+            <div>This settings group defines properties for all shots, so, the modifications made to the following properties will apply to all shots. To understand the differences between the properties which apply to all shots and those which apply only to the current shot, consult: <a href="0010.html">How ffDiaporama works</a>.</div>
+            <table border="0" cellpadding="0" cellspacing="5"><tbody>
+                <tr>
+                    <td valign="top">GPS Position form</td>
+                    <td>Define a form for the GPS position</td>
+                </tr>
+                <tr>
+                    <td valign="top">Marker form</td>
+                    <td>Define a form for the marker</td>
+                </tr>
+                <tr>
+                    <td valign="top">Composition</td>
+                    <td>Defined what information will be displayed in the marker</td>
+                </tr>
+                <tr>
+                    <td valign="top">Size</td>
+                    <td>Define the size of the marker and the GPS position</td>
+                </tr>
+                <tr>
+                    <td valign="top">Distance</td>
+                    <td>Defined where to display the marker (the distance between the marker and the GPS position)</td>
+                </tr>
+            </tbody></table>
+            <br>
+            <h4>Properties for this shot</h4>
+            <div>This settings group defines properties for the current shot, so you can create animation of makers by defining different properties for each shots.</div>
+            <table border="0" cellpadding="0" cellspacing="5"><tbody>
+                <tr>
+                    <td valign="top">Text color</td>
+                    <td>Defines the color of the text</td>
+                </tr>
+                <tr>
+                    <td valign="top">Background color</td>
+                    <td>Defines the color of the background of the marker, of the GPS position and of the part between the two</td>
+                </tr>
+                <tr>
+                    <td valign="top">Line color</td>
+                    <td>Defines the color of the border</td>
+                </tr>
+                <tr>
+                    <td valign="top">Visibility</td>
+                    <td>Defined if the marker is visible, half-visible (masked) or hidden</td>
+                </tr>
+            </tbody></table>
+        </div>
+    </div>
+    <br>
+
+    <h2>See also</h2>
+    <table border="0" cellpadding="0" cellspacing="0"><tbody>
+        <tr>
+            <td valign="top"><img src="wiki_img/Wikipedia.png"></td>
+            <td valign="top"><ul>
+                <li><a href="http://en.wikipedia.org/wiki/Ken_Burns_effect">Ken Burns effects</a></li>
+                <li><a href="http://en.wikipedia.org/wiki/Histogram_equalization">Filter: Histogram equalization</a></li>
+                <li><a href="http://en.wikipedia.org/wiki/Despeckle">Filter: Noise reduction</a></li>
+            </ul></td>
+        </tr>
+    </tbody></table>
+</body>
+</html>

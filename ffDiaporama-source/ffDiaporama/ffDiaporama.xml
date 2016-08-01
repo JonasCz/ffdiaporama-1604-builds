@@ -1,0 +1,132 @@
+<!DOCTYPE ffDiaporama>
+<!--
+  ==========================================================================
+    This file is part of ffDiaporama
+    ffDiaporama is a tools to make diaporama as video
+    Copyright (C) 2011-2014 Dominique Levray <domledom@laposte.net>
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  ==========================================================================
+  ffDiaporama.XML
+  ==========================================================================
+    Contains default configuration for ffDiaporama
+-->
+<Configuration>
+    <LastDirectories RememberLastDirectories="1"/>
+    <CacheMemory AllowCachedTransfoImages="1"/>
+    <EditorOptions AskUserToRemove="1" FramingRuler="1" DisplayUnit="1" DefaultTransitionFamilly="0" TimelineHeight="80" RandomTransition="1" PartitionMode="0" DefaultTransitionDuration="1000" SlideRuler="1" AppendObject="0" DefaultFraming="2" DefaultTransitionSubType="1" SortFile="1" PreviewFPS="12.500000"/>
+    <GlobalPreferences CheckConfigAtStartup="0" ForceLanguage="" ApplyTransfoPreview="1" Smoothing="1" RestoreWindow="1" Crop1088To1080="1" QuickResamplingPreview=""/>
+    <RenderDefault AudioBitRate="160" ImageSize="2" DefaultSmartphoneModel="25" DefaultNameProjectName="1" DefaultLossLess="7" Format="4" DefaultMultimediaType="0" Standard="0" DefaultForTheWEBType="0" VideoCodec="MPEG4" VideoBitRate="2500" DefaultForTheWEBModel="15" AudioCodec="aac" DefaultSmartphoneType="0" DefaultMultimediaModel="8"/>
+    <ProjectDefault FixedDuration="3000" SpeedWave="0" ImageGeometry="1" DefaultTitleFilling="0" NoShotDuration="6000" DefaultAuthor="">
+        <DefaultBlock_Text BackGST="###GLOBALSTYLE###:6" ShapeST="###GLOBALSTYLE###:1" AutoLocking="0" TextST="###GLOBALSTYLE###:0" AutoSizePos="5"/>
+        <DefaultBlockSL_IMG ShapeST="###GLOBALSTYLE###:1" TextST="###GLOBALSTYLE###:4">
+            <IMG_GEO_1 AutoCompo="2" AutoFraming="14"/>
+            <IMG_GEO_2 AutoCompo="2" AutoFraming="8"/>
+            <IMG_GEO_3 AutoCompo="2" AutoFraming="4"/>
+            <IMG_GEO_4 AutoCompo="2" AutoFraming="4"/>
+            <IMG_GEO_5 AutoCompo="2" AutoFraming="4"/>
+            <IMG_GEO_6 AutoCompo="2" AutoFraming="4"/>
+        </DefaultBlockSL_IMG>
+        <DefaultBlockBA_IMG ShapeST="###GLOBALSTYLE###:1" TextST="###GLOBALSTYLE###:4">
+            <IMG_GEO_1 AutoCompo="5" AutoFraming="14"/>
+            <IMG_GEO_2 AutoCompo="5" AutoFraming="8"/>
+            <IMG_GEO_3 AutoCompo="1" AutoFraming="4"/>
+            <IMG_GEO_4 AutoCompo="1" AutoFraming="4"/>
+            <IMG_GEO_5 AutoCompo="1" AutoFraming="4"/>
+            <IMG_GEO_6 AutoCompo="1" AutoFraming="4"/>
+        </DefaultBlockBA_IMG>
+    </ProjectDefault>
+    <RestoreWindow>1</RestoreWindow>
+    <RenderingDeviceModel>
+        <Device_0 ImageSize="0" DeviceIndex="0" DeviceName="Nokia-Generic Symbian (S60) phone-QVGA" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="500000" VideoCodec="2" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_1 ImageSize="2" DeviceIndex="1" DeviceName="Nokia-Generic Symbian (S60) phone-VGA" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="1500000" VideoCodec="2" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_2 ImageSize="0" DeviceIndex="2" DeviceName="Generic Windows mobile 6 phone-QVGA " FileFormat="0" Standard="0" DeviceType="1" VideoBitrate="500000" VideoCodec="2" DeviceSubtype="0" AudioBitrate="5900" AudioCodec="6"/>
+        <Device_3 ImageSize="2" DeviceIndex="3" DeviceName="Generic Windows mobile 6 phone-VGA" FileFormat="0" Standard="0" DeviceType="1" VideoBitrate="1500000" VideoCodec="2" DeviceSubtype="0" AudioBitrate="5900" AudioCodec="6"/>
+        <Device_4 ImageSize="3" DeviceIndex="4" DeviceName="Generic portable PAL DVD/DIVX Player" FileFormat="1" Standard="0" DeviceType="1" VideoBitrate="1500000" VideoCodec="2" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_5 ImageSize="3" DeviceIndex="5" DeviceName="Generic portable NTSC DVD/DIVX Player" FileFormat="1" Standard="1" DeviceType="1" VideoBitrate="1500000" VideoCodec="2" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_6 ImageSize="3" DeviceIndex="6" DeviceName="Generic multimedia hard drive or gateway-SD/DVD" FileFormat="1" Standard="0" DeviceType="2" VideoBitrate="2000000" VideoCodec="2" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_7 ImageSize="6" DeviceIndex="7" DeviceName="Generic multimedia hard drive or gateway-HD 720p" FileFormat="4" Standard="0" DeviceType="2" VideoBitrate="6000000" VideoCodec="3" DeviceSubtype="0" AudioBitrate="160000" AudioCodec="2"/>
+        <Device_8 ImageSize="7" DeviceIndex="8" DeviceName="Generic multimedia hard drive or gateway-HD1080p" FileFormat="4" Standard="0" DeviceType="2" VideoBitrate="8000000" VideoCodec="3" DeviceSubtype="0" AudioBitrate="160000" AudioCodec="2"/>
+        <Device_9 ImageSize="3" DeviceIndex="9" DeviceName="Generic PAL DVD/DIVX Player" FileFormat="1" Standard="0" DeviceType="2" VideoBitrate="2000000" VideoCodec="2" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_10 ImageSize="3" DeviceIndex="10" DeviceName="Generic NTSC DVD/DIVX Player" FileFormat="1" Standard="1" DeviceType="2" VideoBitrate="2000000" VideoCodec="2" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_11 ImageSize="3" DeviceIndex="11" DeviceName="France-Boitier TV générique de Box ADSL-SD/DVD" FileFormat="1" Standard="0" DeviceType="2" VideoBitrate="2000000" VideoCodec="2" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_12 ImageSize="6" DeviceIndex="12" DeviceName="France-Boitier TV générique de Box ADSL-HD 720p" FileFormat="4" Standard="0" DeviceType="2" VideoBitrate="6000000" VideoCodec="3" DeviceSubtype="2" AudioBitrate="160000" AudioCodec="2"/>
+        <Device_13 ImageSize="7" DeviceIndex="13" DeviceName="France-Boitier TV générique de Box ADSL-HD1080p" FileFormat="4" Standard="0" DeviceType="2" VideoBitrate="8000000" VideoCodec="3" DeviceSubtype="2" AudioBitrate="160000" AudioCodec="2"/>
+        <Device_14 ImageSize="0" DeviceIndex="14" DeviceName="Flash video-QVGA" FileFormat="8" Standard="0" DeviceType="3" VideoBitrate="500000" VideoCodec="3" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_15 ImageSize="2" DeviceIndex="15" DeviceName="Flash video-VGA" FileFormat="8" Standard="0" DeviceType="3" VideoBitrate="1500000" VideoCodec="3" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_16 ImageSize="6" DeviceIndex="16" DeviceName="Flash video-HD 720p" FileFormat="8" Standard="0" DeviceType="3" VideoBitrate="4000000" VideoCodec="3" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_17 ImageSize="7" DeviceIndex="17" DeviceName="Flash video-HD1080p" FileFormat="8" Standard="0" DeviceType="3" VideoBitrate="6000000" VideoCodec="3" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_18 ImageSize="1" DeviceIndex="18" DeviceName="Apple-iPhone 3G/3GS" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="1200000" VideoCodec="4" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_19 ImageSize="0" DeviceIndex="19" DeviceName="Apple-iPod Nano (G3/G4/G5)" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="500000" VideoCodec="4" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_20 ImageSize="0" DeviceIndex="20" DeviceName="Apple-iPod Classic (G5/G6)" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="500000" VideoCodec="4" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_21 ImageSize="4" DeviceIndex="21" DeviceName="Apple-iPhone 4" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="2000000" VideoCodec="4" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_22 ImageSize="2" DeviceIndex="22" DeviceName="Apple-iPod Touch" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="2000000" VideoCodec="4" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_23 ImageSize="5" DeviceIndex="23" DeviceName="Apple-iPad (G1/G2)" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="2500000" VideoCodec="4" DeviceSubtype="4" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_24 ImageSize="1" DeviceIndex="24" DeviceName="Generic Android Phone-HVGA" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="1000000" VideoCodec="4" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_25 ImageSize="4" DeviceIndex="25" DeviceName="Generic Android Phone-WVGA" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="2000000" VideoCodec="4" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_26 ImageSize="0" DeviceIndex="26" DeviceName="Generic Android Phone-QVGA" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="500000" VideoCodec="4" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_27 ImageSize="1" DeviceIndex="27" DeviceName="Generic Windows mobile 6 phone-HVGA " FileFormat="0" Standard="0" DeviceType="1" VideoBitrate="1000000" VideoCodec="2" DeviceSubtype="0" AudioBitrate="5900" AudioCodec="6"/>
+        <Device_28 ImageSize="4" DeviceIndex="28" DeviceName="Generic Windows mobile 6 phone-WVGA" FileFormat="0" Standard="0" DeviceType="1" VideoBitrate="2000000" VideoCodec="2" DeviceSubtype="0" AudioBitrate="5900" AudioCodec="6"/>
+        <Device_29 ImageSize="2" DeviceIndex="29" DeviceName="Generic Android Phone-VGA" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="1500000" VideoCodec="4" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_30 ImageSize="5" DeviceIndex="30" DeviceName="RIM BlackBerry Playbook" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="2500000" VideoCodec="4" DeviceSubtype="4" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_31 ImageSize="4" DeviceIndex="31" DeviceName="Generic Android/Linux Tablet-WVGA" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="2000000" VideoCodec="4" DeviceSubtype="4" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_32 ImageSize="5" DeviceIndex="32" DeviceName="Generic Android/Linux Tablet-XGA" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="2500000" VideoCodec="4" DeviceSubtype="4" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_33 ImageSize="6" DeviceIndex="33" DeviceName="Generic Android/Linux Tablet-720p" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="3000000" VideoCodec="4" DeviceSubtype="4" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_34 ImageSize="6" DeviceIndex="34" DeviceName="Windows/XP-720p" FileFormat="1" Standard="0" DeviceType="1" VideoBitrate="5000000" VideoCodec="2" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_35 ImageSize="6" DeviceIndex="35" DeviceName="Windows/Vista-720p" FileFormat="1" Standard="0" DeviceType="1" VideoBitrate="5000000" VideoCodec="2" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_36 ImageSize="6" DeviceIndex="36" DeviceName="Windows/7-720p" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="5000000" VideoCodec="3" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_37 ImageSize="6" DeviceIndex="37" DeviceName="Linux-720p" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="5000000" VideoCodec="3" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_38 ImageSize="4" DeviceIndex="38" DeviceName="Generic Windows phone 7-WVGA" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="2000000" VideoCodec="4" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_39 ImageSize="8" DeviceIndex="39" DeviceName="Blackberry" FileFormat="1" Standard="0" DeviceType="1" VideoBitrate="400000" VideoCodec="2" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_40 ImageSize="0" DeviceIndex="40" DeviceName="MP4 Version-QVGA" FileFormat="4" Standard="0" DeviceType="3" VideoBitrate="500000" VideoCodec="3" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_41 ImageSize="2" DeviceIndex="41" DeviceName="MP4 Version-VGA" FileFormat="4" Standard="0" DeviceType="3" VideoBitrate="1500000" VideoCodec="3" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_42 ImageSize="6" DeviceIndex="42" DeviceName="MP4 Version-HD 720p" FileFormat="4" Standard="0" DeviceType="3" VideoBitrate="4000000" VideoCodec="3" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_43 ImageSize="7" DeviceIndex="43" DeviceName="MP4 Version-HD1080p" FileFormat="4" Standard="0" DeviceType="3" VideoBitrate="6000000" VideoCodec="3" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_44 ImageSize="0" DeviceIndex="44" DeviceName="OGV Version-QVGA" FileFormat="9" Standard="0" DeviceType="3" VideoBitrate="500000" VideoCodec="7" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="4"/>
+        <Device_45 ImageSize="2" DeviceIndex="45" DeviceName="OGV Version-VGA" FileFormat="9" Standard="0" DeviceType="3" VideoBitrate="1500000" VideoCodec="7" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="4"/>
+        <Device_46 ImageSize="6" DeviceIndex="46" DeviceName="OGV Version-HD 720p" FileFormat="9" Standard="0" DeviceType="3" VideoBitrate="4000000" VideoCodec="7" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="4"/>
+        <Device_47 ImageSize="7" DeviceIndex="47" DeviceName="OGV Version-HD1080p" FileFormat="9" Standard="0" DeviceType="3" VideoBitrate="6000000" VideoCodec="7" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="4"/>
+        <Device_48 ImageSize="0" DeviceIndex="48" DeviceName="WebM Version-QVGA" FileFormat="6" Standard="0" DeviceType="3" VideoBitrate="500000" VideoCodec="5" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="4"/>
+        <Device_49 ImageSize="2" DeviceIndex="49" DeviceName="WebM Version-VGA" FileFormat="6" Standard="0" DeviceType="3" VideoBitrate="1500000" VideoCodec="5" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="4"/>
+        <Device_50 ImageSize="6" DeviceIndex="50" DeviceName="WebM Version-HD 720p" FileFormat="6" Standard="0" DeviceType="3" VideoBitrate="4000000" VideoCodec="5" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="4"/>
+        <Device_51 ImageSize="7" DeviceIndex="51" DeviceName="WebM Version-HD1080p" FileFormat="6" Standard="0" DeviceType="3" VideoBitrate="6000000" VideoCodec="5" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="4"/>
+        <Device_52 ImageSize="7" DeviceIndex="52" DeviceName="PS3" FileFormat="4" Standard="0" DeviceType="2" VideoBitrate="8000000" VideoCodec="3" DeviceSubtype="3" AudioBitrate="160000" AudioCodec="2"/>
+        <Device_53 ImageSize="7" DeviceIndex="53" DeviceName="XBox360" FileFormat="4" Standard="0" DeviceType="2" VideoBitrate="8000000" VideoCodec="3" DeviceSubtype="3" AudioBitrate="160000" AudioCodec="2"/>
+        <Device_54 ImageSize="6" DeviceIndex="54" DeviceName="Daily Motion" FileFormat="4" Standard="0" DeviceType="3" VideoBitrate="4000000" VideoCodec="3" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_55 ImageSize="6" DeviceIndex="55" DeviceName="Youtube" FileFormat="4" Standard="0" DeviceType="3" VideoBitrate="5000000" VideoCodec="2" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_56 ImageSize="5" DeviceIndex="56" DeviceName="Generic Portable LED/LCD TV" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="3500000" VideoCodec="3" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_57 ImageSize="9" DeviceIndex="9" DeviceName="Generic PAL-M DVD/DIVX Player" FileFormat="1" Standard="0" DeviceType="2" VideoBitrate="2000000" VideoCodec="2" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="1"/>
+    </RenderingDeviceModel>
+    <TextStyleCollection>
+        <TextStyleCollectionItem_0          BckStyleName="" StyleName="Big black text with white outlines"               StyleDefinition="FontSize:28###HAlign:1###VAlign:1###StyleText:1###FontColor:#000000###FontShadowColor:#f2f2f2###Bold:0###Italic:0###Underline:0###FontName:Serif" StyleIndex="1"/>
+        <TextStyleCollectionItem_1          BckStyleName="" StyleName="Big light yellow text with dark brown shadow"     StyleDefinition="FontSize:28###HAlign:1###VAlign:1###StyleText:4###FontColor:#f5f2d8###FontShadowColor:#442e0e###Bold:0###Italic:0###Underline:0###FontName:Serif" StyleIndex="3"/>
+        <TextStyleCollectionItem_2          BckStyleName="" StyleName="Medium black text with white outlines"            StyleDefinition="FontSize:18###HAlign:1###VAlign:1###StyleText:1###FontColor:#000000###FontShadowColor:#f2f2f2###Bold:0###Italic:0###Underline:0###FontName:Serif" StyleIndex="2"/>
+        <TextStyleCollectionItem_3          BckStyleName="" StyleName="Medium light yellow text with dark brown shadow"  StyleDefinition="FontSize:18###HAlign:1###VAlign:1###StyleText:4###FontColor:#f5f2d8###FontShadowColor:#442e0e###Bold:0###Italic:0###Underline:0###FontName:Serif" StyleIndex="4"/>
+        <TextStyleCollectionItem_4          BckStyleName="" StyleName="Small white text with black outlines"             StyleDefinition="FontSize:6###HAlign:2###VAlign:2###StyleText:1###FontColor:#f2f2f2###FontShadowColor:#000000###Bold:0###Italic:0###Underline:0###FontName:Sans Serif" StyleIndex="5"/>
+    </TextStyleCollection>
+    <TextBackgroundStyleCollection>
+        <TextBackgroundStyleCollectionItem_0 BckStyleName="" StyleName="Centered Blue Gradient"                 StyleDefinition="BrushType:4###PatternType:5###GradientOrientation:4###ColorD:#e0e6f5###ColorF:#a2b5e2###ColorIntermed:#243c75###Intermediate:0.500###BrushImage:" StyleIndex="5"/>
+        <TextBackgroundStyleCollectionItem_1 BckStyleName="" StyleName="Centered Brown Gradient"                StyleDefinition="BrushType:4###PatternType:5###GradientOrientation:4###ColorD:#e6c28d###ColorF:#664515###ColorIntermed:#442e0e###Intermediate:0.500###BrushImage:" StyleIndex="2"/>
+        <TextBackgroundStyleCollectionItem_2 BckStyleName="" StyleName="Centered Dark-Gray Gradient"            StyleDefinition="BrushType:4###PatternType:5###GradientOrientation:4###ColorD:#7f7f7f###ColorF:#3f3f3f###ColorIntermed:#262626###Intermediate:0.500###BrushImage:" StyleIndex="4"/>
+        <TextBackgroundStyleCollectionItem_3 BckStyleName="" StyleName="Centered Green Gradient"                StyleDefinition="BrushType:4###PatternType:5###GradientOrientation:4###ColorD:#8bce66###ColorF:#006700###ColorIntermed:#003900###Intermediate:0.500###BrushImage:" StyleIndex="7"/>
+        <TextBackgroundStyleCollectionItem_4 BckStyleName="" StyleName="Centered Light-Gray Gradient"           StyleDefinition="BrushType:4###PatternType:5###GradientOrientation:4###ColorD:#f2f2f2###ColorF:#bfbfbf###ColorIntermed:#7f7f7f###Intermediate:0.500###BrushImage:" StyleIndex="3"/>
+        <TextBackgroundStyleCollectionItem_5 BckStyleName="" StyleName="Centered Red Gradient"                  StyleDefinition="BrushType:4###PatternType:5###GradientOrientation:4###ColorD:#fde1d1###ColorF:#ff8282###ColorIntermed:#ff0000###Intermediate:0.500###BrushImage:" StyleIndex="6"/>
+        <TextBackgroundStyleCollectionItem_6 BckStyleName="" StyleName="Transparent block (no brush)"           StyleDefinition="BrushType:0###PatternType:5###GradientOrientation:6###ColorD:#808080###ColorF:#000000###ColorIntermed:#777777###Intermediate:0.100###BrushImage:" StyleIndex="1"/>
+    </TextBackgroundStyleCollection>
+    <StyleBlockShapeCollection>
+        <StyleBlockShapeCollectionItem_0    BckStyleName="" StyleName="Rounded rectangle with small brown border"  StyleDefinition="###BackgroundForm:2###PenSize:5###PenStyle:1###FormShadow:0###FormShadowDistance:1###Opacity:0###PenColor:#321413###FormShadowColor:#000000" StyleIndex="0"/>
+        <StyleBlockShapeCollectionItem_1    BckStyleName="" StyleName="Rectangle with no effect"                   StyleDefinition="###BackgroundForm:1###PenSize:0###PenStyle:1###FormShadow:0###FormShadowDistance:5###Opacity:0###PenColor:#333333###FormShadowColor:#000000" StyleIndex="1"/>
+    </StyleBlockShapeCollection>
+</Configuration>

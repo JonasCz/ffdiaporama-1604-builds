@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <QtHelpProject version="1.0">
+    <namespace>ffdiaporama_en</namespace>
+    <virtualFolder>doc</virtualFolder>
+    <customFilter name="ffdiaporama_en">
+        <filterAttribute>ffdiaporama_en</filterAttribute>
+    </customFilter>
+    <filterSection>
+        <toc>
+            <section         ref="main.html" title="Welcome to the ffDiaporama WIKI">
+                <section     ref="0010.html" title="How ffDiaporama works">
+                    <section ref="0011.html" title="Functional principles"/>
+                    <section ref="0012.html" title="Predefined title slide"/>
+                    <section ref="0014.html" title="The Visible property of blocks and the management of the breaks"/>
+                    <section ref="0015.html" title="All shots regulations versus current shot regulations"/>
+                    <section ref="0016.html" title="Style sheets"/>
+                    <section ref="0013.html" title="Dynamic variables"/>
+                </section>
+                <section     ref="0020.html" title="Interface description">
+                    <section ref="0021.html" title="The main window"/>
+                    <section ref="0022.html" title="The toolbar"/>
+                    <section ref="0023.html" title="The timeline"/>
+                    <section ref="0024.html" title="The multimedia file browser"/>
+                    <section ref="0020.html" title="Dialog boxes">
+                        <section ref="0020.html" title="Configuration dialog boxes">
+                            <section ref="0101.html" title="Application options"/>
+                            <section ref="0102.html" title="Manage devices"/>
+                            <section ref="0106.html" title="Check configuration"/>
+                            <section ref="0116.html" title="Ruler properties"/>
+                            <section ref="0117.html" title="Edit thumbnail model"/>
+                        </section>
+                        <section ref="0020.html" title="Editing dialog boxes">
+                            <section ref="0103.html" title="Add or modify a predefined title slide"/>
+                            <section ref="0119.html" title="Slide properties"/>
+                            <section ref="0118.html" title="Set first shot duration for a set of slides"/>
+                            <section ref="0104.html" title="Background properties"/>
+                            <section ref="0105.html" title="Chapter properties"/>
+                            <section ref="0114.html" title="Music properties"/>
+                            <section ref="0122.html" title="Transition properties"/>
+                            <section ref="0121.html" title="Select transition duration for a set of slides"/>
+                            <section ref="0110.html" title="Correct, reframe or cut image or video"/>
+                            <section ref="0120.html" title="Edit text"/>
+                            <section ref="0123.html" title="Add or modify a location"/>
+                            <section ref="0124.html" title="Cut a sound file"/>
+                        </section>
+                        <section ref="0020.html" title="Dialog boxes related to the project">
+                            <section ref="0108.html" title="Project properties"/>
+                            <section ref="0115.html" title="Render video"/>
+                            <section ref="0107.html" title="Export project"/>
+                        </section>
+                        <section ref="0020.html" title="Various dialog boxes">
+                            <section ref="0109.html" title="Select files"/>
+                            <section ref="0111.html" title="File information"/>
+                            <section ref="0112.html" title="Manage favorite"/>
+                            <section ref="0113.html" title="Manage style"/>
+                        </section>
+                    </section>
+                </section>
+                <section     ref="0030.html" title="Rendering videos">
+                    <section ref="0031.html" title="Rendering videos"/>
+                    <section ref="0032.html" title="Smartphones and tablets"/>
+                    <section ref="0033.html" title="Portable devices"/>
+                    <section ref="0034.html" title="Multimedia system (Home cinema)"/>
+                    <section ref="0035.html" title="For the WEB"/>
+                    <section ref="0036.html" title="Video codec"/>
+                    <section ref="0037.html" title="Audio codec"/>
+                    <section ref="0038.html" title="Containers"/>
+                    <section ref="0039.html" title="Video standards and resolutions"/>
+                    <section ref="003A.html" title="File attachments (Thumbnails, nfo, etc...)"/>
+                </section>
+                <section     ref="0040.html" title="Technical information on ffDiaporama">
+                    <section ref="0041.html" title="ffDiaporama command line arguments"/>
+                    <section ref="0042.html" title="ffDiaporama project files"/>
+                    <section ref="0043.html" title="The configuration files for ffDiaporama"/>
+                    <section ref="0044.html" title="XBMC nfo files"/>
+                    <section ref="0045.html" title="Types of objects in ffDiaporama"/>
+                </section>
+            </section>
+        </toc>
+        <files>
+            <file>*.html</file>
+            <file>img/*.png</file>
+            <file>img/Transitions/*.png</file>
+            <file>img/Arrange/*.png</file>
+            <file>img/Filter/*.png</file>
+            <file>img/Text/*.png</file>
+            <file>img/MediaIcons/16x16/*.png</file>
+            <file>wiki_img/*.png</file>
+            <file>wiki.css</file>
+        </files>
+    </filterSection>
+ </QtHelpProject>

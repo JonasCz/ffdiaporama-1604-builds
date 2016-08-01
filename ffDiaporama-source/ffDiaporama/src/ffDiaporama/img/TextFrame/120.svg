@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="700.88672"
+   id="svg1"
+   inkscape:version="0.45+devel"
+   sodipodi:docbase="C:\Projects\iCLIC\2_planning\design\WEB+"
+   sodipodi:docname="page_01.svg"
+   sodipodi:version="0.32"
+   width="516.60291"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <metadata
+     id="metadata3">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Page</dc:title>
+        <dc:description />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>icon</rdf:li>
+            <rdf:li />
+            <rdf:li>symbol</rdf:li>
+            <rdf:li>signs_and_symbols</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://www.openclipart.org">
+            <dc:title>Philosophil</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Philosophil</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Philosophil</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date />
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient1530">
+      <stop
+         id="stop1531"
+         offset="0.00000000"
+         style="stop-color:#9b9b9b;stop-opacity:1.0000000;" />
+      <stop
+         id="stop1534"
+         offset="0.50000000"
+         style="stop-color:#cdcdcd;stop-opacity:1.0000000;" />
+      <stop
+         id="stop1532"
+         offset="1"
+         style="stop-color:#fff;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1533"
+       inkscape:collect="always"
+       x1="612.54253"
+       x2="285.02373"
+       xlink:href="#linearGradient1530"
+       y1="784.01778"
+       y2="227.28567"
+       gradientTransform="matrix(0.8585277,0,0,1.1647848,-143.34375,-225.42579)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient2162"
+       inkscape:collect="always"
+       x1="634.15638"
+       x2="501.16648"
+       xlink:href="#linearGradient1530"
+       y1="263.18717"
+       y2="393.26134"
+       gradientTransform="matrix(0.9835877,0,0,1.0166862,-143.34375,-225.42579)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1.0"
+     id="base"
+     inkscape:cx="305.25953"
+     inkscape:cy="325.71719"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:window-height="721"
+     inkscape:window-width="1024"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:zoom="0.43415836"
+     pagecolor="#ffffff"
+     showgrid="false" />
+  <path
+     d="M 0.625,0.63671 L 0.625,700.26171 L 515.96875,700.26171 L 515.96875,176.41796 L 350.53125,0.63671 L 0.625,0.63671 z"
+     id="rect908"
+     style="fill:url(#linearGradient1533);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     d=""
+     id="path1535"
+     sodipodi:nodetypes=""
+     style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <path
+     d="M 515.97788,176.25216 L 348.98813,0.625 L 346.109,176.25215 L 515.97788,176.25216 z"
+     id="path1538"
+     sodipodi:nodetypes="cccc"
+     style="fill:url(#linearGradient2162);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+</svg>

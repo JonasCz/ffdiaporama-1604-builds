@@ -1,0 +1,45 @@
+<!DOCTYPE ffDiaporama>
+<Model>
+    <TitleModel NextIndexKey="4" ShotNumber="1">
+        <ObjectComposition CompositionNumber="3" TypeComposition="1">
+            <Composition-0 w="0,9999999999999999" x="5,921189464667501e-17" IsVisible="1" y="0" h="1" SameAsPrevShot="0" PenSize="2" IndexKey="1" TMType="1" FormShadow="4" TypeComposition="1">
+                <BackgroundBrush ObjectType="10" BrushType="6" TypeComposition="1">
+                    <GoogleMapsMap ObjectGeometry="5" ZoomLevel="14" CreatDateTime="" MapType="3" MapValide="0" Scale="1" AspectRatio="0.562500" RessourceKey="-1" ImageHeight="720" ImageOrientation="0" ImageWidth="1280" ImageSize="1">
+                        <Location_0 LocationType="1" MarkerW="88" MarkerCompo="2" MarkerH="88" MarkerForm="1" Size="3" MarkerPointForm="1"/>
+                    </GoogleMapsMap>
+                    <ImageCorrection X="0,06421223143772538" Y="0,2548693801837205" ZoomFactor="0,8715755371245493" AspectRatio="0,5625000000000001" LockGeometry="1"/>
+                </BackgroundBrush>
+            </Composition-0>
+            <Composition-1 w="0,5" FontName="Serif" FontSize="18" x="0,25" IsVisible="1" y="0,25" h="0,5" SameAsPrevShot="0" Text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'Serif'; font-size:18pt; color:#f5f2d8;&quot;>%PLN%&lt;/span>&lt;/p>&lt;/body>&lt;/html>" FontColor="#f5f2d8" FontShadowColor="#201e0a" IndexKey="2" TMType="1" TypeComposition="1">
+                <BackgroundBrush ObjectType="0" BrushType="0" TypeComposition="1">
+                    <ImageCorrection X="0" Y="0" ZoomFactor="1" AspectRatio="0,5625"/>
+                </BackgroundBrush>
+            </Composition-1>
+            <Composition-2 w="0,5" FontName="Serif" FontSize="14" x="0,25" IsVisible="1" y="0,25" h="0,5" SameAsPrevShot="0" Text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'Serif'; font-size:14pt; color:#f5f2d8;&quot;>%PLA%&lt;/span>&lt;/p>&lt;/body>&lt;/html>" FontColor="#f5f2d8" FontShadowColor="#201e0a" IndexKey="3" TMType="1" TypeComposition="1">
+                <BackgroundBrush ObjectType="0" BrushType="0" TypeComposition="1">
+                    <ImageCorrection X="0" Y="0" ZoomFactor="1" AspectRatio="0,5625"/>
+                </BackgroundBrush>
+            </Composition-2>
+        </ObjectComposition>
+        <Shot-0 StaticDuration="6000">
+            <ShotComposition CompositionNumber="3" TypeComposition="2">
+                <Composition-0 w="0,6666666666666666" x="0,1666666666666667" IsVisible="1" y="0,1666666666666666" h="0,6666666666666666" SameAsPrevShot="0" PenSize="2" IndexKey="1" TMType="1" FormShadow="4" TypeComposition="2">
+                    <BackgroundBrush ObjectType="10" BrushType="6" TypeComposition="2">
+                        <Marker_0 TextColor="#000000" MarkerColor="#ffffff" Visibility="2" LineColor="#000000"/>
+                        <ImageCorrection X="0,06421223143772538" Y="0,3147901983610333" ZoomFactor="0,8715755371245493" AspectRatio="0,425" LockGeometry="1"/>
+                    </BackgroundBrush>
+                </Composition-0>
+                <Composition-1 w="0,9" x="0,04999999999999999" IsVisible="1" y="0,04999999999999999" h="0,1166666666666666" SameAsPrevShot="0" IndexKey="2" TMType="1" TypeComposition="2">
+                    <BackgroundBrush ObjectType="0" BrushType="0" TypeComposition="2">
+                        <ImageCorrection X="0" Y="0" ZoomFactor="1" AspectRatio="0,5625"/>
+                    </BackgroundBrush>
+                </Composition-1>
+                <Composition-2 w="0,9" x="0,05" IsVisible="1" y="0,8333333333333335" h="0,1166666666666666" SameAsPrevShot="0" IndexKey="3" TMType="1" TypeComposition="2">
+                    <BackgroundBrush ObjectType="0" BrushType="0" TypeComposition="2">
+                        <ImageCorrection X="0" Y="0" ZoomFactor="1" AspectRatio="0,5625"/>
+                    </BackgroundBrush>
+                </Composition-2>
+            </ShotComposition>
+        </Shot-0>
+    </TitleModel>
+</Model>

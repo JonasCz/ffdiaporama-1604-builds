@@ -1,0 +1,28 @@
+#include <winver.h>
+IDI_CON1 ICON        DISCARDABLE "ffdiaporamaStart.ico"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION	1,3,0,0
+PRODUCTVERSION 	1,3,0,0
+FILEFLAGSMASK  	0
+FILEFLAGS      	0
+FILEOS         	VOS__WINDOWS32
+FILETYPE       	VFT_APP
+FILESUBTYPE    	0
+{
+    BLOCK "StringFileInfo" {
+        BLOCK "040904E4" {  // 0409 for english 0x409 and 04E4 for 1252 code page
+            VALUE "CompanyName",      "."
+            VALUE "LegalCopyright",   "(c) 2011-2013 Dominique LEVRAY"
+            VALUE "FileDescription",  "ffdiaporamaStart"
+            VALUE "FileVersion",      "1.3"
+            VALUE "InternalName",     "ffdiaporamaStart"
+            VALUE "OriginalFilename", "ffdiaporamaStart.exe"
+            VALUE "ProductName",      "ffdiaporamaStart"
+            VALUE "ProductVersion",   "1.3"
+        }
+    }
+    BLOCK "VarFileInfo" {
+        VALUE "Translation", 0x409, 1252, 0x40C, 1252
+    }
+}

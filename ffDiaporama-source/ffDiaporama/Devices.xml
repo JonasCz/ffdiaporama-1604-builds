@@ -1,0 +1,168 @@
+<!DOCTYPE Devices>
+<!--
+  ==========================================================================
+    This file is part of ffDiaporama
+    ffDiaporama is a tools to make diaporama as video
+    Copyright (C) 2011-2014 Dominique Levray <domledom@laposte.net>
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  ==========================================================================
+  Devices.XML
+  ==========================================================================
+    Contains default device database used by ffDiaporama and MMFiler
+-->
+<Configuration>
+    <RenderingDeviceModel>
+        <Device_0 ImageSize="0" DeviceIndex="0" DeviceName="Nokia-Generic Symbian (S60) phone-QVGA" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="500000" VideoCodec="2" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_1 ImageSize="2" DeviceIndex="1" DeviceName="Nokia-Generic Symbian (S60) phone-VGA" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="1500000" VideoCodec="2" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_2 ImageSize="0" DeviceIndex="2" DeviceName="Generic Windows mobile 6 phone-QVGA " FileFormat="0" Standard="0" DeviceType="1" VideoBitrate="500000" VideoCodec="2" DeviceSubtype="0" AudioBitrate="6.60k" AudioCodec="6"/>
+        <Device_3 ImageSize="2" DeviceIndex="3" DeviceName="Generic Windows mobile 6 phone-VGA" FileFormat="0" Standard="0" DeviceType="1" VideoBitrate="1500000" VideoCodec="2" DeviceSubtype="0" AudioBitrate="6.60k" AudioCodec="6"/>
+        <Device_4 ImageSize="3" DeviceIndex="4" DeviceName="Generic portable PAL DVD/DIVX Player" FileFormat="1" Standard="0" DeviceType="1" VideoBitrate="1500000" VideoCodec="2" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_5 ImageSize="3" DeviceIndex="5" DeviceName="Generic portable NTSC DVD/DIVX Player" FileFormat="1" Standard="1" DeviceType="1" VideoBitrate="1500000" VideoCodec="2" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_6 ImageSize="3" DeviceIndex="6" DeviceName="Generic multimedia hard drive or gateway-SD/DVD" FileFormat="1" Standard="0" DeviceType="2" VideoBitrate="2000000" VideoCodec="2" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_7 ImageSize="6" DeviceIndex="7" DeviceName="Generic multimedia hard drive or gateway-HD 720p" FileFormat="4" Standard="0" DeviceType="2" VideoBitrate="5000000" VideoCodec="3" DeviceSubtype="0" AudioBitrate="160000" AudioCodec="2"/>
+        <Device_8 ImageSize="7" DeviceIndex="8" DeviceName="Generic multimedia hard drive or gateway-HD1080p" FileFormat="4" Standard="0" DeviceType="2" VideoBitrate="6000000" VideoCodec="3" DeviceSubtype="0" AudioBitrate="160000" AudioCodec="2"/>
+        <Device_9 ImageSize="3" DeviceIndex="9" DeviceName="Generic PAL DVD/DIVX Player" FileFormat="1" Standard="0" DeviceType="2" VideoBitrate="2000000" VideoCodec="2" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_10 ImageSize="3" DeviceIndex="10" DeviceName="Generic NTSC DVD/DIVX Player" FileFormat="1" Standard="1" DeviceType="2" VideoBitrate="2000000" VideoCodec="2" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_11 ImageSize="3" DeviceIndex="11" DeviceName="France-Boitier TV générique de Box ADSL-SD/DVD" FileFormat="1" Standard="0" DeviceType="2" VideoBitrate="2000000" VideoCodec="2" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_12 ImageSize="6" DeviceIndex="12" DeviceName="France-Boitier TV générique de Box ADSL-HD 720p" FileFormat="4" Standard="0" DeviceType="2" VideoBitrate="6000000" VideoCodec="3" DeviceSubtype="2" AudioBitrate="160000" AudioCodec="2"/>
+        <Device_13 ImageSize="7" DeviceIndex="13" DeviceName="France-Boitier TV générique de Box ADSL-HD1080p" FileFormat="4" Standard="0" DeviceType="2" VideoBitrate="8000000" VideoCodec="3" DeviceSubtype="2" AudioBitrate="160000" AudioCodec="2"/>
+        <Device_14 ImageSize="0" DeviceIndex="14" DeviceName="Flash video-QVGA" FileFormat="8" Standard="0" DeviceType="3" VideoBitrate="500000" VideoCodec="3" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_15 ImageSize="2" DeviceIndex="15" DeviceName="Flash video-VGA" FileFormat="8" Standard="0" DeviceType="3" VideoBitrate="1500000" VideoCodec="3" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_16 ImageSize="6" DeviceIndex="16" DeviceName="Flash video-HD 720p" FileFormat="8" Standard="0" DeviceType="3" VideoBitrate="4000000" VideoCodec="3" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_17 ImageSize="7" DeviceIndex="17" DeviceName="Flash video-HD1080p" FileFormat="8" Standard="0" DeviceType="3" VideoBitrate="6000000" VideoCodec="3" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_18 ImageSize="1" DeviceIndex="18" DeviceName="Apple-iPhone 3G/3GS" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="1200000" VideoCodec="4" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_19 ImageSize="0" DeviceIndex="19" DeviceName="Apple-iPod Nano (G3/G4/G5)" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="500000" VideoCodec="4" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_20 ImageSize="0" DeviceIndex="20" DeviceName="Apple-iPod Classic (G5/G6)" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="500000" VideoCodec="4" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_21 FileFormat="4" DeviceIndex="21" AudioCodec="2" Standard="0" ImageSize="4" VideoBitrate="2000000" DeviceType="1" DeviceSubtype="0" AudioBitrate="128000" DeviceName="Apple-iPhone 4/4s" VideoCodec="4"/>
+        <Device_22 ImageSize="2" DeviceIndex="22" DeviceName="Apple-iPod Touch" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="2000000" VideoCodec="4" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_23 FileFormat="4" DeviceIndex="23" AudioCodec="2" Standard="0" ImageSize="5" VideoBitrate="2500000" DeviceType="1" DeviceSubtype="4" AudioBitrate="128000" DeviceName="Apple-iPad 1/2" VideoCodec="4"/>
+        <Device_24 ImageSize="1" DeviceIndex="24" DeviceName="Generic Android Phone-HVGA" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="1000000" VideoCodec="4" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_25 ImageSize="4" DeviceIndex="25" DeviceName="Generic Android Phone-WVGA" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="2000000" VideoCodec="4" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_26 ImageSize="0" DeviceIndex="26" DeviceName="Generic Android Phone-QVGA" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="500000" VideoCodec="4" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_27 ImageSize="1" DeviceIndex="27" DeviceName="Generic Windows mobile 6 phone-HVGA " FileFormat="0" Standard="0" DeviceType="1" VideoBitrate="1000000" VideoCodec="2" DeviceSubtype="0" AudioBitrate="6.60k" AudioCodec="6"/>
+        <Device_28 ImageSize="4" DeviceIndex="28" DeviceName="Generic Windows mobile 6 phone-WVGA" FileFormat="0" Standard="0" DeviceType="1" VideoBitrate="2000000" VideoCodec="2" DeviceSubtype="0" AudioBitrate="6.60k" AudioCodec="6"/>
+        <Device_29 ImageSize="2" DeviceIndex="29" DeviceName="Generic Android Phone-VGA" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="1500000" VideoCodec="4" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_30 ImageSize="5" DeviceIndex="30" DeviceName="RIM BlackBerry Playbook" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="2500000" VideoCodec="4" DeviceSubtype="4" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_31 ImageSize="4" DeviceIndex="31" DeviceName="Generic Android/Linux Tablet-WVGA" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="2000000" VideoCodec="4" DeviceSubtype="4" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_32 ImageSize="5" DeviceIndex="32" DeviceName="Generic Android/Linux Tablet-XGA" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="2500000" VideoCodec="4" DeviceSubtype="4" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_33 ImageSize="6" DeviceIndex="33" DeviceName="Generic Android/Linux Tablet-720p" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="3000000" VideoCodec="4" DeviceSubtype="4" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_34 ImageSize="6" DeviceIndex="34" DeviceName="Windows/XP-720p" FileFormat="1" Standard="0" DeviceType="1" VideoBitrate="5000000" VideoCodec="2" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_35 ImageSize="6" DeviceIndex="35" DeviceName="Windows/Vista-720p" FileFormat="1" Standard="0" DeviceType="1" VideoBitrate="5000000" VideoCodec="2" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_36 ImageSize="6" DeviceIndex="36" DeviceName="Windows/7-720p" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="5000000" VideoCodec="3" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_37 ImageSize="6" DeviceIndex="37" DeviceName="Linux-720p" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="5000000" VideoCodec="3" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_38 ImageSize="4" DeviceIndex="38" DeviceName="Generic Windows phone 7-WVGA" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="2000000" VideoCodec="4" DeviceSubtype="0" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_39 FileFormat="1" DeviceIndex="39" AudioCodec="1" Standard="0" ImageSize="8" VideoBitrate="400000" DeviceType="1" DeviceSubtype="0" AudioBitrate="128000" DeviceName="RIM Blackberry" VideoCodec="2"/>
+        <Device_40 ImageSize="0" DeviceIndex="40" DeviceName="MP4 Version-QVGA" FileFormat="4" Standard="0" DeviceType="3" VideoBitrate="500000" VideoCodec="3" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_41 ImageSize="2" DeviceIndex="41" DeviceName="MP4 Version-VGA" FileFormat="4" Standard="0" DeviceType="3" VideoBitrate="1500000" VideoCodec="3" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_42 ImageSize="6" DeviceIndex="42" DeviceName="MP4 Version-HD 720p" FileFormat="4" Standard="0" DeviceType="3" VideoBitrate="4000000" VideoCodec="3" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_43 ImageSize="7" DeviceIndex="43" DeviceName="MP4 Version-HD1080p" FileFormat="4" Standard="0" DeviceType="3" VideoBitrate="6000000" VideoCodec="3" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_44 ImageSize="0" DeviceIndex="44" DeviceName="OGV Version-QVGA" FileFormat="9" Standard="0" DeviceType="3" VideoBitrate="500000" VideoCodec="7" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="4"/>
+        <Device_45 ImageSize="2" DeviceIndex="45" DeviceName="OGV Version-VGA" FileFormat="9" Standard="0" DeviceType="3" VideoBitrate="1500000" VideoCodec="7" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="4"/>
+        <Device_46 ImageSize="6" DeviceIndex="46" DeviceName="OGV Version-HD 720p" FileFormat="9" Standard="0" DeviceType="3" VideoBitrate="4000000" VideoCodec="7" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="4"/>
+        <Device_47 ImageSize="7" DeviceIndex="47" DeviceName="OGV Version-HD1080p" FileFormat="9" Standard="0" DeviceType="3" VideoBitrate="6000000" VideoCodec="7" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="4"/>
+        <Device_48 ImageSize="0" DeviceIndex="48" DeviceName="WebM Version-QVGA" FileFormat="6" Standard="0" DeviceType="3" VideoBitrate="500000" VideoCodec="5" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="4"/>
+        <Device_49 ImageSize="2" DeviceIndex="49" DeviceName="WebM Version-VGA" FileFormat="6" Standard="0" DeviceType="3" VideoBitrate="1500000" VideoCodec="5" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="4"/>
+        <Device_50 ImageSize="6" DeviceIndex="50" DeviceName="WebM Version-HD 720p" FileFormat="6" Standard="0" DeviceType="3" VideoBitrate="4000000" VideoCodec="5" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="4"/>
+        <Device_51 ImageSize="7" DeviceIndex="51" DeviceName="WebM Version-HD1080p" FileFormat="6" Standard="0" DeviceType="3" VideoBitrate="6000000" VideoCodec="5" DeviceSubtype="2" AudioBitrate="128000" AudioCodec="4"/>
+        <Device_52 ImageSize="7" DeviceIndex="52" DeviceName="PS3" FileFormat="4" Standard="0" DeviceType="2" VideoBitrate="8000000" VideoCodec="3" DeviceSubtype="3" AudioBitrate="160000" AudioCodec="2"/>
+        <Device_53 ImageSize="7" DeviceIndex="53" DeviceName="XBox360" FileFormat="4" Standard="0" DeviceType="2" VideoBitrate="8000000" VideoCodec="3" DeviceSubtype="3" AudioBitrate="160000" AudioCodec="2"/>
+        <Device_54 ImageSize="6" DeviceIndex="54" DeviceName="Daily Motion" FileFormat="4" Standard="0" DeviceType="3" VideoBitrate="4000000" VideoCodec="3" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_55 ImageSize="6" DeviceIndex="55" DeviceName="Youtube" FileFormat="4" Standard="0" DeviceType="3" VideoBitrate="5000000" VideoCodec="2" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="1"/>
+        <Device_56 ImageSize="5" DeviceIndex="56" DeviceName="Generic Portable LED/LCD TV" FileFormat="4" Standard="0" DeviceType="1" VideoBitrate="3500000" VideoCodec="3" DeviceSubtype="1" AudioBitrate="128000" AudioCodec="2"/>
+        <Device_57 FileFormat="4" AudioCodec="2" Standard="0" ImageSize="5" VideoBitrate="3500000" DeviceType="1" DeviceSubtype="4" DeviceIndex="57" AudioBitrate="128000" DeviceName="Acer Iconia Tab A100/A110" VideoCodec="4"/>
+        <Device_58 FileFormat="4" AudioCodec="2" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceSubtype="4" DeviceIndex="58" AudioBitrate="128000" DeviceName="Acer Iconia Tab A200/A210/A500/A510" VideoCodec="4"/>
+        <Device_59 FileFormat="4" AudioCodec="2" Standard="0" ImageSize="7" VideoBitrate="5000000" DeviceType="1" DeviceSubtype="4" DeviceIndex="59" AudioBitrate="128000" DeviceName="Acer Iconia Tab A700" VideoCodec="4"/>
+        <Device_60 FileFormat="4" AudioCodec="2" DeviceIndex="60" DeviceSubtype="4" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceName="Acer Iconia Tab W500/W510" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_61 FileFormat="4" AudioCodec="2" Standard="0" ImageSize="4" VideoBitrate="3500000" DeviceType="1" DeviceSubtype="0" DeviceIndex="61" AudioBitrate="128000" DeviceName="Acer Liquid A1/E/Metal/Stream/Glow" VideoCodec="4"/>
+        <Device_62 FileFormat="4" AudioCodec="2" Standard="0" ImageSize="7" VideoBitrate="5000000" DeviceType="1" DeviceSubtype="4" DeviceIndex="62" AudioBitrate="128000" DeviceName="Apple-iPad 3/4/5" VideoCodec="4"/>
+        <Device_63 FileFormat="4" AudioCodec="2" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceSubtype="0" DeviceIndex="63" AudioBitrate="128000" DeviceName="Apple-iPhone 5/5s/5C" VideoCodec="4"/>
+        <Device_64 FileFormat="4" AudioCodec="2" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceSubtype="0" DeviceIndex="64" AudioBitrate="128000" DeviceName="Generic Android Phone-720p" VideoCodec="4"/>
+        <Device_65 FileFormat="4" AudioCodec="2" Standard="0" ImageSize="7" VideoBitrate="5000000" DeviceType="1" DeviceSubtype="0" DeviceIndex="65" AudioBitrate="128000" DeviceName="Generic Android Phone-1080p" VideoCodec="4"/>
+        <Device_66 FileFormat="4" AudioCodec="2" Standard="0" ImageSize="4" VideoBitrate="3000000" DeviceType="1" DeviceSubtype="0" DeviceIndex="66" AudioBitrate="128000" DeviceName="Nokia Lumia 510/520/525/610/620/625/710/720/800/810/820/822/900" VideoCodec="4"/>
+        <Device_67 FileFormat="4" AudioCodec="2" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceSubtype="0" DeviceIndex="67" AudioBitrate="128000" DeviceName="Nokia Lumia 920/925/928/1020/1320/1520" VideoCodec="4"/>
+        <Device_68 FileFormat="1" AudioCodec="1" Standard="0" ImageSize="1" VideoBitrate="1000000" DeviceType="1" DeviceSubtype="0" DeviceIndex="68" AudioBitrate="128000" DeviceName="RIM Blackberry Bold 9000" VideoCodec="2"/>
+        <Device_69 FileFormat="1" AudioCodec="1" Standard="0" ImageSize="2" VideoBitrate="1200000" DeviceType="1" DeviceSubtype="0" DeviceIndex="69" AudioBitrate="128000" DeviceName="RIM Blackberry Bold 9650/9700/9780/9788/9790 - Curve 8900" VideoCodec="2"/>
+        <Device_70 FileFormat="1" AudioCodec="1" Standard="0" ImageSize="0" VideoBitrate="1000000" DeviceType="1" DeviceSubtype="0" DeviceIndex="70" AudioBitrate="128000" DeviceName="RIM Blackberry Curve 8300/8500/9300" VideoCodec="2"/>
+        <Device_71 FileFormat="1" AudioCodec="1" Standard="0" ImageSize="2" VideoBitrate="1500000" DeviceType="1" DeviceSubtype="0" DeviceIndex="71" AudioBitrate="128000" DeviceName="RIM Blackberry Bold 9900/9930" VideoCodec="2"/>
+        <Device_72 FileFormat="4" AudioCodec="2" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceSubtype="0" DeviceIndex="72" AudioBitrate="128000" DeviceName="RIM Blackberry Z10/Z30" VideoCodec="4"/>
+        <Device_73 FileFormat="1" AudioCodec="3" Standard="0" ImageSize="4" VideoBitrate="3000000" DeviceType="1" DeviceSubtype="0" DeviceIndex="73" AudioBitrate="128000" DeviceName="Samsung Galaxy S1/S2" VideoCodec="4"/>
+        <Device_74 FileFormat="4" AudioCodec="2" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceSubtype="0" DeviceIndex="74" AudioBitrate="128000" DeviceName="Samsung Galaxy S3/S3 Mini" VideoCodec="4"/>
+        <Device_75 FileFormat="4" AudioCodec="2" Standard="0" ImageSize="7" VideoBitrate="5000000" DeviceType="1" DeviceSubtype="0" DeviceIndex="75" AudioBitrate="128000" DeviceName="Samsung Galaxy S4" VideoCodec="4"/>
+        <Device_76 FileFormat="4" AudioCodec="2" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceSubtype="0" DeviceIndex="76" AudioBitrate="128000" DeviceName="Samsung Galaxy Note 1/2" VideoCodec="4"/>
+        <Device_77 FileFormat="4" AudioCodec="2" Standard="0" ImageSize="7" VideoBitrate="5000000" DeviceType="1" DeviceSubtype="0" DeviceIndex="77" AudioBitrate="128000" DeviceName="Samsung Galaxy Note 3" VideoCodec="4"/>
+        <Device_78 FileFormat="4" AudioCodec="2" Standard="0" ImageSize="5" VideoBitrate="3500000" DeviceType="1" DeviceSubtype="4" DeviceIndex="78" AudioBitrate="128000" DeviceName="Samsung Galaxy Tab 1/Tab 7.0" VideoCodec="4"/>
+        <Device_79 FileFormat="4" AudioCodec="2" DeviceIndex="79" DeviceSubtype="4" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceName="Samsung Galaxy Tab 2/Tab 7.7/Tab 8.9/Tab 10.1/Note 10.1" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_80 DeviceType="1" Standard="0" DeviceName="Alcatel One Touch 985/990" VideoCodec="2" VideoBitrate="1500000" DeviceIndex="80" FileFormat="1" DeviceSubtype="0" AudioCodec="1" AudioBitrate="128000" ImageSize="1"/>
+        <Device_81 DeviceType="1" Standard="0" DeviceName="Alcatel One Touch 995" VideoCodec="2" VideoBitrate="2500000" DeviceIndex="81" FileFormat="1" DeviceSubtype="0" AudioCodec="1" AudioBitrate="128000" ImageSize="4"/>
+        <Device_82 DeviceType="1" Standard="0" DeviceName="Asus Padfone" VideoCodec="4" VideoBitrate="2500000" DeviceIndex="82" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="4"/>
+        <Device_83 DeviceType="1" Standard="0" DeviceName="Asus Padfone 2" VideoCodec="4" VideoBitrate="4000000" DeviceIndex="83" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="6"/>
+        <Device_84 DeviceType="1" Standard="0" DeviceName="HTC Rezound/One Mini/One X/One X+/One XL/Evo 4G LTE" VideoCodec="4" VideoBitrate="4000000" DeviceIndex="84" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="6"/>
+        <Device_85 DeviceType="1" Standard="0" DeviceName="HTC One/Butterfly" VideoCodec="4" VideoBitrate="5000000" DeviceIndex="85" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="7"/>
+        <Device_86 DeviceType="1" Standard="0" DeviceName="HTC Desire C/Dream/Droid Eris/Explorer/G2 Touch/Hero/Legend" VideoCodec="2" VideoBitrate="1500000" DeviceIndex="86" FileFormat="1" DeviceSubtype="0" AudioCodec="1" AudioBitrate="128000" ImageSize="1"/>
+        <Device_87 DeviceType="1" Standard="0" DeviceName="HTC Evo 3D/Incredible S/One S/One V/Sensation/Sensation XE/Sensation XL/Vivid" VideoCodec="4" VideoBitrate="3000000" DeviceIndex="87" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="4"/>
+        <Device_88 DeviceType="1" Standard="0" DeviceName="HTC Amaze 4G/Desire/Desire HD/Desire S/Desire Z/Desire V/Desire X" VideoCodec="4" VideoBitrate="3000000" DeviceIndex="88" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="4"/>
+        <Device_89 DeviceType="1" Standard="0" DeviceName="Huawei Ascend/Pulse/U8650/UM840/U8220/CHT8000" VideoCodec="2" VideoBitrate="2000000" DeviceIndex="89" FileFormat="1" DeviceSubtype="0" AudioCodec="1" AudioBitrate="128000" ImageSize="1"/>
+        <Device_90 DeviceType="1" Standard="0" DeviceName="Huawei Mercury/U8230" VideoCodec="4" VideoBitrate="3000000" DeviceIndex="90" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="4"/>
+        <Device_91 DeviceType="1" Standard="0" DeviceName="Google (HTC) Nexus One" VideoCodec="4" VideoBitrate="3000000" DeviceIndex="91" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="4"/>
+        <Device_92 DeviceType="1" Standard="0" DeviceName="Google (Samsung) Nexus Two/Nexus S" VideoCodec="4" VideoBitrate="3000000" DeviceIndex="92" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="4"/>
+        <Device_93 DeviceType="1" Standard="0" DeviceName="Google (Samsung) Nexus 3/Galaxy Nexus" VideoCodec="4" VideoBitrate="4000000" DeviceIndex="93" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="6"/>
+        <Device_94 DeviceType="1" Standard="0" DeviceName="Google (LG) Nexus 4" VideoCodec="4" VideoBitrate="4000000" DeviceIndex="94" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="6"/>
+        <Device_95 DeviceType="1" Standard="0" DeviceName="Google (LG) Nexus 5" VideoCodec="4" VideoBitrate="5000000" DeviceIndex="95" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="7"/>
+        <Device_96 DeviceType="1" Standard="0" DeviceName="LG Optimus Black/G2X/Q/Z/2X/3D/L3/L5/L7/L9" VideoCodec="4" VideoBitrate="3000000" DeviceIndex="96" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="4"/>
+        <Device_97 DeviceType="1" Standard="0" DeviceName="LG Optimus 4X HD/Optimus LTE" VideoCodec="4" VideoBitrate="4000000" DeviceIndex="97" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="6"/>
+        <Device_98 DeviceType="1" Standard="0" DeviceName="LG Optimus G/Optimus Vu" VideoCodec="4" VideoBitrate="3500000" DeviceIndex="98" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="5"/>
+        <Device_99 DeviceType="1" Standard="0" DeviceName="LG G2" VideoCodec="4" VideoBitrate="5000000" DeviceIndex="99" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="7"/>
+        <Device_100 DeviceType="1" Standard="0" DeviceName="Motorola Atrix HD/Droid RAZR HD/Moto X" VideoCodec="4" VideoBitrate="4000000" DeviceIndex="100" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="6"/>
+        <Device_101 DeviceType="1" Standard="0" DeviceName="Motorola Atrix 2/Atrix 4G/Defy/Droid/Droid 2/Droid X/Droid X2/Droid 3/Droid 3/Droid RAZR/Milestone" VideoCodec="4" VideoBitrate="3000000" DeviceIndex="101" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="4"/>
+        <Device_102 DeviceType="1" Standard="0" DeviceName="Sony Xperia S/SL/SP/V/T/ZR" VideoCodec="4" VideoBitrate="4000000" DeviceIndex="102" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="6"/>
+        <Device_103 DeviceType="1" Standard="0" DeviceName="Sony Xperia Z/ZL/Z Ultra/Z1" VideoCodec="4" VideoBitrate="5000000" DeviceIndex="103" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="7"/>
+        <Device_104 DeviceType="1" Standard="0" DeviceName="Sony Xperia Neo L/Sola/U/J/L/M/P" VideoCodec="4" VideoBitrate="3000000" DeviceIndex="104" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="4"/>
+        <Device_105 DeviceType="1" Standard="0" DeviceName="Sony Xperia Arc/Pro/Neo/Play/Ray/X10" VideoCodec="4" VideoBitrate="3000000" DeviceIndex="105" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="4"/>
+        <Device_106 DeviceType="1" Standard="0" DeviceName="ZTE Blade/Skate/Crescent/Warp" VideoCodec="4" VideoBitrate="3000000" DeviceIndex="106" FileFormat="4" DeviceSubtype="0" AudioCodec="2" AudioBitrate="128000" ImageSize="4"/>
+        <Device_107 DeviceIndex="107" DeviceType="1" DeviceSubtype="0" Standard="0" VideoBitrate="1000000" DeviceName="Wiko Cink" VideoCodec="2" ImageSize="1" FileFormat="1" AudioCodec="1" AudioBitrate="128000"/>
+        <Device_108 DeviceIndex="108" DeviceType="1" DeviceSubtype="0" Standard="0" VideoBitrate="3000000" DeviceName="Wiko Cink Slim/Sublim/Iggy/Ozzy/King/Peax" VideoCodec="4" ImageSize="4" FileFormat="4" AudioCodec="2" AudioBitrate="128000"/>
+        <Device_109 DeviceIndex="109" DeviceType="1" DeviceSubtype="0" Standard="0" VideoBitrate="4000000" DeviceName="Wiko Cink Five/Darkside/Darkmoon/Stairway" VideoCodec="4" ImageSize="6" FileFormat="4" AudioCodec="2" AudioBitrate="128000"/>
+        <Device_110 DeviceIndex="110" DeviceType="1" DeviceSubtype="0" Standard="0" VideoBitrate="5000000" DeviceName="Wiko Cink Darkfull" VideoCodec="3" ImageSize="7" FileFormat="4" AudioCodec="2" AudioBitrate="128000"/>
+        <Device_111 DeviceIndex="111" DeviceType="1" DeviceSubtype="0" Standard="0" VideoBitrate="3000000" DeviceName="Archos Platinum/Titanium" VideoCodec="4" ImageSize="4" FileFormat="4" AudioCodec="2" AudioBitrate="128000"/>
+        <Device_112 FileFormat="4" AudioCodec="2" DeviceIndex="112" DeviceSubtype="4" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceName="LG Optimus Pad" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_113 FileFormat="4" AudioCodec="2" DeviceIndex="113" DeviceSubtype="4" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceName="Archos 101" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_114 FileFormat="4" AudioCodec="2" DeviceIndex="114" DeviceSubtype="4" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceName="Asus PadFone/Transformer Pad" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_115 FileFormat="4" AudioCodec="2" DeviceIndex="115" DeviceSubtype="4" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceName="Lenovo IdeaTab" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_116 FileFormat="4" AudioCodec="2" DeviceIndex="116" DeviceSubtype="4" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceName="Sony Xperia Tablet" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_117 FileFormat="4" AudioCodec="2" DeviceIndex="117" DeviceSubtype="4" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceName="Toshiba Excite" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_118 FileFormat="4" AudioCodec="2" DeviceIndex="118" DeviceSubtype="4" Standard="0" ImageSize="7" VideoBitrate="5000000" DeviceType="1" DeviceName="Amazon Kindle Fire HD/HDX 8.9&quot;" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_119 FileFormat="4" AudioCodec="2" DeviceIndex="119" DeviceSubtype="4" Standard="0" ImageSize="7" VideoBitrate="5000000" DeviceType="1" DeviceName="Asus Transformer Pad Infinity" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_120 FileFormat="4" AudioCodec="2" DeviceIndex="120" DeviceSubtype="4" Standard="0" ImageSize="7" VideoBitrate="5000000" DeviceType="1" DeviceName="Huawei Mediapad 10" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_121 FileFormat="4" AudioCodec="2" DeviceIndex="121" DeviceSubtype="4" Standard="0" ImageSize="7" VideoBitrate="5000000" DeviceType="1" DeviceName="Sony Xperia Tablet Z" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_122 FileFormat="4" AudioCodec="2" DeviceIndex="122" DeviceSubtype="4" Standard="0" ImageSize="7" VideoBitrate="5000000" DeviceType="1" DeviceName="Barnes &amp; Noble Nook HD" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_123 FileFormat="4" AudioCodec="2" DeviceIndex="123" DeviceSubtype="4" Standard="0" ImageSize="7" VideoBitrate="5000000" DeviceType="1" DeviceName="Archos 97 Titanium HD" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_124 FileFormat="4" AudioCodec="2" DeviceIndex="124" DeviceSubtype="4" Standard="0" ImageSize="7" VideoBitrate="5000000" DeviceType="1" DeviceName="Acer Iconia Tab W700" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_125 FileFormat="4" AudioCodec="2" DeviceIndex="125" DeviceSubtype="4" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceName="Asus VivoTab RT/Smart" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_126 FileFormat="4" AudioCodec="2" DeviceIndex="126" DeviceSubtype="4" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceName="Dell Latitude/XPS 10 Tablet" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_127 FileFormat="4" AudioCodec="2" DeviceIndex="127" DeviceSubtype="4" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceName="Lenovo Thinkpad 2" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_128 FileFormat="4" AudioCodec="2" DeviceIndex="128" DeviceSubtype="4" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceName="LG Tab-Book H160/Z160" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_129 FileFormat="4" AudioCodec="2" DeviceIndex="129" DeviceSubtype="4" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceName="Microsoft Surface RT" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_130 FileFormat="4" AudioCodec="2" DeviceIndex="130" DeviceSubtype="4" Standard="0" ImageSize="7" VideoBitrate="5000000" DeviceType="1" DeviceName="Microsoft Surface Pro" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_131 FileFormat="4" AudioCodec="2" DeviceIndex="131" DeviceSubtype="4" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceName="Samsung Ativ Tab 1/3/5" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_132 FileFormat="4" AudioCodec="2" DeviceIndex="132" DeviceSubtype="4" Standard="0" ImageSize="7" VideoBitrate="5000000" DeviceType="1" DeviceName="Samsung Ativ Tab 7" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_133 FileFormat="4" AudioCodec="2" DeviceIndex="133" DeviceSubtype="4" Standard="0" ImageSize="7" VideoBitrate="5000000" DeviceType="1" DeviceName="Sony VAIO Duo 11" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_134 FileFormat="4" AudioCodec="2" DeviceIndex="134" DeviceSubtype="4" Standard="0" ImageSize="4" VideoBitrate="3500000" DeviceType="1" DeviceName="Archos GamePad" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_135 FileFormat="4" AudioCodec="2" DeviceIndex="135" DeviceSubtype="4" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceName="Google (Asus) Nexus 7 (2012)" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_136 FileFormat="4" AudioCodec="2" DeviceIndex="136" DeviceSubtype="4" Standard="0" ImageSize="7" VideoBitrate="5000000" DeviceType="1" DeviceName="Google (Asus) Nexus 7 (2013)" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_137 FileFormat="4" AudioCodec="2" DeviceIndex="137" DeviceSubtype="4" Standard="0" ImageSize="6" VideoBitrate="4000000" DeviceType="1" DeviceName="Kobo Arc" VideoCodec="4" AudioBitrate="128000"/>
+        <Device_138 FileFormat="4" AudioCodec="2" DeviceIndex="138" DeviceSubtype="4" Standard="0" ImageSize="7" VideoBitrate="5000000" DeviceType="1" DeviceName="LG G Pad 8.3" VideoCodec="4" AudioBitrate="128000"/>
+    </RenderingDeviceModel>
+</Configuration>

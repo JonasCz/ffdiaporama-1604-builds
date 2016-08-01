@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="268px"
+   height="216px"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.43"
+   sodipodi:docname="Bulle_droite_montre_bas.svg"
+   sodipodi:docbase="/home/f5soh/Swf/Svg_perso">
+  <metadata
+     id="metadata50">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>bulle droite montre bas</dc:title>
+        <dc:date>avril 2006</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Lalanne Laurent</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>callouts</rdf:li>
+            <rdf:li>cartoon</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs48" />
+  <sodipodi:namedview
+     inkscape:cy="108"
+     inkscape:cx="134"
+     inkscape:zoom="3.9027778"
+     inkscape:window-height="996"
+     inkscape:window-width="1272"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:current-layer="svg2" />
+  <path
+     d="M 103,12.031 C 149,13.031 196,36.031 197,81.031 C 197,103.031 184,118.031 165,127.031 C 174,129.031 181,134.031 181,140.031 C 181,144.031 179,146.031 176,148.031 C 180,148.031 183,150.031 183,153.031 C 183,158.031 168,158.031 168,152.031 C 168,152.031 168,151.031 168,151.031 C 154,155.031 133,150.031 132,139.031 C 132,138.031 132,138.031 132,138.031 C 79,146.031 12,123.031 10,74.031 C 10,32.031 56,11.031 103,12.031"
+     style="fill-opacity:0.49800002;stroke:#000000;stroke-opacity:0"
+     id="path4" />
+  <path
+     d="M12 67.031 C16,150.031 195,159.031 197,75.031 C195,0.031 12,-0.967 12,67.031 Z"
+     style="stroke-width:3;stroke:rgb(0,0,0);fill:rgb(255,255,255);"
+     id="path6" />
+  <path
+     d="M131 135.031 C132,152.031 178,154.031 179,137.031 C178,118.031 131,118.031 131,135.031 Z"
+     style="stroke-width:3;stroke:rgb(0,0,0);fill:rgb(255,255,255);"
+     id="path8" />
+  <path
+     d="M169 149.031 C169,154.031 183,155.031 183,149.031 C183,143.031 169,143.031 169,149.031 Z"
+     style="stroke-width:3;stroke:rgb(0,0,0);fill:rgb(255,255,255);"
+     id="path10" />
+  <path
+     d="M225 161.031 C248,186.031 242,173.031 249,193.031"
+     style="stroke-width:5;stroke:rgb(0,0,0);fill:none;"
+     id="path12" />
+  <path
+     d="M196 141.031 C191,142.031 187,151.031 189,158.031 C190,166.031 197,172.031 201,171.031 C206,170.031 210,162.031 208,154.031 C207,147.031 200,140.031 196,141.031 Z"
+     style="stroke-width:3;stroke:rgb(0,0,0);fill:rgb(249,225,225);"
+     id="path14" />
+  <path
+     d="M223 142.031 C218,141.031 211,147.031 209,154.031 C207,161.031 210,170.031 214,171.031 C219,172.031 226,167.031 228,159.031 C231,152.031 228,144.031 223,142.031 Z"
+     style="stroke-width:3;stroke:rgb(0,0,0);fill:rgb(247,223,223);"
+     id="path16" />
+  <path
+     d="M198 160.031 C196,160.031 196,163.031 196,165.031 C197,167.031 200,169.031 201,168.031 C203,167.031 203,165.031 203,163.031 C202,161.031 199,159.031 198,160.031 Z"
+     style="stroke:rgb(0,0,0);fill:rgb(26,26,26);"
+     id="path18" />
+  <path
+     d="M218 159.031 C217,159.031 214,160.031 213,162.031 C213,164.031 213,167.031 215,168.031 C216,168.031 219,167.031 220,165.031 C220,163.031 220,160.031 218,159.031 Z"
+     style="stroke:rgb(0,0,0);fill:rgb(26,26,26);"
+     id="path20" />
+  <path
+     d="M229 142.031 C224,135.031 211,123.031 208,139.031"
+     style="stroke-width:3;stroke:rgb(0,0,0);fill:none;stroke-linecap:round;stroke-linejoin:round"
+     id="path22" />
+  <path
+     d="M188 138.031 C194,131.031 209,122.031 208,138.031"
+     style="stroke-width:3;stroke:rgb(0,0,0);fill:none;stroke-linecap:round;stroke-linejoin:round"
+     id="path24" />
+  <path
+     d="M227 176.031 C224,176.031 222,177.031 222,179.031 C222,180.031 224,181.031 227,181.031 C229,181.031 231,180.031 231,179.031 C231,177.031 229,176.031 227,176.031 Z"
+     style="stroke-width:3;stroke:rgb(0,0,0);fill:rgb(229,229,229);"
+     id="path26" />
+  <path
+     d="M191 174.031 C189,174.031 187,176.031 187,178.031 C187,180.031 189,181.031 191,181.031 C193,181.031 195,180.031 195,178.031 C195,176.031 193,174.031 191,174.031 Z"
+     style="stroke-width:3;stroke:rgb(0,0,0);fill:rgb(229,229,229);"
+     id="path28" />
+  <path
+     d="M218 174.031 C216,174.031 214,176.031 214,178.031 C214,180.031 216,182.031 218,182.031 C220,182.031 222,180.031 222,178.031 C222,176.031 220,174.031 218,174.031 Z"
+     style="stroke-width:3;stroke:rgb(0,0,0);fill:rgb(229,229,229);"
+     id="path30" />
+  <path
+     d="M184 177.031 C182,177.031 180,178.031 180,179.031 C180,181.031 182,182.031 184,182.031 C186,182.031 188,181.031 188,179.031 C188,178.031 186,177.031 184,177.031 Z"
+     style="stroke-width:3;stroke:rgb(0,0,0);fill:rgb(229,229,229);"
+     id="path32" />
+  <path
+     d="M199 175.031 C197,175.031 196,177.031 196,178.031 C196,180.031 197,181.031 199,181.031 C200,181.031 202,180.031 202,178.031 C202,177.031 200,175.031 199,175.031 Z"
+     style="stroke-width:3;stroke:rgb(0,0,0);fill:rgb(229,229,229);"
+     id="path34" />
+  <path
+     d="M247 191.031 C251,205.031 251,201.031 251,205.031"
+     style="stroke-width:3;stroke:rgb(0,0,0);fill:none;stroke-linecap:round;stroke-linejoin:round"
+     id="path36" />
+  <path
+     d="M248 192.031 C248,192.031 255,199.031 255,199.031"
+     style="stroke-width:3;stroke:rgb(0,0,0);fill:none;stroke-linecap:round;stroke-linejoin:round"
+     id="path38" />
+  <path
+     d="M249 190.031 C249,190.031 257,194.031 257,194.031"
+     style="stroke-width:3;stroke:rgb(0,0,0);fill:none;stroke-linecap:round;stroke-linejoin:round"
+     id="path40" />
+  <path
+     d="M247 191.031 C242,199.031 245,197.031 240,199.031"
+     style="stroke-width:3;stroke:rgb(0,0,0);fill:none;stroke-linecap:round;stroke-linejoin:round"
+     id="path42" />
+  <g
+     id="appdata_0_0_0_0_0" />
+</svg>

@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="gl">
+    <head>
+        <title>
+            A barra de ferramentas
+        </title>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+        <meta http-equiv="Content-Language" content="gl-GL" <meta content="ffDiaporama Team" name="author">
+        <link rel="stylesheet" type="text/css" href="wiki.css"/>
+    </head>
+    <body>
+        <div>
+            Estes bot&oacute;ns agr&uacute;panse en catro lapelas: Ficheiro / Proxecto / Xeraci&oacute;n e Axuda
+        </div>
+        <br>
+        <h2>
+            As ordes de xesti&oacute;n do proxecto
+        </h2>
+        <div style="margin-left: 40px;">
+            A seguinte t&aacute;boa resume as principais ordes de xesti&oacute;n do proxecto:
+        </div>
+        <table border="1" cellpadding="2" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">
+                        Bot&oacute;n da barra de ferramentas
+                    </td>
+                    <td style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">
+                        Orde de men&uacute; do proxecto
+                    </td>
+                    <td style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">
+                        Atallo de teclado
+                    </td>
+                    <td style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">
+                        Acci&oacute;n
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/filenew.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Novo
+                    </td>
+                    <td style="vertical-align: top; text-align: center;">
+                        CTRL+N
+                    </td>
+                    <td style="vertical-align: top;">
+                        Perm&iacute;telle crear un novo proxecto en branco. Aparecer&aacute; o di&aacute;logo <a href="0108.html">Propiedades do proxecto</a> para permitirlle configurar o novo proxecto.
+                        <br>
+                        (Se o proxecto actual non gardou as modificaci&oacute;ns, ffDiaporama pediralle que as garde.)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/fileopen.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Abrir
+                    </td>
+                    <td style="vertical-align: top; text-align: center;">
+                        CTRL+O
+                    </td>
+                    <td style="vertical-align: top;">
+                        Permitiralle abrir un proxecto existente. Aparecer&aacute; o di&aacute;logo de selecci&oacute;n de ficheiros para permitirlle seleccionar o proxecto que abrir.
+                        <br>
+                        (Se o proxecto actual non gardou as modificaci&oacute;ns, ffDiaporama pediralle que as garde.) 
+                        <br>
+                        Observaci&oacute;n: se o proxecto cont&eacute;n ficheiros que foron movidos ou renomeados, ffDiaporama non poder&aacute; abrilo de novo. Neste caso, aparece un di&aacute;logo que permite seleccionar un novo ficheiro.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/filerecent.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Abrir un recente
+                    </td>
+                    <td style="vertical-align: top;">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Perm&iacute;telle volver a abrir un proxecto que te&ntilde;a aberto recentemente. ffDiaporama almacena unha lista dos &uacute;ltimos dez proxectos.
+                        <br>
+                        (Se o proxecto actual non gardou as modificaci&oacute;ns, ffDiaporama pediralle que as garde.)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/filesave.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Gardar
+                    </td>
+                    <td style="vertical-align: top; text-align: center;">
+                        CTRL+S
+                    </td>
+                    <td style="vertical-align: top;">
+                        Perm&iacute;telle gardar o proxecto actual nun ficheiro de proxecto.
+                        <br>
+                        Se non gardou o proxecto, aparecer&aacute; un di&aacute;logo de selecci&oacute;n de ficheiros que lle permitir&aacute; un ficheiro de destino.
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="3" style="vertical-align: top; text-align: center;">
+                        <img src="img/SaveAsMenu.png">
+                    </td>
+                    <td rowspan="3" style="vertical-align: top;">
+                        Gardar como
+                    </td>
+                    <td colspan="2" style="vertical-align: top;">
+                        Abrir un submen&uacute; que da acceso &aacute;s seguintes funci&oacute;ns
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/filesaveas.png">
+                    </td>
+                    <td>
+                        Gardar como: Perm&iacute;telle gardar o proxecto actual nun novo ficheiro. Aparaecer&aacute; o di&aacute;logo <a href="0109.html">Selecci&oacute;n de ficheiro</a> para permitirlle seleccionar un ficheiro de destino.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/fileexport.png">
+                    </td>
+                    <td>
+                        Exportar o proxecto: Exportar o proxecto actual e todos os ficheiros que se utilizan nun novo cartafol. Aparecer&aacute; o di&aacute;logo <a href="0107.html">Exportar o proxecto</a> para permitirlle configurar a exportaci&oacute;n.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/PrjProperties.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Propiedades do proxecto
+                    </td>
+                    <td style="vertical-align: top;">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Perm&iacute;telle abrir o di&aacute;logo <a href="0108.html">Propiedades do proyecto</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/config.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Axustes
+                    </td>
+                    <td style="vertical-align: top;">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Perm&iacute;telle definir as opci&oacute;ns do programa. Aparecer&aacute; o di&aacute;logo <a href="0101.html">Opci&oacute;ns do programa</a>.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/exit.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Sa&iacute;r
+                    </td>
+                    <td style="vertical-align: top; text-align: center;">
+                        CTRL+W
+                    </td>
+                    <td style="vertical-align: top;">
+                        Perm&iacute;telle sa&iacute;r de ffDiaporama.
+                        <br>
+                        (Se o proxecto actual non gardou as modificaci&oacute;ns, ffDiaporama pediralle que as garde.)
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h2>
+            As ordes de xesti&oacute;n de diapositiva
+        </h2>
+        <div style="margin-left: 40px;">
+            A seguinte t&aacute;boa resume as principais ordes de xesti&oacute;n de diapositivas:
+        </div>
+        <table border="1" cellpadding="2" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">
+                        Bot&oacute;n da barra de ferramentas
+                    </td>
+                    <td style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">
+                        Orde do men&uacute; de edici&oacute;n
+                    </td>
+                    <td style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">
+                        Atallo de teclado
+                    </td>
+                    <td style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">
+                        Acci&oacute;n
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="4" style="vertical-align: top; text-align: center;">
+                        <img src="img/add_text.png">
+                    </td>
+                    <td rowspan="4" style="vertical-align: top;">
+                        Engadir un t&iacute;tulo
+                    </td>
+                    <td colspan="2" style="vertical-align: top;">
+                        Abrir un submen&uacute; que da acceso &aacute;s seguintes funci&oacute;ns
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/transparent.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Engadir unha diapositiva baleira: Perm&iacute;telle engadir unha diapositiva baleira; a nova diapositiva baleira eng&aacute;dese ao proxecto e amosase na  <a href="0023.html">Li&ntilde;a de tempo</a>.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/AutoTS.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Engadir unha diapositiva predefinida de t&iacute;tulo: perm&iacute;telle engadir unha diapositiva baseada nun modelo. Aparecer&aacute; o di&aacute;logo <a href="0103.html">Propiedades da diapositiva predefinida de t&iacute;tulo</a>.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/gmap.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Engadir un mapa: Perm&iacute;telle engadir un mapa de Google Maps. Aparecer&aacute; o di&aacute;logo <a href="0110.html">Corrixir, reencadrar ou cortar a imaxe ou o v&iacute;deo</a>.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/add_image.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Engadir ficheiros
+                    </td>
+                    <td style="vertical-align: top; text-align: center;">
+                        INS
+                    </td>
+                    <td style="vertical-align: top;">
+                        Perm&iacute;telle engadir ficheiros de v&iacute;deo ou fotos: Aparecer&aacute; o di&aacute;logo <a href="0109.html">Seleccionar ficheiro</a> para permitirlle seleccionar un ou m&aacute;is ficheiros.
+                        <br>
+                        Nota: Cada ficheiro seleccionado &eacute; engadido ao proxecto utilizando a orde de clasificaci&oacute;n especificado no men&uacute; de configuraci&oacute;n do navegador de ficheiros multimedia.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/add_project.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Engadir un proxecto
+                    </td>
+                    <td style="vertical-align: top;">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Perm&iacute;telle engadir as diapositivas dun proxecto existente no final do proxecto actual: Aparecer&aacute; o di&aacute;logo <a href="0109.html">Seleccionar ficheiro</a> para permitirlle seleccionar un ficheiro de proxecto. As diapositivas, os axustes de diapositivas, a m&uacute;sica e os fondos do proxecto eng&aacute;dense ao proxecto actual.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/editcut.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Cortar
+                    </td>
+                    <td style="vertical-align: top; text-align: center;">
+                        CTRL+X
+                    </td>
+                    <td style="vertical-align: top;">
+                        Perm&iacute;telle cortar a diapositiva actual (retirala da <a href="0023.html">Li&ntilde;a de tempo</a> e po&ntilde;ela no portapapeis).
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/editcopy.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Copiar
+                    </td>
+                    <td style="vertical-align: top; text-align: center;">
+                        CTRL+C
+                    </td>
+                    <td style="vertical-align: top;">
+                        Perm&iacute;telle copiar a diapositiva actual no portapapeis.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/editpaste.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Pegar
+                    </td>
+                    <td style="vertical-align: top; text-align: center;">
+                        CTRL+V
+                    </td>
+                    <td style="vertical-align: top;">
+                        Perm&iacute;telle pegar na <a href="0023.html">Li&ntilde;a de tempo</a> a diapositiva ou a imaxe que est&aacute; no portapapeis.
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1" rowspan="5" style="vertical-align: top; text-align: center;">
+                        <img src="img/edit.png">
+                    </td>
+                    <td colspan="1" rowspan="5" style="vertical-align: top;">
+                        Editar
+                    </td>
+                    <td colspan="2" rowspan="1" style="vertical-align: top;">
+                        Abre un submen&uacute; que da acceso &aacute;s funci&oacute;ns de modificaci&oacute;n de diapositivas
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/fifteenpieces.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Abrir o di&aacute;logo <a href="0114.html">Propiedades do fondo</a> (Equivalente a premer d&uacute;as veces na pista de fondo)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        F6 
+                        <img src="img/action_edit.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Dependendo do tipo de diapositivas, abrirase o di&aacute;logo <a href="0119.html">Propiedades da diapositiva</a> se se trata dunha diapositiva est&aacute;ndar, ou o di&aacute;logo  <a href="0103.html">Diapositiva predefinida de t&iacute;tulo</a> se se trata duna diapositiva predefinida de t&iacute;tulo. (Equivalente a premer d&uacute;as veces na pista de montaxe)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        F7 
+                        <img src="img/object_sound.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Abrir o di&aacute;logo <a href="0114.html">Propiedades da m&uacute;sica</a> (Equivalente a premer d&uacute;as veces na pista de m&uacute;sica)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        F8 
+                        <img src="img/tr-00-01_small.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Abrir o di&aacute;logo <a href="0114.html">Propiedades da transici&oacute;n</a> (Equivalente a premer d&uacute;as veces na transici&oacute;n)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/trash.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Retirar
+                    </td>
+                    <td style="vertical-align: top; text-align: center;">
+                        DEL
+                    </td>
+                    <td style="vertical-align: top;">
+                        Perm&iacute;telle eliminar a diapositiva actual.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h4 style="margin-left: 40px;">
+            Observaci&oacute;ns:
+        </h4>
+        <ul style="margin-left: 40px;">
+            <li>
+                As diapositivas inseridas, col&oacute;canse no final do proxecto, ap&oacute;s a diapositiva actual, dependendo da opci&oacute;n &laquo;engadir novas diapositivas (no final do proxecto ou ap&oacute;s a diapositiva actual)&raquo; no di&aacute;logo de configuraci&oacute;n.
+            </li>
+            <li>
+                &Eacute; pos&iacute;bel engadir diapositivas arrastrando e soltando directamente, utilizando o navegador de ficheiros. Arrastre as fotos ou v&iacute;deos sobre a <a href="0023.html">Li&ntilde;a de tempo</a>. as diapositivas crearanse ao soltar os ficheiros.
+            </li>
+        </ul>
+        <br>
+        <h2>
+            As ordes de xeraci&oacute;n de v&iacute;deo
+        </h2>
+        <div style="margin-left: 40px;">
+            A seguinte t&aacute;boa resume as principais ordes de xeraci&oacute;n de v&iacute;deo:
+        </div>
+        <table border="1" cellpadding="2" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">
+                        Bot&oacute;n da barra de ferramentas
+                    </td>
+                    <td style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">
+                        Orde do men&uacute; de xeraci&oacute;n de v&iacute;deo
+                    </td>
+                    <td style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">
+                        Acci&oacute;n
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/Smartphone.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Reprodutor e tel&eacute;fono intelixente
+                    </td>
+                    <td colspan="1" rowspan="3" style="vertical-align: top;">
+                        Perm&iacute;telle xerar o v&iacute;deo para o equipo seleccionado da base de datos de dispositivos.
+                        <br>
+                        Aparece o di&aacute;logo <a href="0115.html">Xerar v&iacute;deo</a> a partires dun modelo desde a base de datos.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/tv.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Sistema multimedia
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/Internet.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Para a WEB
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/Lossless.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Sen perdas
+                    </td>
+                    <td style="vertical-align: top;">
+                        Perm&iacute;telle xerar o v&iacute;deo nun formato sen perdas. O formato sen perdas non &eacute; destrutivo, polo que &eacute; pos&iacute;bel xerar varias veces o mesmo v&iacute;deo sen perder calidade. Aparece o di&aacute;logo <a href="0115.html">Xerar video</a>.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/render.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Avanzado
+                    </td>
+                    <td style="vertical-align: top;">
+                        Perm&iacute;telle xerar o v&iacute;deo usando o di&aacute;logo <a href="0115.html">Xeraci&oacute;n avanzada de v&iacute;deo</a>.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/object_sound.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Exportar a banda sonora
+                    </td>
+                    <td style="vertical-align: top;">
+                        Perm&iacute;telle xerar s&oacute; a banda sonora do proxecto. Aparece o di&aacute;logo <a href="0115.html">Xerar v&iacute;deo</a>.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h4 style="margin-left: 40px;">
+            Observaci&oacute;n:
+        </h4>
+        <ul style="margin-left: 40px;">
+            <li>
+                O formato &laquo;sen perdas&raquo; &eacute; lex&iacute;bel s&oacute; por uns poucos equipos e xera ficheiros de gran tama&ntilde;o. Consecuentemente, s&oacute; &eacute; &uacute;til para xerar partes dun proxecto que logo xuntaranse nun proxecto final.
+            </li>
+        </ul>
+        <h2>
+            As ordes de axuda
+        </h2>
+        <div>
+            A seguinte t&aacute;boa resume as principais ordes de axuda:
+        </div>
+        <table border="1" cellpadding="2" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">
+                        Bot&oacute;n da barra de ferramentas
+                    </td>
+                    <td style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">
+                        Orde do men&uacute; de axuda
+                    </td>
+                    <td style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">
+                        Acci&oacute;n
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/logo.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Sobre
+                    </td>
+                    <td colspan="1" rowspan="1" style="vertical-align: top;">
+                        Abre a xanela &laquo;Sobre&raquo;. Isto amosa informaci&oacute;n sobre a versi&oacute;n, a licenza e o sistema
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/help.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Asistencia e axuda (F1)
+                    </td>
+                    <td rowspan="1" style="vertical-align: top;">
+                        Abre o &iacute;ndice do WIKI de axuda de ffDiaporama
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; text-align: center;">
+                        <img src="img/contents.png">
+                    </td>
+                    <td style="vertical-align: top;">
+                        Que &eacute; novo
+                    </td>
+                    <td style="vertical-align: top;">
+                        Abre a p&aacute;xina Blog/Noticias do sitio web de ffDiaporama
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

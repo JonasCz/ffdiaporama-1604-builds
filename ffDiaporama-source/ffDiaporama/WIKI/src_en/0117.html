@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Edit thumbnail model</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="Content-Language" content="en-US">
+    <meta content="ffDiaporama Team" name="author">
+    <link rel="stylesheet" type="text/css" href="wiki.css"/>
+</head>
+<body>
+    <div>This dialog allows you to edit custom thumbnails and custom thumbnails models.</div>
+    <div>It's a simplified version of the <a href="0119.html">Slides properties dialog</a> and as it, it includes numerous zones:</div>
+    <ul>
+        <li>On the top: The <a href="#Toolbar">Toolbar</a> allows to launch the main thumbnail editing commands.</li>
+        <li>On the left: The <a href="#InteractiveZone">Interactive</a> zone allows you to graphically modify the blocks.</li>
+        <li>On the right: The <a href="#BlockTable">Blocks table</a> and the <a href="#BlockSettings">Block settings</a> zones.</li>
+    </ul>
+
+    <div>&nbsp;</div>
+    <h2><a name="Toolbar">Toolbar</a></h2>
+    <div style="margin-left: 40px;">
+        The toolbar allows to launch the main thumbnail editing commands.
+        <table border="0" cellpadding="0" cellspacing="10"><tbody>
+            <tr>
+                <td  valign="top" align="center"><img src="img/add_text.png"></td>
+                <td  valign="top">Add a new title block - Open a sub menu with the following options:
+                <table border="1" cellpadding="2" cellspacing="0"><tbody>
+                    <tr>
+                        <td  valign="top" align="center"><img src="img/object_text.png"></td>
+                        <td nowrap>Add a simple title block</td>
+                    </tr>
+                    <tr>
+                        <td  valign="top" align="center"><img src="img/add_cliparttext.png"></td>
+                        <td nowrap>Add a title clip-art block</td>
+                    </tr>
+                </tbody></table>
+                <div>Once you have selected one of the options, the <a href="0120.html">Edit Text dialog</a> opens.</div>
+            </td>
+            </tr>
+            <tr>
+                <td  valign="top" align="center"><img src="img/add_image.png"></td>
+                <td  valign="top">Add one or several new blocks of images or video. A <a href="0109.html">file selection dialog</a> appears allowing you to select files.
+                    <br>Note: in case of multiple selection, files are added in the alphabetical order of the filenames or in the digital order of shots (according to the option selected in the <a href="0101.html">Application options dialog</a>).</td>
+            </tr>
+            <tr>
+                <td  valign="top" align="center"><img src="img/edit.png"></td>
+                <td  valign="top">Edit blocks - Open a sub menu with the following options:
+                    <table border="1" cellpadding="2" cellspacing="0"><tbody>
+                        <tr>
+                            <td  valign="top" align="center"><img src="img/editcut.png"></td>
+                            <td  valign="top">Copy the current block to the ffDiaporama clipboard and remove it from the thumbnail.</td>
+                        </tr>
+                        <tr>
+                            <td  valign="top" align="center"><img src="img/editcopy.png"></td>
+                            <td  valign="top">Copy the current block to the ffDiaporama clipboard.</td>
+                        </tr>
+                        <tr>
+                            <td  valign="top" align="center"><img src="img/editpaste.png"></td>
+                            <td  valign="top">Paste block from the ffDiaporama clipboard and insert it to the end of the block table</td>
+                        </tr>
+                        <tr>
+                            <td  valign="top" align="center"><img src="img/trash.png"></td>
+                            <td  valign="top">Remove the current block</td>
+                        </tr>
+                        <tr>
+                            <td  valign="top" align="center"><img src="img/EditText.png"></td>
+                            <td  valign="top">Open the <a href="0120.html">Edit text block dialog</a>.</td>
+                        </tr>
+                        <tr>
+                            <td  valign="top" align="center"><img src="img/EditImage.png"></td>
+                            <td  valign="top">Open the <a href="0110.html">Image framing and correction dialog</a>. This button is active only for objects containing images or videos.</td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+            <tr>
+                <td  valign="top" align="center"><img src="img/Arrange/arrange.png"></td>
+                <td  valign="top">Arrange blocks - Open a sub menu with the following options:
+                    <table border="1" cellpadding="2" cellspacing="0"><tbody>
+                        <tr>
+                            <td  valign="top" align="center"><img src="img/Arrange/aotop.png"></td>
+                            <td nowrap>Align to top</td>
+                        </tr>
+                        <tr>
+                            <td  valign="top" align="center"><img src="img/Arrange/aocenterv.png"></td>
+                            <td nowrap>Align to midle</td>
+                        </tr>
+                        <tr>
+                            <td  valign="top" align="center"><img src="img/Arrange/aobottom.png"></td>
+                            <td nowrap>Align to bottom</td>
+                        </tr>
+                        <tr>
+                            <td  valign="top" align="center"><img src="img/Arrange/aoleft.png"></td>
+                            <td nowrap>Align to left</td>
+                        </tr>
+                        <tr>
+                            <td  valign="top" align="center"><img src="img/Arrange/aocenterh.png"></td>
+                            <td nowrap>Align to center</td>
+                        </tr>
+                        <tr>
+                            <td  valign="top" align="center"><img src="img/Arrange/aoright.png"></td>
+                            <td nowrap>Align to right</td>
+                        </tr>
+                        <tr>
+                            <td  valign="top" align="center"><img src="img/Arrange/aodistH.png"></td>
+                            <td nowrap>Distribute horizontally</td>
+                        </tr>
+                        <tr>
+                            <td  valign="top" align="center"><img src="img/Arrange/aodistV.png"></td>
+                            <td nowrap>Distribute vertically</td>
+                        </tr>
+                        <tr>
+                            <td  valign="top" align="center"><img src="img/arrow_up.png"></td>
+                            <td  valign="top">Change the order of blocks by moving the active block upward (towards the background)</td>
+                        </tr>
+                        <tr>
+                            <td  valign="top" align="center"><img src="img/arrow_down.png"></td>
+                            <td  valign="top">Change the order of blocks by moving the active block downward (towards the foreground)</td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+            <tr>
+                <td  valign="top" align="center"><img src="img/Action_Info.png"></td>
+                <td  valign="top">Display information on active block. (Remark: This function is available only for &quot;image&quot; or &quot;video&quot; blocks.)</td>
+            </tr>
+            <tr>
+                <td  valign="top" align="center"><img src="img/ruler_ok.png"></td>
+                <td  valign="top">Allows you to open the <a href="0116.html">Ruler properties dialog</a></td>
+            </tr>
+        </tbody></table>
+    </div>
+
+    <div>&nbsp;</div>
+    <div style="margin-left: 40px;">
+        It is also possible to open contextual menus by:
+        <ul>
+            <li>Right clicking on zones.</li>
+            <li>Right click on blocks table or on interactive zone when no block was selected.</li>
+            <li>Right click on one of the blocks of a multiple selection, on blocks table or on interactive zone.</li>
+        </ul>
+        <div style="margin-left: 20px;">Each of these contextual menus propose commands which depend on what you have clicked.</div>
+    </div>
+
+
+    <h2><a name="InteractiveZone">Interactive zone</a></h2>
+    <div style="margin-left: 40px;">
+        The interactive zone allows you to move and interactively re-size blocks.
+        <ul>
+            <li>Selected blocks are shown with a frame. (It allows to differentiate them from other graphic elements of the thumbnail).</li>
+            <li>Control handles (small square) are shown on sides and on corners of the selection frame.</li>
+            <li>Rulers are displayed to facilitate the work with the mouse. See <a href="0116.html">Rulers settings</a></li>
+        </ul>
+        <h4>Using the mouse:</h4>
+        <ul>
+            <li>To select a block: click the block</li>
+            <li>To select multiple blocks: Select a first block by clicking on it and then, by clicking on the other blocks to be selected with pressing either the SHIFT or the CTRL key.</li>
+            <li>To select a block under another block : Click the block to be selected by pushing both SHIFT and CTRL keys.</li>
+            <li>To unselect a block in a multiple selection: Click the block with pressing either the SHIFT or the CTRL key.</li>
+            <li>To modify the size of the blocks of the selection: Click one of the handles of the selection and, while keeping the button of the mouse pressed, move the mouse.</li>
+            <li>To move the blocks of the selection: Click one of the blocks of the selection and, while keeping the button of the mouse pressed, move the mouse.</li>
+        </ul>
+        <h4>Using the keyboard:</h4>
+        <ul>
+            <li>To move the blocks of the selection, use the arrow keys.</li>
+            <li>To change the size of the blocks of the selection, use SHIFT+arrows to move the upper left corner handle or CTRL+arrows to move the lower right corner handle.</li>
+        </ul>
+        <h4>Remarks:</h4>
+        <ul>
+            <li>A double click on a block opens the block editor associated with the block type (for a text block this will be the text editor, for an image block the reframing dialog, etc.)</li>
+            <li>A right click on a block when the selection includes only a single block opens a contextual menu proposing the editing commands for a block.</li>
+            <li>A right click on a block when the selection includes multiple blocks opens a contextual menu proposing the editing commands for multiple blocks.</li>
+        </ul>
+    </div>
+
+    <h2><a name="BlockTable">Blocks table</a></h2>
+    <div style="margin-left: 40px;">
+        <div>The blocks table lists, from top to bottom, the present blocks in the thumbnail.</div>
+        <ul>
+            <li>The order of the blocks is important! The first block (at the top of the list) is covered by the second block which is even covered by the following block and so on.</li>
+        </ul>
+        <div>&nbsp;</div>
+        <h3>Blocks are shown on 3 columns:</h3>
+        <ul>
+            <li>The first column contains or:
+                <ul>
+                    <li><img src="img/object_text.png"> If the block is a title.</li>
+                    <li>A thumbnail if the block is an image or a video.</li>
+                    <li><img src="img/Transform.png"> If the image or the video have a transformation filter.<br><br></li>
+                </ul>
+            </li>
+            <li>The second column contains icons giving the state of the blocks</li>
+            <li>The third column indicates:
+                <ul>
+                    <li>If the block is a title: the text of the block</li>
+                    <li>If the block is an image:
+                        <ul>
+                            <li>The filename.</li>
+                            <li>The width x the height of the image in pixel (the format of the image - the geometry of the image).</li>
+                            <li>A summary of EXIF information on the image.</li>
+                        </ul>
+                    </li>
+                    <li>If the block is a video:
+                        <ul>
+                            <li>The filename.</li>
+                            <li>The width x the height of the image in pixel (the format of the image - the geometry of the image).</li>
+                            <li>The duration of the video.<br><br></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            </ul>
+
+        <h4>Remarks:</h4>
+        <ul>
+            <li>Double clicking on a block opens the block editor associated with the block type (for a text block this will be the text editor, for an image block the reframing dialog, etc.)</li>
+            <li>Right clicking on a block when the selection includes only a single block opens a contextual menu proposing the editing commands for a block.</li>
+            <li>Right clicking on a block when the selection includes multiple blocks opens a contextual menu proposing the editing commands for multiple blocks.</li>
+            <li>To select a block: click the block</li>
+            <li>To select multiple blocks: Select a first block by clicking on it and then, by clicking on the other blocks to be selected with pressing either the SHIFT or the CTRL key.</li>
+            <li>To unselect a block in a multiple selection: Click the block with pressing either the SHIFT or the CTRL key.<br><br></li>
+            <li>Blocks with locked properties are shown on a grey bottom.</li>
+            <li>Selected blocks are shown on a red bottom if the focus is on the blocks table or on a blue bottom if the focus is on another element.<br><br></li>
+            <li>To change the blocks order, use Drag &amp; Drop or <b>Up</b> and <b>Down</b> functions of the contextual menu.</li>
+            <li>It is possible to add files directly in the blocks table by using Drag and Drop with the file explorer.<br><br></li>
+            <li>All blocks, whether title, image or video, possess a text element.<br><br></li>
+            <li>During the insertion of a new block (Add title, Add file or Paste), the block is inserted:
+                <ul>
+                    <li>Always in the last position in the list of blocks (in the foreground)</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <h2><a name="BlockSettings">Block settings zone</a></h2>
+    <div style="margin-left: 40px;">
+        <h3>Coordinates</h3>
+        <table border="0" cellpadding="0" cellspacing="5"><tbody>
+            <tr>
+                <td valign="top" rowspan="2"><img src="img/Geometry.png"></td>
+                <td valign="top"><b>For image or video blocks: </b>Allows you to select a reframing style for the image. It has the same effect as selecting a style in the dialog: <a href="0110.html">Correct, reframe or cut image or video</a>.</td>
+            </tr>
+            <tr>
+                <td valign="top"><b>For text blocks: </b>Allows you to select the geometrical constraints to be applied to the block. Three type of constraint are available:<ul>
+                    <li>No constraint is applied to the selection rectangle.</li>
+                    <li>Lock selection rectangle to the actual geometry. It has no meaning until you have defined a shape in &quot;no constraint&quot; mode.</li>
+                    <li>Lock selection rectangle to the same geometry as the project, such that, if you place the image in full screen, the reframed part will correspond to the whole screen.</li>
+                    </ul></td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/Geometry.png"></td>
+                <td valign="top">Allows you to select a pre-defined block size</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/PosSize_X.png"></td>
+                <td valign="top">Represents the horizontal offset of the block from the left. This position is defined as a percentage (%) of the total width of the image or in pixels (for a 1080p screen) according to the unit defined in the configuration dialog.</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/PosSize_Y.png"></td>
+                <td valign="top">Represents the vertical offset of the block from the top. This position is defined as a percentage (%) of the total height of the image or in pixels (for a 1080p screen) according to the unit defined in the configuration dialog.</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/PosSize_Width.png"></td>
+                <td valign="top">Represents the width of the block. This value is defined as a percentage (%) of the total width of the image or in pixels (for a 1080p screen) according to the unit defined in the configuration dialog box.</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/PosSize_Height.png"></td>
+                <td valign="top">Represents the height of the block. This value is defined as a percentage (%) of the total height of the image or in pixels (for a 1080p screen) according to the unit defined in the configuration dialog.</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/RotateZ.png"></td>
+                <td valign="top">Rotation around the Z axis in degrees.</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/RotateY.png"></td>
+                <td valign="top">Rotation around the Y axis in degrees.</td>
+            </tr>
+            <tr>
+                <td valign="top"><img src="img/RotateX.png"></td>
+                <td valign="top">Rotation around the X axis in degrees.</td>
+            </tr>
+        </tbody></table>
+
+        <br>
+
+        <h3>Block shape</h3>
+        <table border="1" cellpadding="2" cellspacing="0"><tbody>
+            <tr>
+                <td valign="top"><img src="img/db_menu.png"></td>
+                <td colspan="2" valign="top">This settings group deals with style management. For more information on style management, see : <a href="0016.html">Using style management</a></td>
+            </tr>
+            <tr>
+                <td valign="top">Shape</td>
+                <td colspan="2" valign="top">Allows you to select a shape for the block. The selected shape will be used as:<ul>
+                    <li>a fusion mask for the images and the videos.</li>
+                    <li>A cutting zone for texts</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td valign="top">Opacity</td>
+                <td valign="top">Opacity</td>
+                <td valign="top">Defines the opacity of the block. This value also applies to the text of the block.</td>
+            </tr>
+            <tr>
+                <td rowspan="3" valign="top">Border</td>
+                <td nowrap="nowrap" valign="top">Thickness of the border</td>
+                <td valign="top">Defines the thickness of the border (This value is defined as 1/1080 of the height of the screen. A value of 10 corresponds to 10 points on a 1920x1080 FullHD screen, but only to 6 points on a 1280x720 screen).</td>
+            </tr>
+            <tr>
+                <td nowrap="nowrap" valign="top">Border color</td>
+                <td valign="top">Defines the color of the line to be used to draw the border</td>
+            </tr>
+            <tr>
+                <td nowrap="nowrap" valign="top">Line type of border</td>
+                <td valign="top">Defines the type of line (solid, dotted line, etc.)</td>
+            </tr>
+            <tr>
+                <td nowrap="nowrap" rowspan="3" valign="top">Shadow</td>
+                <td valign="top">Shadow position</td>
+                <td valign="top">Defines in which corner the shadow will be positioned (Note: the position of the shadow is independent of rotation of the block: the right lower corner is always the right lower corner, whatever rotation is applied).</td>
+            </tr>
+            <tr>
+                <td nowrap="nowrap" valign="top">Distance of the shadow</td>
+                <td valign="top">Defines the distance between the block and its shadow</td>
+            </tr>
+            <tr>
+                <td valign="top">Color</td>
+                <td valign="top">Sets the color used to draw the shadow</td>
+            </tr>
+        </tbody></table>
+
+    </div>
+
+    <h2>See also</h2>
+    <table border="0" cellpadding="0" cellspacing="10">	<tbody>
+        <tr>
+            <td  valign="top" align="center"><img src="wiki_img/Wikipedia.png"></td>
+            <td  valign="top"><ul>
+                <li><a href="http://en.wikipedia.org/wiki/EXIF">Description of EXIF - Exchangeable image file format</a></li>
+            </ul></td>
+        </tr>
+    </tbody></table>
+
+</body>
+</html>

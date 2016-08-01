@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="186.64417"
+   height="169.959"
+   id="svg2134"
+   sodipodi:version="0.32"
+   inkscape:version="0.44+devel"
+   version="1.0"
+   sodipodi:docbase="C:\Documents and Settings\Molumen\Desktop"
+   sodipodi:docname="cloud11.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2136">
+    <linearGradient
+       id="linearGradient11067">
+      <stop
+         style="stop-color:#e9fffb;stop-opacity:0.91774893;"
+         offset="0"
+         id="stop11069" />
+      <stop
+         style="stop-color:#72dac5;stop-opacity:0;"
+         offset="1"
+         id="stop11071" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="149.28571"
+     inkscape:cy="105.71429"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="673"
+     inkscape:window-height="603"
+     inkscape:window-x="44"
+     inkscape:window-y="58" />
+  <metadata
+     id="metadata2139">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2155.3883,-1657.2912)">
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:4.2733202;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 2248.1517,1659.4288 C 2236.3098,1659.4762 2224.2881,1661.245 2212.7288,1664.924 L 2212.3611,1665.0466 C 2166.3385,1679.8706 2145.1391,1719.4828 2164.9467,1753.6447 C 2184.8095,1787.9016 2238.4606,1803.7633 2284.6981,1789.0471 C 2289.0796,1787.6527 2293.238,1786.0339 2297.1595,1784.2158 C 2294.75,1798.139 2277.6721,1812.3726 2265.6588,1825.1135 C 2265.6588,1825.1135 2290.3211,1816.8319 2301.8172,1804.4195 C 2312.1568,1793.2558 2314.5117,1778.0067 2315.0037,1773.3683 C 2339.1764,1754.373 2347.2666,1725.8284 2332.4802,1700.3265 C 2317.5832,1674.6338 2283.6773,1659.2866 2248.1517,1659.4288 z"
+       id="path2213" />
+  </g>
+</svg>

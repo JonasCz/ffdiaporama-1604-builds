@@ -1,0 +1,74 @@
+**************************************************
+* FFDIAPORAMA 2.1 - trunk
+*
+* WIKI state on 06/12/2013
+**************************************************
+
+ok          wiki_en.qhcp
+ok          wiki_en.qhp
+ok          main.html       Welcome to the ffDiaporama WIKI
+
+ok          0010.html           How ffDiaporama works
+ok                0011.html           Functional principles
+ok                0012.html           Predefined title slide
+ok                0014.html           The Visible property of blocks and the management of the breaks
+ok                0015.html           All shots regulations versus current shot regulations
+ok                0016.html           Style sheets
+ok                0013.html           Dynamic variables
+
+ok          0020.html           Interface description
+ok              0021.html           The main window
+ok              0022.html           The toolbar
+ok              0023.html           The timeline
+ok              0024.html           The multimedia file browser
+ok              0020.html           Dialog boxes
+
+                    // Configuration dialog boxes
+ok                  0101.html           Application options
+ok                  0102.html           Manage devices
+ok                  0106.html           Check configuration
+ok                  0116.html           Ruler properties
+ok                  0117.html           Edit thumbnail model
+
+                    // Editing dialog boxes
+ok                  0103.html           Add or modify a predefined title slide
+ok                  0119.html           Slide properties
+ok                  0118.html           Set first shot duration for a set of slides
+ok                  0104.html           Background properties
+ok                  0105.html           Chapter properties
+ok                  0114.html           Music properties
+ok                  0122.html           Transition properties
+ok                  0121.html           Select transition duration for a set of slides
+ok                  0110.html           Correct, reframe or cut image or video
+ok                  0120.html           Edit text
+ok                  0123.html           Add or modify a location
+
+                    // Dialog boxes related to the project
+ok                  0108.html           Project properties
+ok                  0115.html           Render video
+ok                  0107.html           Export project
+
+                    // Various dialog boxes
+ok                  0109.html           Select files
+ok                  0111.html           File information
+ok                  0112.html           Manage favorite
+ok                  0113.html           Manage style
+
+ok              0030.html       Rendering videos
+ok                  0031.html       Rendering videos
+ok                  0032.html       Smartphones and tablets
+ok                  0033.html       Portable devices
+ok                  0034.html       Multimedia system (Home cinema)
+ok                  0035.html       For the WEB
+ok                  0036.html       Video codec
+ok                  0037.html       Audio codec
+ok                  0038.html       Containers
+ok                  0039.html       Video standards and resolutions
+ok                  003A.html       File attachments (Thumbnails, nfo, etc...)
+
+ok              0040.html       Technical information on ffDiaporama
+ok                  0041.html       ffDiaporama command line arguments
+ok                  0042.html       ffDiaporama project files
+ok                  0043.html       The configuration files for ffDiaporama
+ok                  0044.html       XBMC nfo files
+--                  0045.html       Types of objects in ffDiaporama

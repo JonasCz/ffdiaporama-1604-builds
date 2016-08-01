@@ -1,0 +1,170 @@
+**************************************************
+* FFDIAPORAMA 2.2 - trunk - (English version)
+**************************************************
+
+[Commit: 01/07/2017] - ffDiaporama 2.2 devel 20140701
+    Bug fixes:
+        -Fixed a bug on sounds when there is more than one video on a slide
+        -Fixed a bug on exporting soundtracks (generated export file without sound)
+        -Fixed interactive areas editing in edit slides and edit image dialogs to make the blocks movement and blocks resizing fluid (removing redundant display)
+        -Fixed a bug in calculating the duration of slides when adjust duration on sound
+
+    New features:
+
+--------------------------------------------------------------------------------
+
+[Commit: 10/05/2014] - ffDiaporama 2.2 devel 20140510
+    Bug fixes:
+        -Increases the gap between the ref-frames in rendered video to reduce flicker (from 4 to 2 per second)
+        -Operates the preview player and the player of the video editing dialog even if there is no music track
+        -Fixed a crash when click in the time bar and the project is empty
+
+    New features:
+        -Added 4 new transitions: Transitions page type with prior unzoom
+
+--------------------------------------------------------------------------------
+
+[Commit: 03/05/2014] - ffDiaporama 2.2 devel 20140503
+    Bug fixes:
+        -Fixed a display bug in the timeline (the display for audio video could leave the frame when the sound was on auto)
+        -Fixed audio/video synchronization problems (through QTMultimedia)
+        -Reduced the gap between the ref-frames in rendered videos (pass from 1 every 10 seconds to 4 per seconds)
+
+    New features:
+        -Replaces SDL by QTMultimedia
+        -Adds a button to control the volume for the preview player
+
+--------------------------------------------------------------------------------
+
+[Commit: 19/04/2014] - ffDiaporama 2.2 devel 20140419
+    Bug fixes:
+        -Fixed a bug in copy/past operation
+        -Fixed icone display by windows explorer for ffd files
+        -Fixed display of waveforme in edit video dialog (remove extra space to the right)
+        -Fixed a display bug of translation in about dialog on Windows
+        -Improve audio/video synchronization
+
+    New features:
+        -Also saving the position of the vertical scrollbar in the edit slides dialog
+        -Upgrades ffmpeg on Windows to version 2.2.1
+
+--------------------------------------------------------------------------------
+
+[Commit: 12/04/2014] - ffDiaporama 2.2 devel 20140412
+    Bug fixes:
+        -Fixed a bug in computing the new feature "master volume"
+
+    New features:
+        -Improves error message when encoding fails due to bad filename
+        -Adds a keyboard shortcut with the space bar to start or pause the preview player
+
+--------------------------------------------------------------------------------
+
+[Commit: 02/04/2014] - ffDiaporama 2.2 devel 20140402
+    Bug fixes:
+        -Fixed a bug in the calculation when encoding MJPEG which sometimes failed using NTSC format
+        -Fixed a bug of not respects of breaks during music transition
+        -Fixed a bug of bad audio positioning in some videos
+        -Fixed a bug of not updates the %PDD% variable (project duration)
+
+    New features:
+        -Adds an option to adjust the target value for automatic amplification volume in the option dialog (master volume)
+        -Set the default "master volume" to auto when additions of music in the music track
+        -Set the default "master volume" to auto when additions of video in slides
+        -Adds the display of fade-in/out in the timeline as red diagonal line
+        -Force analysis of videos when they are added to the project (from the main window or from the edit slides dialog)
+        -Adds the display of a progress box (with cancel button) during file additions in the edit slides dialog
+
+
+--------------------------------------------------------------------------------
+
+[Commit: 10/03/2014] - ffDiaporama 2.2 devel 20140314
+    Bug fixes:
+        -Fixed a problem shifting axes for 2 LUMA clock
+        -Fixed a problem reading the sound that was not to the end with some MP3 files
+        -Fixed bugs in the management of fade-in/fade-out
+
+    New features:
+        -When music files are dragged to the music part of a slide that already has a playlist, no longer refuses the operation but offers:
+            -either to add them to the current slide playlist
+            -either to use them as a substitute of the current slide playlist
+        -Adds options in the context menu when opened from the musical track
+            -Proposes to remove the playlist (if the slide has one)
+            -Proposes to set music to pause (if music is played during the slide)
+            -Proposes to set music to play (if music is paused during the slide)
+        -Do sound files analysis when they are added to the project
+        -Changes the progress dialog to display the status of the analysis and allow the stop of adding
+        -Adds the display of a progress dialog in the music dialog when adding new songs (and do analysis of them)
+        -Changes the display of the list of songs in the music dialog:
+            -To view the selected duration / total duration of the song
+            -To show the full path of the selected file below the list rather than in the list to optimize the display
+        -Adds fade-in/fade-out options in music box (note: fade-in/out of transition have higher priority than these new options)
+        -Changes the display of the musick track in the timeline
+            -Makes the length of the track proportional on the slide where the music stops
+            -Adds the display of titles and cover of the next song and an arrow indicating the continuation in the playlist
+            -Adds the display of a barred sound icon when empty playlist is placed on a slide
+            -Adds the display of a red bar at the end of the runway, if the music stops during slide
+            -Adds the display of a fade-out topped with a red bar if the music stops during transition
+        -Adds a new dialog box to adjust the slide duration depending on the music
+
+--------------------------------------------------------------------------------
+
+[Commit: 01/03/2014] - ffDiaporama 2.2 devel 20140301
+    Bug fixes:
+        -Fixed a problem of unreadable x264 video encoded with some versions of ffmpeg (removes forcing b-frames in profile High Quality)
+        -Fixed a problem when encoding videos without sound [2.1 regression]
+
+    New features:
+        -In the options dialog, adds 6 combobox to select "profile", "preset" and "tune" options for codecs h264HQ and h264PQ
+        -Creates a new edit music dialog that displays the sound wave and allow to change the start and end positions of a song
+        -In music properties dialog
+            -Adds an edit button that opens the new edit music dialog
+            -Opens the new edit music dialog when you double click on a song in the playlist
+        -Adds the display of the sound wave in the edit video dialog
+
+--------------------------------------------------------------------------------
+
+[Commit: 21/02/2014] - ffDiaporama 2.2 devel 20140221
+    Bug fixes:
+        -Removes unnecessary warnings when compiling in cBaseMediaFile and cBrushDefinition
+        -Fixed the display ratio in the preview area when this one is constrained by the width
+        -Fixed a problem of encoding sound when the soundtrack switch to pause
+        -Fixed a crash that happened when reloading a project with one of the songs has been modified outside ffDiaporama (now an error message appears and the song is removed from the assembly)
+
+    New features:
+        -In the edit slides dialog for editing the length of the slide area:
+            -by default positions the cursor to the area of seconds. (Thus the arrows (+ and -) change default seconds instead of hours)
+            -sets the values ​​of the early images (increment / decrement per image) according to the standard defined in the application options (PAL or NTSC)
+            -allows increments / decrements of the upper unit
+        -In the option dialog of the application in the Project tab
+            -adds the ability to choose the transition B2
+        -Integration of LUMA proposed by Alexander Goponenko
+            -replaces the last 2 LUMA clock (star) and adds their inverses
+            -replaces 4 LUMA Center (2 clercles and 2 squares)
+            -replaces the LUMA mixer checkerboard, spiral and stained glass and adds a second stained glass and a new spot
+        -In the edit video dialog
+            -by default positions the player on the start position of the video
+            -turns the triangle corresponding to the handle of the current position in the progress bar
+            -added 2 handles on the progress bar to define "using mouse" the start and end positions of the video
+            -light handles (start, end and current position) when they was clicked or maintained with the mouse
+            -Changes start and end positions editing so that the + and - buttons:
+                -by default changes the milliseconds
+                -position values ​​on early images (increment/decrement per image)
+                -allows increments/decrements of the upper unit
+        -Updgrade versions of libraries for Windows package
+            -QT upgraded to version 5.2.1 instead of 5.1.1
+            -ffmpeg upgraded to version 2.1.3 instead of 2.1.0
+            -exiv2 upgraded to version 0.24 instead of 0.23
+
+--------------------------------------------------------------------------------
+
+[Commit: 09/02/2014] - ffDiaporama 2.1 Stable
+
+--------------------------------------------------------------------------------
+
+[Commit: ]
+    Bug fixes:
+
+    New features:
+
+--------------------------------------------------------------------------------

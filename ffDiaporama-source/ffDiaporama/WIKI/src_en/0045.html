@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Types of objects in ffDiaporama</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="Content-Language" content="en-US">
+    <meta content="ffDiaporama Team" name="author">
+    <link rel="stylesheet" type="text/css" href="wiki.css"/>
+</head>
+<body>
+    <div><img src="img/logo_big.png"></div>
+    <br>
+    <div>
+        This section contains information about types of objects that can be used with ffDiaporama.
+        <br><h4>Index</h4>
+        <div style="margin-left: 40px;">
+            <div><a href="#Text">Text</a></div>
+            <div><a href="#Music">Music file</a></div>
+            <div><a href="#Bitmap">Bitmap image file</a></div>
+            <div><a href="#Bitmap">Bitmap image from clipboard</a></div>
+            <div><a href="#Vector">Vector image file</a></div>
+            <div><a href="#Video">Video file</a></div>
+            <div><a href="#GMaps">Google maps map</a></div>
+        </div>
+    </div>
+
+    <br>
+    <h3><a name="Text">Text</a></h3>
+    <div style="margin-left: 40px;">
+        <div>&nbsp;</div>
+    </div>
+
+    <br>
+    <h3><a name="Music">Music file</a></h3>
+    <div style="margin-left: 40px;">
+        <div>&nbsp;</div>
+        <div>ffDiaporama can use music file in the following formats: wav, aac, adts, ac3, mp2, mp3, m4a or m4b or m4p, 3g2 or 3ga or 3gp, ogg or oga, spx, wma, flac</div>
+        <div>See also: <a href="http://en.wikipedia.org/wiki/Digital_audio">Definition of music file on Wikipedia</a></div>
+    </div>
+
+    <br>
+    <h3><a name="Bitmap">Bitmap image file and Bitmap image from clipboard</a></h3>
+    <div style="margin-left: 40px;">
+        <div>&nbsp;</div>
+        <div>ffDiaporama can use bitmap images in the following formats: bmp, gif (but not animated gif), jpg or jpeg, png, pbm, pgm, ppm, tiff or tif, xbm, xpm</div>
+        <div>Note: ffDiaporama uses the filename extension to determine the type of image. It is therefore necessary that this extension was valid.</div>
+        <div>See also: <a href="http://en.wikipedia.org/wiki/Raster_graphics">Definition of Bitmap image file on Wikipedia</a></div>
+    </div>
+
+    <br>
+    <h3><a name="Vector">Vector image file</a></h3>
+    <div style="margin-left: 40px;">
+        <div>&nbsp;</div>
+        <div>ffDiaporama can use vector images in the following formats: svg</div>
+        <div>See also: <a href="http://en.wikipedia.org/wiki/Vector_graphics">Definition of vector image file on Wikipedia</a></div>
+    </div>
+
+    <br>
+    <h3><a name="Video">Video file</a></h3>
+    <div style="margin-left: 40px;">
+        <div>&nbsp;</div>
+        <div>ffDiaporama can use video files in the following formats: avi, mov, mpg or mpeg, mkv, mp4 or m4v, flv, 3gp, ogv, webm, dv, wmv, mts or m2ts or mod</div>
+        <div>Note: mts, m2ts and mod files are stream formats (AVCHD) which involve some limitations. For more information on AVCHD, see: <a href="http://en.wikipedia.org/wiki/AVCHD">Advanced Video Coding High Definition on Wikipedia</a></div>
+        <div>See also: <a href="http://en.wikipedia.org/wiki/Digital_video">Definition of video file on Wikipedia</a></div>
+    </div>
+
+    <br>
+    <h3><a name="GMaps">Google Maps</a></h3>
+    <div style="margin-left: 40px;">
+        <div>There are several things to know about Google Maps</div>
+        <ul>
+            <li>Google Maps generates images with up to 640x640. Within these images, Google Maps inserts logos that must be removed so that useful images are really only 640x600.
+            Therefore, to generate an image for example 1080p, we have to assemble 6 Google Maps images.</li>
+            <li>Google Maps limit the number of queries a user can send. This limitation is made to prevent robots to saturate the servers. Unfortunately, this limitation
+            may cause problems when generating big picture. It is possible that you may receive an error warning message saying that you have reached the limit of Google Maps
+            request grants to you.<br>To resolve this problem, ffDiaporama integrates a mechanical of recovery. Thus, if a card can not be generated immediately, you can
+            resume it generation later.</li>
+            <li>The roads are perpetually modified and Google Maps is constantly updated. Of course, it is not possible to generate a map for road conditions at a specific date.
+            Therefore, think before you update a map of an old project.</li>
+        </ul>
+        <h4>Image size and Map size</h4>
+        <div style="margin-left: 40px;">
+            <div>Depending on the zoom level, Google Maps decides himself of the information displayed on the map. Thus, it is not possible to generate several maps at different
+            zoom levels and then to create a zoom animation because there is no chance that this animation be fluid. It's why ffDiaporama proposes to generate maps of several
+            image sizes. So, to create a fluid zoom animation, you can use a large image.</div>
+            <div>&nbsp;</div>
+            <div>The following table shows the different <u>Image sizes</u> that you can generate.</div>
+            <div>&nbsp;</div>
+            <table border="1" cellpadding="2" cellspacing="0"><tbody>
+                <tr>
+                    <td style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">Image size</td>
+                    <td style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">Resolution</td>
+                    <td style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">Comment</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;">Small-16:9</td>
+                    <td style="text-align: left;">640x360 (0.2 MPix)</td>
+                    <td style="text-align: left;">Quarter of 720p. Useful to add a small map in a photo collage</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;">720p-16:9</td>
+                    <td style="text-align: left;">1280x720 (0.9 MPix)</td>
+                    <td style="text-align: left;">Useful for creating a full-screen map in a 720p project or to add a map to a title slide in a 1080p project</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;">720px4-16:9</td>
+                    <td style="text-align: left;">2560x1440 (3.6 MPix)</td>
+                    <td style="text-align: left;">Useful for creating a full-screen <b>animated</b> map in a 720p project or to add an <b>animated</b> map to a title slide in a 1080p project</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;">1080p-16:9</td>
+                    <td style="text-align: left;">1920x1080 (2 MPix)</td>
+                    <td style="text-align: left;">Useful for creating a full-screen map in a 1080p project</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;">1080px4-16:9</td>
+                    <td style="text-align: left;">3840x2160 (8.2 MPix)</td>
+                    <td style="text-align: left;">Useful for creating a full-screen <b>animated</b> map in a 1080p project</td>
+                </tr>
+            </tbody></table>
+            <div style="margin-left: 40px;"><br>Note that all image sizes are 16:9 geometry to simplify computation.</div>
+            <div>&nbsp;</div>
+            <div>Because a map is formed by joining multiple pieces of map, based on the image size, the card will be a map greater or lesser.</div>
+            <div>&nbsp;</div>
+            <div>The following table shows the <u>Map sizes</u> in kilometers for each <u>Image sizes</u> and <u>Google Maps zoom levels</u>.</div>
+            <div>&nbsp;</div>
+            <table border="1" cellpadding="2" cellspacing="0"><tbody>
+                <tr>
+                    <td colspan="1" rowspan="2" style="text-align: center; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">Zoom</td>
+                    <td colspan="5" rowspan="1" style="text-align: center; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">Maps sizes (kilometers)</td>
+                </tr>
+                <tr>
+                    <td colspan="1" rowspan="1" style="text-align: center; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">640x360</td>
+                    <td colspan="1" rowspan="1" style="text-align: center; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">720p</td>
+                    <td colspan="1" rowspan="1" style="text-align: center; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">720p x4</td>
+                    <td colspan="1" rowspan="1" style="text-align: center; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">1080p</td>
+                    <td colspan="1" rowspan="1" style="text-align: center; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">1080 x4</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">2</td>
+                    <td style="text-align: center;">15011.315 km x 8613.829 km</td>
+                    <td style="text-align: center;">-</td>
+                    <td style="text-align: center;">-</td>
+                    <td style="text-align: center;">-</td>
+                    <td style="text-align: center;">-</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">3</td>
+                    <td style="text-align: center;">12509.429 km x 5930.123 km</td>
+                    <td style="text-align: center;">15011.315 km x 8613.829 km</td>
+                    <td style="text-align: center;">-</td>
+                    <td style="text-align: center;">-</td>
+                    <td style="text-align: center;">-</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">4</td>
+                    <td style="text-align: center;">6254.715 km x 3351.985 km</td>
+                    <td style="text-align: center;">12509.429 km x 5930.123 km</td>
+                    <td style="text-align: center;">15011.315 km x 8613.829 km</td>
+                    <td style="text-align: center;">18764.144 km x 7605.642 km</td>
+                    <td style="text-align: center;">-</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">5</td>
+                    <td style="text-align: center;">3127.357 km x 1737.202 km</td>
+                    <td style="text-align: center;">6254.715 km x 3351.985 km</td>
+                    <td style="text-align: center;">12509.429 km x 5930.123 km</td>
+                    <td style="text-align: center;">9382.072 km x 4760.424 km</td>
+                    <td style="text-align: center;">18764.144 km x 7605.642 km</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">6</td>
+                    <td style="text-align: center;">1563.679 km x 876.788 km</td>
+                    <td style="text-align: center;">3127.357 km x 1737.202 km</td>
+                    <td style="text-align: center;">6254.715 km x 3351.985 km</td>
+                    <td style="text-align: center;">4691.036 km x 2566.349 km</td>
+                    <td style="text-align: center;">9382.072 km x 4760.424 km</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">7</td>
+                    <td style="text-align: center;">781.839 km x 439.436 km</td>
+                    <td style="text-align: center;">1563.679 km x 876.788 km</td>
+                    <td style="text-align: center;">3127.357 km x 1737.202 km</td>
+                    <td style="text-align: center;">2345.518 km x 1310.024 km</td>
+                    <td style="text-align: center;">4691.036 km x 2566.349 km</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">8</td>
+                    <td style="text-align: center;">390.920 km x 219.849 km</td>
+                    <td style="text-align: center;">781.839 km x 439.436 km</td>
+                    <td style="text-align: center;">1563.679 km x 876.788 km</td>
+                    <td style="text-align: center;">1172.759 km x 658.501 km</td>
+                    <td style="text-align: center;">2345.518 km x 1310.024 km</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">9</td>
+                    <td style="text-align: center;">195.460 km x 109.941 km</td>
+                    <td style="text-align: center;">390.920 km x 219.849 km</td>
+                    <td style="text-align: center;">781.839 km x 439.436 km</td>
+                    <td style="text-align: center;">586.379 km x 329.691 km</td>
+                    <td style="text-align: center;">1172.759 km x 658.501 km</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">10</td>
+                    <td style="text-align: center;">97.730 km x 54.972 km</td>
+                    <td style="text-align: center;">195.460 km x 109.941 km</td>
+                    <td style="text-align: center;">390.920 km x 219.849 km</td>
+                    <td style="text-align: center;">293.190 km x 164.901 km</td>
+                    <td style="text-align: center;">586.379 km x 329.691 km</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">11</td>
+                    <td style="text-align: center;">48.865 km x 27.486 km</td>
+                    <td style="text-align: center;">97.730 km x 54.972 km</td>
+                    <td style="text-align: center;">195.460 km x 109.941 km</td>
+                    <td style="text-align: center;">146.595 km x 82.457 km</td>
+                    <td style="text-align: center;">293.190 km x 164.901 km</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">12</td>
+                    <td style="text-align: center;">24.432 km x 13.743 km</td>
+                    <td style="text-align: center;">48.865 km x 27.486 km</td>
+                    <td style="text-align: center;">97.730 km x 54.972 km</td>
+                    <td style="text-align: center;">73.297 km x 41.230 km</td>
+                    <td style="text-align: center;">146.595 km x 82.457 km</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">13</td>
+                    <td style="text-align: center;">12.216 km x 6.872 km</td>
+                    <td style="text-align: center;">24.432 km x 13.743 km</td>
+                    <td style="text-align: center;">48.865 km x 27.486 km</td>
+                    <td style="text-align: center;">36.649 km x 20.615 km</td>
+                    <td style="text-align: center;">73.297 km x 41.230 km</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">14</td>
+                    <td style="text-align: center;">6.108 km x 3.436 km</td>
+                    <td style="text-align: center;">12.216 km x 6.872 km</td>
+                    <td style="text-align: center;">24.432 km x 13.743 km</td>
+                    <td style="text-align: center;">18.324 km x 10.307 km</td>
+                    <td style="text-align: center;">36.649 km x 20.615 km</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">15</td>
+                    <td style="text-align: center;">3.054 km x 1.718 km</td>
+                    <td style="text-align: center;">6.108 km x 3.436 km</td>
+                    <td style="text-align: center;">12.216 km x 6.872 km</td>
+                    <td style="text-align: center;">9.162 km x 5.154 km</td>
+                    <td style="text-align: center;">18.324 km x 10.307 km</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">16</td>
+                    <td style="text-align: center;">1.527 km x 0.859 km</td>
+                    <td style="text-align: center;">3.054 km x 1.718 km</td>
+                    <td style="text-align: center;">6.108 km x 3.436 km</td>
+                    <td style="text-align: center;">4.581 km x 2.577 km</td>
+                    <td style="text-align: center;">9.162 km x 5.154 km</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">17</td>
+                    <td style="text-align: center;">0.764 km x 0.429 km</td>
+                    <td style="text-align: center;">1.527 km x 0.859 km</td>
+                    <td style="text-align: center;">3.054 km x 1.718 km</td>
+                    <td style="text-align: center;">2.291 km x 1.288 km</td>
+                    <td style="text-align: center;">4.581 km x 2.577 km</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">18</td>
+                    <td style="text-align: center;">-</td>
+                    <td style="text-align: center;">0.764 km x 0.429 km</td>
+                    <td style="text-align: center;">1.527 km x 0.859 km</td>
+                    <td style="text-align: center;">1.145 km x 0.644 km</td>
+                    <td style="text-align: center;">2.291 km x 1.288 km</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">19</td>
+                    <td style="text-align: center;">-</td>
+                    <td style="text-align: center;">-</td>
+                    <td style="text-align: center;">0.764 km x 0.429 km</td>
+                    <td style="text-align: center;">-</td>
+                    <td style="text-align: center;">1.145 km x 0.644 km</td>
+                </tr>
+            </tbody></table>
+            <div style="margin-left: 40px;">
+                <div><br>Notes:</div>
+                <ul>
+                    <li>Because Google Maps don't respect perfect alignment when using high zoom level, all map sizes lesser than 400 meters are useless with ffDiaporama.</li>
+                    <li>Google Maps zoom levels 0 and 1 are useless with ffDiaporama because they produce images that are too small.</li>
+                    <li>Google Maps zoom levels 20 and 11 are useless with ffDiaporama Google Maps don't respect perfect alignment when using high zoom level.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

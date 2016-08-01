@@ -1,0 +1,26 @@
+[Desktop Entry]
+Version=1.0
+Name=Movie creator ffDiaporama
+Name[fr]=Créateur de film ffDiaporama
+Name[it]=Movie creator ffDiaporama
+Name[es]=Creador de películas ffDiaporama
+Name[el]=Δημιουργός ταινιών ffDiaporama
+Name[gl]=Creador de filmes ffDiaporama
+GenericName=Movie creator
+GenericName[fr]=Créateur de film
+GenericName[it]=Creatore di pellicole cinematografiche
+GenericName[es]=Creador de películas
+GenericName[el]=Δημιουργός ταινιών
+GenericName[gl]=Creador de filmes
+Comment=Movie creator from photos and video clips
+Comment[fr]=Créateur de film depuis des photos et des clips vidéo
+Comment[it]=Creatore di pellicole cinematografiche da foto e filmati video
+Comment[es]=Creador de películas a partir de fotos y clips de vídeo
+Comment[el]=Δημιουργός ταινιών από φωτογραφίες και βίντεο κλιπ
+Comment[gl]=Creador de filmes a partires de diapositivas e fragmentos de vídeo
+Icon=ffdiaporama
+Terminal=false
+Type=Application
+Exec=ffDiaporama %F
+MimeType=application/ffDiaporama;
+Categories=GTK;GNOME;Qt;KDE;AudioVideo

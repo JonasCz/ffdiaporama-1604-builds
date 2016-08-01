@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="gl">
+    <head>
+        <title>
+            Os ficheiros de configuraci&oacute;n para ffDiaporama
+        </title>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+        <meta http-equiv="Content-Language" content="gl-GL" <meta content="ffDiaporama Team" name="author">
+        <link rel="stylesheet" type="text/css" href="wiki.css"/>
+    </head>
+    <body>
+        <div>
+            Para que funcione, o programa necesita dous ficheiros de configuraci&oacute;n e unha base de datos. Os dous ficheiros de configuraci&oacute;n comp&oacute;&ntilde;ense dun par de ficheiros.
+        </div>
+        <div>
+            <br>
+            Por exemplo:
+        </div>
+        <ul>
+            <li>
+                O ficheiro ffDiaporama.xml principal almacenase no directorio do ffDiaporama. Este ficheiro &eacute; global para todos os usuarios: cont&eacute;n os par&aacute;metros predeterminados do programa ffDiaporama.
+                <ul>
+                    <li>
+                        Para Windows, &eacute; C:\Program Files\ffDiaporama
+                    </li>
+                    <li>
+                        Para Linux, &eacute; /usr/share/ffDiaporama
+                    </li>
+                </ul>
+                <br>
+            </li>
+            <li>
+                Un ficheiro secundario ffDiaporama.xml espec&iacute;fico do usuario est&aacute; situado no directorio de perfil de usuario. 
+                <ul>
+                    <li>
+                        Para Windows, &eacute; C:\Document and settings\[usuario]
+                    </li>
+                    <li>
+                        Para Linux, &eacute; ~/.ffDiaporama
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <br>
+         Cando se inicia o programa por primeira vez, cr&eacute;anse os ficheiros de configuraci&oacute;n do usuario e da base de datos se a&iacute;nda non est&aacute;n dispo&ntilde;&iacute;beis.
+        <br>
+        <h4>
+            Observaci&oacute;n:
+        </h4>
+        <div style="margin-left: 40px;">
+            Se ffDiaporama &eacute; utilizado por varios usuarios no mesmo computador, haber&aacute; ficheiros de configuraci&oacute;n e de base de datos independentes para cada usuario.
+        </div>
+        <br>
+        <table border="1" cellpadding="2" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td colspan="1" rowspan="1" style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">
+                        Ficheiro
+                    </td>
+                    <td colspan="1" rowspan="1" style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">
+                        Uso
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: left; vertical-align: top;">
+                        ffDiaporama.xml
+                    </td>
+                    <td style="text-align: left; vertical-align: top;">
+                        Cont&eacute;n as opci&oacute;ns do programa para ffDiaporama
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: left; vertical-align: top;">
+                        Devices.xml
+                    </td>
+                    <td style="text-align: left; vertical-align: top;">
+                        Cont&eacute;n a base dos perfiles para a xeraci&oacute;n de v&iacute;deo.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: left; vertical-align: top;">
+                        ffDiaporama.db
+                    </td>
+                    <td style="text-align: left; vertical-align: top;">
+                        &Eacute; unha base de datos SQLite3 que cont&eacute;n obxectos na cach&eacute; e algunhas opci&oacute;ns de configuraci&oacute;n.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

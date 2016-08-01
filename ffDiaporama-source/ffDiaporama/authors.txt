@@ -1,0 +1,37 @@
+(C) 2011-2014 Dominique LEVRAY <domledom@laposte.net>
+
+ffDiaporama use these third party libraries :
+    QT <http://qt.digia.com/>
+    fmt_filters <http://ksquirrel.sourceforge.net/subprojects.php>
+    QImageBlitz <http://qimageblitz.sourceforge.net/>
+    libav <http://libav.org/>
+    ffmpeg <http://www.ffmpeg.org/>
+    Windows ffmpeg binaries <zeranoe...>
+    libexiv2 <http://www.exiv2.org/>
+    taglib <http://developer.kde.org/~wheeler/taglib.html>
+
+Logo & icons:
+    Zouly <http://www.customxp.net/PngFactory/galerie-png-24105-Zouly.html>
+    Pepe Baeza <http://www.quesepuedehacerenlinux.net/search/label/ffdiaporama>
+    Crystal Project <http://www.everaldo.com/crystal/>
+    Nuvola <http://fr.wikipedia.org/wiki/Nuvola>
+    OpenClipArts <http://openclipart.org/>
+
+Luma files:
+    Some files are in the public domain
+    Some files from Dominique LEVRAY <domledom@laposte.net>
+    Some files from Alexander Goponenko <agoponenko@gmail.com>
+
+Translation:
+    Czech: Bagicz
+    Dutch: J.G. Visser <jgvnet@gmail.com>
+    English: Dominique LEVRAY <domledom@laposte.net>
+    French: Dominique LEVRAY <domledom@laposte.net>
+    Galician: Miguel Anxo Bouzada <mbouzada@gmail.com> <http://minino.galpon.org>
+    German: Thomas Böhmwalder <http://ffdiaporama.tuxfamily.org/Forum/misc.php?email=104> + Armin Ipfelkofer <a.ipfelkofer@gmx.net>
+    Greec: Dimitrios Glentadakis <http://ffdiaporama.tuxfamily.org/Forum/misc.php?email=34>
+    Italian: Lino Fantasia <http://www.anxurweb.com/fine-dello-sviluppo-di-videoporama-benvenuto-ffdiaporama.html>
+    Portuguese: José Venãncio Santos <http://jotavmultimedia.blogspot.fr/>
+    Russian: Vasily Polyakov <polyakov.ve@gmail.com> + Mikhail Dureev <http://ffdiaporama.tuxfamily.org/Forum/misc.php?email=16>
+    Spanish: Pepe Baeza <http://www.quesepuedehacerenlinux.net/search/label/ffdiaporama>
+    Taiwanese: kentxchang

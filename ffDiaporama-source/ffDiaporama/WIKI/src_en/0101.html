@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Application options dialog</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="Content-Language" content="en-US">
+    <meta content="ffDiaporama Team" name="author">
+    <link rel="stylesheet" type="text/css" href="wiki.css"/>
+</head>
+<body>
+    <div>This dialog box allows you to define options for the application. It consists of the following 3 tabs:</div>
+    <ul>
+      <li>The Application options tab allows you to define the general behavior of ffDiaporama.</li>
+      <li>The Project options tab allows you to define the options by default of the current project and for the new projects.</li>
+      <li>The Rendering options Tab allows you to define the options used by default during the generation of videos.</li>
+    </ul>
+
+    <h2>Application options</h2>
+    <div style="margin-left: 40px;">
+        <div>The Application options tab allows to define the general behavior of ffDiaporama.</div>
+        <h3>Application options</h3>
+        <table border="1" cellpadding="2" cellspacing="0">
+          <tbody>
+            <tr>
+              <td style="vertical-align: top;">Remember Windows size and positions</td>
+              <td style="vertical-align: top;">If this box is checked, the sizes and the positions of all windows and dialogs will be saved and reused the next time you use ffDiaporama.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Remember last used folders</td>
+              <td style="vertical-align: top;">If this box is checked, the directories for images, videos, projects, music and the generation of your movie will be saved and reused the next time you use ffDiaporama.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Enable "raster" Graphics system</td>
+              <td style="vertical-align: top;"><b>For Linux users only: </b>If this box is checked, the graphic system "raster" is used instead of the default graphic system. This option is used only at application start up.
+              <br>The "raster" Graphics accelerates the display but can raise problems on some computer in particular with KDE.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Disable tooltips in dialog box</td>
+              <td style="vertical-align: top;">If this box is checked, tooltips will no longer appear in dialog boxes (only what's this will be available).</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Offer to open the download Web page when a new version is available</td>
+              <td style="vertical-align: top;">If this box is checked, a dialog box will appear at startup the next time a new version will be available.
+                <br>By default, this box is checked for Windows users and unchecked for Linux users</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Memory profil</td>
+              <td style="vertical-align: top;">Defines the quantity of memory used as cache memory by ffDiaporama. This parameter is important because it allows to adapt ffDiaporama to your hardware.
+                <br>For users of 32-bit systems, it is recommended that set this value to 512 MB if the computer has at least 2 GB of RAM.
+                <br>For users of 64-bit systems, it is recommended that set this value to 2 GB if the computer has at least 4 GB of RAM.</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <h3>Preview options</h3>
+        <table border="1" cellpadding="2" cellspacing="0">
+          <tbody>
+            <tr>
+              <td style="vertical-align: top;">Frame rate</td>
+              <td style="vertical-align: top;">Defines the number of images per second which will be generated to show the preview.
+                <br>Note: the higher this number, the more smooth the preview will be. On the other hand, more computer resources will be required. Reduce this number on slow computers or if the gauge for your multimedia reader is frequently in the red zone.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Max video preview height</td>
+              <td style="vertical-align: top;">Sets the maximum height of videos used for the preview. Beyond this height, the videos are automatically reduced for creating images.
+                <br>This parameter affects only the preview and does not change the quality of rendered video.
+                <br>It is recommended to reduce this value for slow computer.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Image smoothing (smooth images during preview)</td>
+              <td style="vertical-align: top;">If this box is checked, the image smoothing effect will be applied to the images during the preview.
+                <br>This effect consumes lots of resources and can result in slow preview on small machines. Unchecking this box allows then to keep a fluid preview.
+                <br>This parameter affects only the preview and does not change the quality of rendered video.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Sound sample rate</td>
+              <td style="vertical-align: top;">Defines the frequency of the sound generated to show the preview.
+                <br>This parameter affects only the preview and does not change the quality of rendered video.
+                <br>It is recommended to reduce this value for slow computer.</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <h3>Editor options</h3>
+        <table border="1" cellpadding="2" cellspacing="0">
+          <tbody>
+            <tr>
+              <td style="vertical-align: top;">Coordinates unit</td>
+              <td style="vertical-align: top;">This option allows to select the unit for the coordinates which will be used in the properties dialog. You can choose:
+                <ul>
+                  <li>Percentage: Coordinates (X, Y, Width and Height) are expressed in percentages</li>
+                  <li>Pixel: Coordinates (X, Y, Width and Height) are expressed in pixels relative to a screen in 1080p mode</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Object position</td>
+              <td style="vertical-align: top;">This option allows you to adjust the positions occupied by new objects inserted into the timeline.
+              <ul>
+                  <li>If <i><b>Insert after the current selected object</b></i> is selected, then the new slides will be created after the current slide.</li>
+                  <li>If <i><b>Append to the end of the project</b></i> is selected, then the new slides will be created at the end of the project.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Object deletion</td>
+              <td style="vertical-align: top;">If this box is checked, a confirmation prompt will be displayed every time you remove an object:
+                <ul>
+                  <li>A slide from the main window</li>
+                  <li>A shot or bloc from the slide properties dialog box</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Video cropping</td>
+              <td style="vertical-align: top;">If the <b>Automatically crop 1920x1088 video to 1920x1080</b> is checked then video images are automatically cropped.
+                <br>Remark: Some manufacturers produce FullHD videos 1920x1088 rather than 1920x1080. They make it to accelerate the encoding which is faster with a multiple of 16 lines. But this size is not 16:9. To keep the whole image, not only the image is deformed to fit into the screen but besides black bands appear on the sides. To avoid all these problems, by checking this box, these videos are truncated to be returned to the 1920x1080 sizes. Then 4 lines are cut at the top and bottom.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Video deinterlacing</td>
+              <td style="vertical-align: top;">If the <b>Activate deinterlace filter when add new MTS videos</b> is checked, deinterlace filter will automatically be activated for all .mts videos added to the project.
+                <br>Remark: Some manufacturers produce videos using interlaced mode. They make it to accelerate the encoding. The problem is it deforms the image on which moved lines appear. For more information on interlaced video, see this Wikipedia page: <a href="http://en.wikipedia.org/wiki/Interlaced_video">interlaced video</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <h3>Network settings</h3>
+        <table border="1" cellpadding="2" cellspacing="0">
+          <tbody>
+            <tr>
+              <td style="vertical-align: top;">Use a proxy to access the Internet</td>
+              <td style="vertical-align: top;">Check this box if your network requires that you use a proxy.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Proxy address</td>
+              <td style="vertical-align: top;">Enter address of the proxy host.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Proxy port</td>
+              <td style="vertical-align: top;">Enter the port number to access the proxy or nothing to use default port.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Login</td>
+              <td style="vertical-align: top;">Enter the login name to access the proxy or nothing if no login is required.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Password</td>
+              <td style="vertical-align: top;">Enter the login password to access the proxy or nothing if no login is required.</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <h3>Various options</h3>
+        <table border="1" cellpadding="2" cellspacing="0">
+          <tbody>
+            <tr>
+              <td style="vertical-align: top;">Short date format</td>
+              <td style="vertical-align: top;">This option allows you to specify the format in which computed dates are displayed.
+                <br>Normally this format depends on the language used on your system, but it can be useful to change it especially if the interface is not available for your language.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Distance unit</td>
+              <td style="vertical-align: top;">This option lets you specify the unit to be used for distances.</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+    </div>
+
+    <h2>Project options</h2>
+    <div style="margin-left: 40px;">
+        <div>The Project options tab allows to define the options by default of the current project and for the new projects.</div>
+        <h3>Project properties</h3>
+        <table border="1" cellpadding="2" cellspacing="0">
+          <tbody>
+            <tr>
+              <td style="vertical-align: top;">Title</td>
+              <td style="vertical-align: top;">Defined the automatic filling method to use for the title's project properties:
+                <ul>
+                  <li>No automatic filling : You will have to define manually the title</li>
+                  <li>Fill with project name when project save : The title will take the same name as the .ffd file</li>
+                  <li>Fill with project folder name when project save : The title will take the same name as the folder in which is save the .ffd file</li>
+                </ul>
+                </td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Album</td>
+              <td style="vertical-align: top;">Defines the default value for the field Album</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Author</td>
+              <td style="vertical-align: top;">Defines the default value for the field Author that is often so called Artist by <a href="http://en.wikipedia.org/wiki/Media_center">Media Center Systems</a></td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Default language</td>
+              <td style="vertical-align: top;">Defines the default value for the field Language</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Enhance id3v2 comptatibility</td>
+              <td style="vertical-align: top;">For more compatibility with the standard id3v2, check this box to limit Title, Author and Album fields to 30 characters</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Default thumbnail</td>
+              <td style="vertical-align: top;">Defines the model use as default thumbnail. Thumbnails are images that are generated along with the videos. These images are used as a poster by most <a href="http://en.wikipedia.org/wiki/Media_center">Media Center Systems</a>.
+              <br>For more information on joined files, see <a href="003A.html">File attachments</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <h3>Project options</h3>
+        <table border="1" cellpadding="2" cellspacing="0">
+          <tbody>
+            <tr>
+              <td style="vertical-align: top;">New project geometry</td>
+              <td style="vertical-align: top;">Selects the image geometry to be used for the creation of projects. Three geometries are available :
+                <ul>
+                  <li>4:3: Corresponds to an old TV with (almost) square screen</li>
+                  <li>16:9: Corresponds to a modern TV with rectangular screen</li>
+                  <li>2.35:1: Corresponds to the Cinema format (on a TV, this format will use black strips at the top and below).</li>
+                </ul>
+                Note: the geometry of a project is defined once and for all when it is created. It is not possible to modify it afterwards.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Default 1<sup>st</sup> shot duration</td>
+              <td style="vertical-align: top;">Defines the default duration of the first shot for slides during their creation.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Next shot duration</td>
+              <td style="vertical-align: top;">Defines the default duration of further shots.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Default transition</td>
+              <td style="vertical-align: top;">Defines the transition to be inserted between inserted slides :
+                <ul>
+                  <li><img src="img/random.png"> A transition chosen randomly from the library</li>
+                  <li><img src="img/Transitions/tr-00-00.png"> No transition</li>
+                  <li><img src="img/Transitions/tr-00-01.png"> Cross-fade transition</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <h3>Default options for speed waves</h3>
+        <table border="1" cellpadding="2" cellspacing="0">
+          <tbody>
+            <tr>
+              <td nowrap>Transition</td>
+              <td >Sets the default speed wave for the transitions of new projects</td>
+            </tr>
+            <tr>
+              <td nowrap>Blocks animation</td>
+              <td>Sets the default speed curve for the blocks animations of new projects</td>
+            </tr>
+            <tr>
+              <td nowrap>Images animation</td>
+              <td>Sets the default speed for the image effects animations of new projects</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <h3>Default options for new text block</h3>
+        <div margin-left: 40px;>This group of settings applies to the new text blocks created in slide dialogue by means of this button: <img src="img/add_text.png"></div>
+        <table border="1" cellpadding="2" cellspacing="0">
+          <tbody>
+            <tr>
+              <td style="vertical-align: top;">Text</td>
+              <td style="vertical-align: top;">Allows to select the characters style applied to the new text blocks. This style defines the font, its size, its color and the shadow effects applied to the text.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Background</td>
+              <td style="vertical-align: top;">Allows to select the style of background applied to the new text blocks. This style defines the transparency of the block and its filling.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Shape</td>
+              <td style="vertical-align: top;">Allows to select the style of the shape to applied to the new text blocks. This style defines the shape (rectangle, circle, ...), the border, the opaqueness and the shadow effect applied to the block.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Coordinates</td>
+              <td style="vertical-align: top;">Allows to select, for every project geometry, the style of the location applied to the new text blocks. This style defines the size, the coordinates, the rotations and the geometrical constraint.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Locking</td>
+              <td style="vertical-align: top;">Allows to Select the geometric constraint applied to the new text blocks.
+                <ul>
+                  <li>Unlock: The shape of the block is free</li>
+                  <li>Lock to project geometry: The shape of the has the same shape as the image</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <h3>Default options for new image or video block (when creating slide)</h3>
+        <div style="margin-left: 40px;">
+            <div>This group of settings applies to the new image or video blocks created from the main window by means of this button: <img src="img/add_image.png"></div>
+            <div>The following settings apply to all image formats:</div>
+            <table border="1" cellpadding="2" cellspacing="0">
+                <tbody>
+                  <tr>
+                    <td style="vertical-align: top;">Text style</td>
+                    <td style="vertical-align: top;">Allows to select the characters style applied to the text of the blocks. This style defines the font, its size, its color and the shadow effects applied to the text.</td>
+                  </tr>
+                  <tr>
+                    <td style="vertical-align: top;">Shape</td>
+                    <td style="vertical-align: top;">Allows to select the style of the shape to applied to the new text blocks. This style defines the shape (rectangle, circle, ...), the border, the opaqueness and the shadow effect applied to the block.</td>
+                  </tr>
+                </tbody>
+            </table>
+            <br>
+            <div>For every image format and every project geometry select the style of location to applied to the new blocks. This style concerns the size, the coordinates, the rotations and the geometrical constraint.</div>
+            <div>Select, for each image format, the style of framing and the style of positioning to be applied to new blocks.</div>
+            <ul>
+                <li>Framing styles define how to crop the image to make it compatible with the block in which is displayed.</li>
+                <li>The positioning styles define the the size, coordinates, rotations and geometric constraint to apply to blocks.</li>
+            </ul>
+        </div>
+        <h3>Default options for new image or video block (when adding block in slide dialog)</h3>
+        <div style="margin-left: 40px;">This group of settings applies to the new image or video blocks created in slide dialogue by means of this button: <img src="img/add_image.png"></div>
+        <div style="margin-left: 40px;">The same selection that when creating slides apply.</div>
+        <br>
+    </div>
+
+    <h2>Rendering options</h2>
+    <div style="margin-left: 40px;">
+        <div>The Rendering options Tab allows to define the options used by default during the generation of videos.</div>
+        <h3>Default video name</h3>
+        <div style="margin-left: 40px;">This option allows to select the name which will be proposed by default during the rendering of videos. This option can be applied only if the project was saved at first.</div>
+        <table border="1" cellpadding="2" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td>Use project name as video name</td>
+                    <td>If the project name is "assembly.ffd", then "assembly" will be the proposed name</td>
+                </tr>
+                <tr>
+                    <td>Use project folder's name as video name</td>
+                    <td>If the project name is "assembly.ffd" and is saved in the "My holidays 2011" directory, then "My holidays 2011" will be the proposed name</td>
+                </tr>
+                <tr>
+                    <td>Use title project as video name</td>
+                    <td>Use the title defined in the project properties as the name of video</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h3>Default joined files options</h3>
+        <div style="margin-left: 40px;">For more information on joined files, see <a href="003A.html">File attachments</a></div>
+        <table border="1" cellpadding="2" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td>Join thumbnail to rendered file</td>
+                    <td>If this box is checked then a thumbnail file will be created with video.</td>
+                </tr>
+                <tr>
+                    <td>Join XBMC .nfo file to rendered file</td>
+                    <td>If this box is checked then a XMBC .nfo file will be created with video.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Default sound level</h3>
+        <div style="margin-left: 40px;">Set the volume level to be achieved by amplification for music and audio tracks when the volume is set to auto</div>
+        <br>
+        <h3>Default device mode rendering options</h3>
+        <table border="1" cellpadding="2" cellspacing="0">
+          <tbody>
+            <tr>
+              <td style="vertical-align: top;">Smartphone</td>
+              <td style="vertical-align: top;">Selects the default type and equipment model when you will click the "Player and Smartphone" button of the "Render movie" menu</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Multimedia system</td>
+              <td style="vertical-align: top;">Selects the default type and equipment model when you will click the "Multimedia system" button of the "Render movie" menu</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">For the WEB</td>
+              <td style="vertical-align: top;">Selects the default type and equipment model when you will click the "For the Web" button of the "Render movie" menu</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Lossless</td>
+              <td style="vertical-align: top;">Selects the default image size to be used when you will click the "Lossless" button of the "Render movie" menu</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <h3>Default advanced rendering options</h3>
+        <table border="1" cellpadding="2" cellspacing="0"><tbody>
+            <tr>
+              <td style="vertical-align: top;">File format</td>
+              <td style="vertical-align: top;">Selects the default file type to use for the rendering out of the proposed list.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Video standard</td>
+              <td style="vertical-align: top;">Selects the default video standard to use: PAL or NTSC.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Format</td>
+              <td style="vertical-align: top;">Selects the default image format to use for the rendering out of the proposed list.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Video codec</td>
+              <td style="vertical-align: top;">Selects the default video codec to use for the rendering out of the proposed list.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Bitrate</td>
+              <td style="vertical-align: top;">Selects the default bit rate to use for video during the rendering out of the proposed list.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Audio codec</td>
+              <td style="vertical-align: top;">Selects the default audio codec to use for the rendering out of the proposed list.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Bitrate</td>
+              <td style="vertical-align: top;">Selects the default bit rate to use for audio during the rendering out of the proposed list.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Frequency</td>
+              <td style="vertical-align: top;">Select the default frequency to use for audio during the rendering.</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <h3>Default soundtrack rendering options</h3>
+        <table border="1" cellpadding="2" cellspacing="0"><tbody>
+            <tr>
+              <td style="vertical-align: top;">File format</td>
+              <td style="vertical-align: top;">Selects the default file type to use for the rendering out of the proposed list.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Audio codec</td>
+              <td style="vertical-align: top;">Selects the default audio codec to use for the rendering out of the proposed list.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Bitrate</td>
+              <td style="vertical-align: top;">Selects the default bit rate to use for audio during the rendering out of the proposed list.</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: top;">Frequency</td>
+              <td style="vertical-align: top;">Select the default frequency to use for audio during the rendering.</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+    </div>
+
+    <h2>Other actions</h2>
+    <div style="margin-left: 40px;">
+        <div>At the bottom of the dialog these buttons allow you to:</div>
+        <ul>
+          <li><img src="img/config.png"> Check configuration allows to open the <a href="0106.html">Check configuration dialog</a></li>
+          <li><img src="img/db.png"> Manage device allows to open the <a href="0102.html">Manage device dialog</a></li>
+        </ul>
+    </div>
+</body>
+</html>

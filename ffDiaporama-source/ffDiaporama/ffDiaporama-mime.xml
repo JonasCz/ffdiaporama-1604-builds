@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+    <mime-type type="application/ffDiaporama">
+  	    <glob pattern="*.ffd"/>
+  	    <comment>ffDiaporama file</comment>
+    </mime-type>
+    <mime-type type="application/ffDiaporama">
+            <glob pattern="*.thb"/>
+            <comment>ffDiaporama thumbnail model file</comment>
+    </mime-type>
+    <mime-type type="application/ffDiaporama">
+            <glob pattern="*.tts"/>
+            <comment>ffDiaporama title model file</comment>
+    </mime-type>
+</mime-info>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Transition properties</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="Content-Language" content="en-US">
+    <meta content="ffDiaporama Team" name="author">
+    <link rel="stylesheet" type="text/css" href="wiki.css"/>
+</head>
+<body>
+    <div>
+        This dialog allows you to define the entering transition for a slide.
+        <br>It shows a preview of the available transitions by transition family.
+        <br>Remark : In case this dialog is opened for a multiple slide selection, it's the first slide of the selection that is used for the preview.
+    </div>
+    <br>
+
+    <table border="0" cellpadding="0" cellspacing="10"><tbody>
+        <tr>
+            <td valign="top">Transition type</td>
+            <td>Allows you to select a transition family:
+                            <table border="1" cellpadding="2" cellspacing="0"><tbody>
+                                <tr>
+                                    <td nowrap valign="top">No transition</td>
+                                    <td>No transition: The new slide immediately replaces the old one.
+                                        <br>Note that this also deactivates:<ul>
+                                            <li>Sound fades (The playlist of the new slide immediately replaces that of the old one)</li>
+                                            <li>Background transitions</li>
+                                        </ul></td>
+                                </tr>
+                                <tr>
+                                    <td nowrap valign="top">Basic</td>
+                                    <td>Dissolve effect: The slide appears gradually, with gradually increasing opacity.</td>
+                                </tr>
+                                <tr>
+                                    <td nowrap valign="top">Scripted transition</td>
+                                    <td>Zoom: The new slide appears by getting bigger while the old slide disappears with a dissolve effect.
+                                        <br>Slide: The new slide glides onto the old slide which disappears with a dissolve effect.
+                                        <br>Push: The new slide takes the place of the old slide by pushing it aside.</td>
+                                </tr>
+                                <tr>
+                                    <td nowrap valign="top">LUMA transition</td>
+                                    <td>The animation is based on a luminance mask : the darker the points in the mask, the faster the corresponding points in the new slide replace those in the old slide.</td>
+                                </tr>
+                            </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td nowrap valign="top">Speed wave</td>
+            <td>Allows you to select a speed curve to apply to the transition</td>
+        </tr>
+        <tr>
+            <td valign="top">Duration</td>
+            <td>Allows you to define the duration of the animation.
+                <br>The possible choices are of 0,5 seconds (very fast) to 10 seconds (very slow)</td>
+        </tr>
+    </tbody></table>
+
+    <h2>See also</h2>
+    <table border="0" cellpadding="0" cellspacing="10">	<tbody>
+        <tr>
+            <td><img src="wiki_img/Wikipedia.png"></td>
+            <td><ul>
+                <li><a href="http://en.wikipedia.org/wiki/Luma_%28video%29">Description of LUMA</a></li>
+                </ul></td>
+            </tr>
+    </tbody></table>
+</body>
+</html>

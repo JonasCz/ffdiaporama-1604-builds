@@ -1,0 +1,30 @@
+<!DOCTYPE ffDiaporama>
+<Model>
+    <TitleModel ShotNumber="2" NextIndexKey="3">
+        <ObjectComposition TypeComposition="1" CompositionNumber="1">
+            <Composition-0 TypeComposition="1" Text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'Comic Sans MS'; font-size:28pt; color:#fff7c1;&quot;>%CCN%&lt;/span>&lt;/p>&lt;/body>&lt;/html>" IsVisible="1" FontShadowColor="#442e0e" IndexKey="2" w="0,5" StyleText="4" x="0,25" y="0,25" h="0,5" FontColor="#fff7c1" FontName="Comic Sans MS" FontSize="28" TMType="0" SameAsPrevShot="0">
+                <BackgroundBrush TypeComposition="1" BrushType="0">
+                    <ImageCorrection ZoomFactor="1" AspectRatio="0,5625" X="0" Y="0"/>
+                </BackgroundBrush>
+            </Composition-0>
+        </ObjectComposition>
+        <Shot-0 StaticDuration="3000">
+            <ShotComposition TypeComposition="2" CompositionNumber="1">
+                <Composition-0 TypeComposition="2" IsVisible="1" IndexKey="2" w="0,9" BlockAnimType="2" x="0,05" y="0,05000000000000004" h="0,9" TMType="0" SameAsPrevShot="0">
+                    <BackgroundBrush TypeComposition="2" BrushType="0">
+                        <ImageCorrection ZoomFactor="1" AspectRatio="0,5625" X="0" Y="0"/>
+                    </BackgroundBrush>
+                </Composition-0>
+            </ShotComposition>
+        </Shot-0>
+        <Shot-1 StaticDuration="3000">
+            <ShotComposition TypeComposition="2" CompositionNumber="1">
+                <Composition-0 TypeComposition="2" IsVisible="1" IndexKey="2" w="0,9" x="0,05" y="0,05000000000000004" h="0,9" TMType="0" SameAsPrevShot="0">
+                    <BackgroundBrush TypeComposition="2" BrushType="0">
+                        <ImageCorrection ZoomFactor="1" AspectRatio="0,5625" X="0" Y="0"/>
+                    </BackgroundBrush>
+                </Composition-0>
+            </ShotComposition>
+        </Shot-1>
+    </TitleModel>
+</Model>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="gl">
+    <head>
+        <title>
+            Principios de funcionamento
+        </title>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+        <meta http-equiv="Content-Language" content="gl-GL" <meta content="ffDiaporama Team" name="author">
+        <link rel="stylesheet" type="text/css" href="wiki.css"/>
+    </head>
+    <body>
+        <h2>
+            Principios de funcionamento
+        </h2>
+        <div style="margin-left: 40px;">
+            <div>
+                O elemento principal de control no ffDiaporama &eacute; a li&ntilde;a de tempo. A li&ntilde;a de tempo amosa as diapositivas que compo&ntilde;en o proxecto.
+            </div>
+            <div>
+                <img src="wiki_img/Timeline.png">
+            </div>
+            <div>
+                Consiste en 3 pistas: 
+                <ul>
+                    <li>
+                        a pista de fondo
+                    </li>
+                    <li>
+                        a pista de montaxe
+                    </li>
+                    <li>
+                        e a pista de son.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <h2>
+            As diapositivas
+        </h2>
+        <div style="margin-left: 40px;">
+            <div>
+                As diapositivas am&oacute;sanse unha tras a outra, na orde na que aparecen na li&ntilde;a de tempo.
+            </div>
+            <div>
+                O seguinte diagrama amosa como funcionan as diapositivas:
+            </div>
+            <br>
+            <div>
+                <img src="wiki_img/Schema.png">
+            </div>
+            <br>
+            <div>
+                Na parte superior do diagrama est&aacute;n representadas as diapositivas: A, B, C e D. 
+                <ul>
+                    <li>
+                        Cada diapositiva pos&uacute;e unha transici&oacute;n (simbolizado no diagrama por un pequeno rect&aacute;ngulo etiquetado como T). As transici&oacute;ns poden ter diferente duraci&oacute;n (simbolizado no diagrama polas lonxitudes TA', TB', etc.): &Eacute; pos&iacute;bel definir a duraci&oacute;n de cada transici&oacute;n de entrada para cada diapositiva (ou para indicar que non hai ningunha transici&oacute;n: duraci&oacute;n = 0).
+                    </li>
+                    <li>
+                        Cada diapositiva pos&uacute;e unha duraci&oacute;n apropiada para ela (simbolizado no diagrama polas lonxitudes B', C', etc): Algunhas te&ntilde;en unha duraci&oacute;n duns poucos segundos, mentres que outras poden durar varios minutos. A duraci&oacute;n expr&eacute;sase en segundos, mais non necesariamente con n&uacute;meros enteiros: unha diapositiva pode ter 12.234 segundos.
+                    </li>
+                    <li>
+                        Cada diapositiva &eacute; unha composici&oacute;n, un conxunto de un ou m&aacute;is elementos multimedia que se animan no tempo. A animaci&oacute;n realizase a trav&eacute;s de planos ou tomas.
+                    </li>
+                    <li>
+                        En cada diapositiva p&oacute;dese definir un fondo (que se amosa baixo os elementos multimedia da diapositiva se non enche toda a pantalla).
+                    </li>
+                    <li>
+                        En cada diapositiva p&oacute;dese definir unha nova lista de reproduci&oacute;n.
+                    </li>
+                </ul>
+            </div>
+            <div>
+                As diapositivas nas que non se define un fondo utilizan o fondo definido nunha diapositiva anterior. A seguir un exemplo: 
+                <ul>
+                    <li>
+                        Diapositiva 1: Define un fondo
+                    </li>
+                    <li>
+                        Diapositiva 2: non define un fondo e polo tanto utiliza o fondo definido na diapositiva 1
+                    </li>
+                    <li>
+                        Diapositiva 3: non define un fondo e polo tanto utiliza o fondo definido na diapositiva 1
+                    </li>
+                    <li>
+                        Diapositiva 4: Define un fondo
+                    </li>
+                    <li>
+                        Diapositiva 5: non define un fondo e polo tanto utiliza o fondo definido na diapositiva 4
+                    </li>
+                </ul>
+            </div>
+            <div>
+                Este mesmo principio aplicase &aacute; lista de reproduci&oacute;n de m&uacute;sica. Se nas diapositivas non se configura unha nova lista de reproduci&oacute;n, usase a &uacute;ltima lista definida.
+            </div>
+            <br>
+            <h4>
+                Observaci&oacute;ns:
+            </h4>
+            <div style="margin-left: 40px;">
+                A duraci&oacute;n total do proxecto non &eacute; igual &aacute; suma da duraci&oacute;n das diapositivas xa que as transici&oacute;ns fan que as diapositivas se superpo&ntilde;an: D&uacute;as diapositivas de 10 segundos, cada unha cunha transici&oacute;n de 1 segundo, dan un resultado dunha duraci&oacute;n total do proxecto de 19 segundos (e non de 20 segundos)!
+            </div>
+            <br>
+        </div>
+        <h2>
+            Tomas e bloques
+        </h2>
+        <div style="margin-left: 40px;">
+            <div>
+                A parte inferior do diagrama representa a composici&oacute;n da diapositiva C.
+                <ul>
+                    <li>
+                        Cada diapositiva cont&eacute;n unha ou m&aacute;is tomas. As tomas est&aacute;n representadas no diagrama polos rect&aacute;ngulos C1, C2, C3, etc...
+                    </li>
+                    <li>
+                        Cada toma ten a s&uacute;a propia duraci&oacute;n (simbolizado no diagrama coas lonxitudes C1, C2, C3, etc.). Algunhas tomas poden durar s&oacute; alg&uacute;ns segundos, mentres que outras poden durar varios minutos. Outras tomas poden ter unha duraci&oacute;n cero. (As duraci&oacute;ns expr&eacute;sanse en segundos, mais non necesariamente con n&uacute;meros enteiros: unha toma pode ter 12.234 segundos.).
+                    </li>
+                    <li>
+                        As tomas poden conter varios obxectos multimedia. Os obxectos multimedia int&eacute;granse en bloques que poden ser de tres tipos: de t&iacute;tulo (que s&oacute; cont&eacute;n texto), imaxes (ou fotos), ou v&iacute;deo.
+                    </li>
+                    <li>
+                        Os bloques definen onde e como aparece o obxecto multimedia na pantalla. Cada bloque pode ter un encadre diferente que define o que &eacute; vis&iacute;bel para o obxecto multimedia dentro do bloque.
+                    </li>
+                    <li>
+                        O fondo das tomas &eacute; transparente. Isto significa que se a imaxe non ocupa toda a pantalla, aparecer&aacute; o fondo.
+                    </li>
+                </ul>
+            </div>
+            <h4>
+                Observaci&oacute;ns:
+            </h4>
+            <ul>
+                <li>
+                    As tomas definen a disposici&oacute;n dos bloques (obxectos multimedia) nun momento dado.
+                </li>
+                <li>
+                    As animaci&oacute;ns das tomas x&eacute;ranse pola transformaci&oacute;n destas disposici&oacute;ns entre unha toma e outra.
+                </li>
+                <li>
+                    A duraci&oacute;n das animaci&oacute;ns da toma def&iacute;nese polo tempo de cada toma.
+                </li>
+            </ul>
+            <div>
+                Concretando, se no primeiro plano un bloque que cont&eacute;n unha imaxe que ocupa toda a pantalla, e na seguinte toma, o mesmo bloque ocupa s&oacute; unha pequena parte da pantalla, ent&oacute;n a animaci&oacute;n estar&aacute; formada pola transformaci&oacute;n desta ocupando toda a pantalla ata ocupar s&oacute; unha pequena parte da pantalla.
+            </div>
+            <br>
+            <h4>
+                Exemplo:
+            </h4>
+            <div style="margin-left: 40px;">
+                <div>
+                    Temos 3 tomas nunha diapositiva:
+                </div>
+                <div>
+                    <img src="wiki_img/Animation_1.png">
+                </div>
+                <ul>
+                    <li>
+                        Toma 1: A imaxe ocupa a pantalla enteira: Duraci&oacute;n=2 segundos.
+                    </li>
+                    <li>
+                        Toma 2: A imaxe s&oacute; ocupa o cuadrante inferior dereito: Duraci&oacute;n 3 segundos.
+                    </li>
+                    <li>
+                        Toma 3: A imaxe volve ocupar outra vez a pantalla enteira: Duraci&oacute;n=2 segundos.
+                    </li>
+                </ul>
+            </div>
+            <h4>
+                Resultado:
+            </h4>
+            <ul>
+                <li>
+                    A imaxe amosarase a pantalla completa durante 2 segundos, encoller&aacute; gradualmente durante outros 3 segundos cara o cuadrante inferior dereito da pantalla, e logo crecer&aacute; outra vez durante 2 segundos ata que, de volta, ocupe a pantalla completa.
+                </li>
+                <li>
+                    A diapositiva terminar&aacute; tan pronto como a imaxe te&ntilde;a chegado &aacute; posici&oacute;n definida na toma 3.
+                </li>
+            </ul>
+            <h4>
+                Observaci&oacute;ns:
+            </h4>
+            <ul>
+                <li>
+                    As transformaci&oacute;ns son graduais: no exemplo que temos visto a imaxe vai reduc&iacute;ndose gradualmente.
+                </li>
+                <li>
+                    As transformaci&oacute;ns te&ntilde;en lugar a trav&eacute;s de toda a duraci&oacute;n da toma seguinte.
+                </li>
+            </ul>
+            <div>
+                A definici&oacute;n de encadre dos obxectos en cada bloque pode variar dunha toma a outra. No seguinte exemplo p&oacute;dense comprobar tres definici&oacute;ns diferentes no mesmo bloque:
+            </div>
+            <div>
+                <img src="wiki_img/Animation_2.png">
+                <ul>
+                    <li>
+                        1ª toma: A imaxe est&aacute; completa.
+                    </li>
+                    <li>
+                        2ª toma: A imaxe enmarcouse na zona da estatua.
+                    </li>
+                    <li>
+                        3ª toma: A imaxe enmarcouse na zona dos pe&oacute;ns.
+                    </li>
+                </ul>
+            </div>
+            <div>
+                Se aplicamos estes encadres &aacute;s 3 tomas mencionadas anteriormente: 
+                <ul>
+                    <li>
+                        A imaxe completa amosase en toda a pantalla durante 2 segundos, logo vai diminu&iacute;ndo de tama&ntilde;o gradualmente durante 3 segundos facendo un zoom sobre a imaxe no cuadrante inferior dereito da pantalla, ent&oacute;n crece durante outros 2 segundos ata que, de volta, ocupe toda a pantalla mentres a &laquo;c&aacute;mara&raquo; movese cara a zona dos pe&oacute;ns.
+                    </li>
+                </ul>
+            </div>
+            <h4>
+                Observaci&oacute;ns:
+            </h4>
+            <ul>
+                <li>
+                    ffDiaporama pode xestionar centos de diapositivas nun s&oacute; proxecto.
+                </li>
+                <li>
+                    Cada diapositiva pode consistir en decenas de bloques.
+                </li>
+                <li>
+                    Cada diapositiva pode conter decenas de bloques.
+                </li>
+                <li>
+                    Os bloques poden ser vis&iacute;beis nalgunhas tomas e invis&iacute;beis noutras.
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="197.2621"
+   height="281.65317"
+   id="svg2134"
+   sodipodi:version="0.32"
+   inkscape:version="0.44+devel"
+   version="1.0"
+   sodipodi:docbase="C:\Documents and Settings\Molumen\Desktop"
+   sodipodi:docname="cloud05.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2136">
+    <linearGradient
+       id="linearGradient11067">
+      <stop
+         style="stop-color:#e9fffb;stop-opacity:0.91774893;"
+         offset="0"
+         id="stop11069" />
+      <stop
+         style="stop-color:#72dac5;stop-opacity:0;"
+         offset="1"
+         id="stop11071" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="149.28571"
+     inkscape:cy="105.71429"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="673"
+     inkscape:window-height="603"
+     inkscape:window-x="44"
+     inkscape:window-y="58" />
+  <metadata
+     id="metadata2139">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1302.3797,-1058.8229)">
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:4.2733202;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 1379.9968,1060.9624 C 1389.2359,1061.0738 1398.6012,1062.2131 1407.6098,1064.4806 L 1407.9041,1064.5647 C 1445.2147,1074.069 1462.4101,1099.4718 1446.352,1121.3745 C 1445.8203,1122.0998 1445.2463,1122.8058 1444.656,1123.5051 C 1489.2627,1136.1304 1509.5881,1168.4019 1490.1122,1196.2799 C 1481.9415,1207.9757 1468.0297,1217.0692 1451.2719,1222.8696 C 1476.7171,1232.9471 1486.7976,1251.2587 1473.6986,1267.3587 C 1463.0651,1280.4285 1439.9164,1288.6294 1414.8144,1289.7575 C 1412.999,1306.8693 1420.7688,1322.7479 1430.8355,1338.3394 C 1430.8355,1338.3394 1410.4201,1323.5795 1400.7556,1310.32 C 1394.3128,1301.4806 1392.641,1293.3117 1392.2475,1288.8464 C 1388.4867,1288.3614 1384.7506,1287.7035 1381.0761,1286.87 C 1345.3081,1278.7572 1328.7487,1256.8371 1344.114,1237.9516 C 1348.7905,1232.2038 1355.8886,1227.4042 1364.5083,1223.7247 C 1322.8232,1210.3343 1304.3199,1179.1899 1323.187,1152.1833 C 1326.4339,1147.5357 1330.588,1143.2963 1335.4657,1139.5122 C 1307.7707,1127.9371 1296.559,1106.2436 1310.5299,1087.1877 C 1322.6699,1070.6292 1350.3739,1060.7667 1379.338,1060.9624 C 1379.5596,1060.9639 1379.7751,1060.9597 1379.9968,1060.9624 z"
+       id="path3964" />
+  </g>
+</svg>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="gl">
+    <head>
+        <title>
+            A propiedade &laquo;Vis&iacute;bel&raquo; dos bloques e a xesti&oacute;n das pausas
+        </title>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+        <meta http-equiv="Content-Language" content="gl-GL" <meta content="ffDiaporama Team" name="author">
+        <link rel="stylesheet" type="text/css" href="wiki.css"/>
+    </head>
+    <body>
+        <div>
+            Os bloques te&ntilde;en unha propiedade vis&iacute;bel/invis&iacute;bel. No seguinte exemplo, unha imaxe &eacute; inserida 3 veces (en 3 bloques diferentes) na mesma diapositiva.
+        </div>
+        <ul>
+            <li>
+                O primeiro bloque componse da imaxe completa enchendo toda a pantalla
+            </li>
+            <li>
+                O segundo bloque consiste na imaxe reencadrada na estatua e posicionada nunha elipse na parte dereita da pantalla
+            </li>
+            <li>
+                O segundo bloque consiste na imaxe reencadrada nos pe&oacute;ns e posicionada tam&eacute;n nunha elipse na parte dereita da pantalla
+            </li>
+        </ul>
+        <div>
+            <img src="wiki_img/Animation_3.png">
+        </div>
+        <div>
+            A estatua e os pe&oacute;ns te&ntilde;en a propiedade de visibilidade establecida en invis&iacute;bel na 1ª toma.
+        </div>
+        <div>
+            A seguir, a estatua faise vis&iacute;bel na 2ª toma.
+        </div>
+        <div>
+            Por &uacute;ltimo, a estatua, unha vez m&aacute;is torna invis&iacute;bel na 3ª toma e os pe&oacute;ns fanse vis&iacute;beis.
+        </div>
+        <br>
+        <h4>
+            Resultado:
+        </h4>
+        <ul>
+            <li>
+                Durante 2 segundos, amosase a 1ª toma e s&oacute; vemos a imaxe completa que ocupa toda la pantalla
+            </li>
+            <li>
+                Durante os pr&oacute;ximos 2 segundos, aparece a estatua
+            </li>
+            <li>
+                Noutros 2 segundos, a estatua ser&aacute; substitu&iacute;da polos pe&oacute;ns
+            </li>
+        </ul>
+        <div>
+            Este exemplo &eacute; realmente moi simple, xa que tam&eacute;n &eacute; pos&iacute;bel animar a aparici&oacute;n e a desaparici&oacute;n dos bloques.
+        </div>
+        <div>
+            En efecto, como se indica anteriormente, as animaci&oacute;ns das tomas x&eacute;ranse pola transformaci&oacute;n da disposici&oacute;n entre unha toma e outra.
+        </div>
+        <div>
+            As&iacute;, se na 1ª toma, a estatua ocupa a cuarta parte inferior esquerda da pantalla na mesma posici&oacute;n que na 2ª toma, ent&oacute;n en vez de simplemente aparecer durante 2 segundos na 2ª toma, ir&aacute; aparecendo polo crecemento da cuarta parte inferior esquerda da pantalla.
+        </div>
+        <br>
+        <h4>
+            Usando v&iacute;deos:
+        </h4>
+        <div>
+            Hai que ter en conta que os v&iacute;deos est&aacute;n en pausa cando son invis&iacute;beis.
+        </div>
+        <div>
+            Polo tanto, un v&iacute;deo pode verse durante varios segundos na 1ª toma, a seguir facerse invis&iacute;bel e logo deterse nunha 2ª toma, a seguir ser vis&iacute;bel nunha 3ª toma e continuar a reproduci&oacute;n desde onde se detivera na fin da 1ª toma.
+        </div>
+    </body>
+</html>

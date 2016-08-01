@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Add or modify a predefined title slide</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="Content-Language" content="en-US">
+    <meta content="ffDiaporama Team" name="author">
+    <link rel="stylesheet" type="text/css" href="wiki.css"/>
+</head>
+<body>
+    <div>This dialog allows you to select a model and define chapter information for predefined title slides.</div>
+    <div>&nbsp;</div>
+    <div>To understand the differences between <b><i>Predefined title slides</i></b> and <b><i>Standard slides</i></b>, see: <a href="0012.html">Predefined title slide</a></div>
+    <div>&nbsp;</div>
+    <div>At the top of the box, the following two settings allow you to filter the Predefined title slide that are displayed in the selection area.</div>
+    <table border="0" cellpadding="0" cellspacing="10"><tbody>
+        <tr>
+            <td nowrap valign="top">Slide type</td>
+            <td>You can select between:
+                <table border="1" cellpadding="2" cellspacing="0"><tbody>
+                    <tr>
+                        <td nowrap valign="top"><img src="img/object_text.png">Project title</td>
+                        <td>This type of slide is usually used early in the project as the opening credits.
+                            <br>The texts variables that are used by the models of this slide type are based only on project information. For more information on project information, see: <a href="0108.html">Project properties dialog</a></td>
+                    </tr>
+                    <tr>
+                        <td nowrap valign="top"><img src="img/Chapter_big.png">Chapter title</td>
+                        <td>This type of slide is usually used several times in the project to mark the beginning of the chapter.
+                            <br>The texts variables that are used by the models of this slide type are based on project information and on chapter information.</td>
+                    </tr>
+                    <tr>
+                        <td nowrap valign="top"><img src="img/medal.png">Credit title</td>
+                        <td>This type of slide is usually used at the end of the project as the end credits.
+                            <br>The texts variables that are used by the models of this slide type are generally computed.  For more information on texts variables, see: <a href="0013.html">Dynamic variables</a></td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td nowrap valign="top">Category</td>
+            <td>You can select between:
+                <table border="1" cellpadding="2" cellspacing="0"><tbody>
+                    <tr>
+                        <td nowrap valign="top">Statics models</td>
+                        <td>This type lists statics models ie without animations.</td>
+                    </tr>
+                    <tr>
+                        <td nowrap valign="top">Animated models</td>
+                        <td>This type lists animated models ie with several shots.</td>
+                    </tr>
+                    <tr>
+                        <td nowrap valign="top">Custom models</td>
+                        <td>This type lists the templates that you saved with the <b><i>Save as model</i></b> function of the <a href="0119.html">Slide properties</a> dialog box.</td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+    </tbody></table>
+    <div>&nbsp;</div>
+    <div>
+        The selection area display models corresponding to the current Type and Category you previously selected.<ul>
+            <li>The models are displayed and played, so you can see the slide as it will appear in your project with the content of dynamic variables.</li>
+            <li>The slide duration is displayed on the bottom of each thumbnails model.</li>
+        </ul>
+    </div>
+    <div>&nbsp;</div>
+    <div>When your selection of model is made, the following settings are available if slide type is <b><i>Chapter model</i></b>:</div>
+    <table border="1" cellpadding="2" cellspacing="0"><tbody>
+        <tr>
+            <td nowrap valign="top">Chapter name</td>
+            <td>Enter here the name of the chapter.</td>
+        </tr>
+        <tr>
+            <td nowrap valign="top">Chapter date different from project date</td>
+            <td>If this box is checked, the date of the chapter is different from the date of the project.
+                <br>Remark: It is often useful to differentiate the date of the chapter of the date of the project.
+                <br>For example, if the project is <u>My vacation from 1 to 15</u>, the chapter may be limited to the <u>3</u>.</td>
+        </tr>
+        <tr>
+            <td nowrap valign="top">Event date</td>
+            <td>Select a date for the chapter.
+                <br>Remark: This field is enabled only if the <i><b>Chapter date different from project date</b></i> check box is checked.</td>
+        </tr>
+        <tr>
+            <td nowrap valign="top">Override date</td>
+            <td>Check this box to override the date and offer you to enter the date as a free multi-line text.
+                <br>Remark: This field is enabled only if the <i><b>Chapter date different from project date</b></i> check box is checked.</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">Chapter location different from project location</td>
+            <td>If this box is checked, the location of the chapter is different from the location of the project.
+                <br>Remark: It is often useful to differentiate the location of the chapter of the location of the project.
+                <br>For example, if the project location is <u>where I rented for the holidays</u>, the chapter location may be <u>where I went on tour</u>.</td>
+        </tr>
+        <tr>
+            <td nowrap valign="top">Event location</td>
+            <td>The location where the chapter's event took place<ul>
+                <li>Click on this <img src="img/EditGMaps.png"> button to select a location from the <a href="0123.html">Add or modify a location</a> dialog or using a favorite</li>
+                <li>Click on this <img src="img/trash.png"> button to remove actual location (set to empty)</li>
+            </ul>
+            <br>Remark: These fields and buttons are enabled only if the <i><b>Chapter location different from project location</b></i> check box is checked.</td>
+        </tr>
+    </tbody></table>
+    <div>&nbsp;</div>
+    <div>Under these settings, the following two buttons allow you:</div>
+    <table border="1" cellpadding="2" cellspacing="0"><tbody>
+        <tr>
+            <td nowrap valign="top"><img src="img/PrjProperties.png"> Project properties</td>
+            <td>This button allows you to open <a href="0108.html">Project properties dialog</a>.</td>
+        </tr>
+        <tr>
+            <td nowrap valign="top"><img src="img/transparent.png"> Convert to standard slide</td>
+            <td>This button allows you to convert this slide to a standard slide which are fully customizable.</td>
+        </tr>
+    </tbody></table>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ <QHelpCollectionProject version="1.0">
+    <assistant>
+        <title>ffDiaporama_gl</title>
+        <startPage>qthelp://ffdiaporama_gl/doc/main.html</startPage>
+        <homePage>qthelp://ffdiaporama_gl/doc/main.html</homePage>
+        <!--
+        <applicationIcon>images/handbook.png</applicationIcon>
+        <aboutMenuText>
+            <text>About ffDiaporama</text>
+        </aboutMenuText>
+        <aboutDialog>
+            <file>about.txt</file>
+            <icon>images/icon.png</icon>
+        </aboutDialog>
+        -->
+        <enableDocumentationManager>false</enableDocumentationManager>
+        <enableAddressBar>false</enableAddressBar>
+        <enableFilterFunctionality>false</enableFilterFunctionality>
+    </assistant>
+    <docFiles>
+          <register>
+             <file>wiki_gl.qch</file>
+         </register>
+     </docFiles>
+ </QHelpCollectionProject>

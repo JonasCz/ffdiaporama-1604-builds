@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Manage devices dialog</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="Content-Language" content="en-US">
+    <meta content="ffDiaporama Team" name="author">
+    <link rel="stylesheet" type="text/css" href="wiki.css"/>
+</head>
+<body>
+    <div>This dialog box allows you to modify the equipment profiles database.</div>
+    <div>&nbsp;</div>
+    <div>The database is actually composed of two parts:</div>
+    <table border="0" cellpadding="2" cellspacing="10"><tbody>
+        <tr>
+            <td><img src="img/db.png"></td>
+            <td>The default database (supplied with ffDiaporama). These devices are registered in the global ffDiaporama configuration file.</td>
+        </tr>
+        <tr>
+            <td><img src="img/db_update.png"></td>
+            <td>The devices which you modify or add. These are registered in your personal configuration file.</td>
+        </tr>
+    </tbody></table>
+    <div><br>The device type zone allows you to select the type of equipment to be shown in the list.</div>
+    <div><br>The list shows the categories and the device types present in the database.</div>
+    <table border="0" cellpadding="2" cellspacing="10"><tbody>
+        <tr>
+            <td><img src="img/db.png"></td>
+            <td>Devices preceded by this icon are defined in the default database.</td>
+        </tr>
+        <tr>
+            <td><img src="img/db_update.png"></td>
+            <td>Devices preceded by this icon are those that you defined yourself, or those from the default database that you have modified.</td>
+        </tr>
+    </tbody></table>
+    <div><br>The following buttons allow you to act on the database:</div>
+    <table border="0" cellpadding="2" cellspacing="10"><tbody>
+        <tr>
+            <td><img src="img/db_add.png"></td>
+            <td>Add device: Allows you to create a new device which will be added to the database.
+                <br>The creation of a new device is made in 3 steps:
+                <ol>
+                    <li>You must first create a device</li>
+                    <li>You define the various parameters</li>
+                    <li>You click the &quot;Apply modifications&quot; button to register the parameters</li>
+                </ol></td>
+        </tr>
+        <tr>
+            <td><img src="img/db_remove.png"></td>
+            <td>Remove device: Allows you to delete a device.
+                <br>Note that you can delete only devices which you created - those shown with this icon: <img src="img/db_update.png"></td>
+        </tr>
+        <tr>
+            <td><img src="img/db_status.png"></td>
+            <td>Reset to default: Cancels the modifications that you made on a device defined in the default ffDiaporama database</td>
+        </tr>
+    </tbody></table>
+    <div>&nbsp;</div>
+    <h4>Remarks:</h4>
+    <table border="0" cellpadding="2" cellspacing="10"><tbody>
+        <tr>
+            <td nowrap valign="top">Device subtype</td>
+            <td>Allows you to select the category in which the equipment is classified</td>
+        </tr>
+        <tr>
+            <td nowrap valign="top">Device model</td>
+            <td>Enter here the name of the device (free text entry field) and then, enter all the parameters required for rendering videos that are to be associated with the device profile (File format, video Standard, etc.)</td>
+        </tr>
+    </tbody></table>
+</body>
+</html>

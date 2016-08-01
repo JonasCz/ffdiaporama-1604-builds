@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <title>ffDiaporama command line arguments</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="Content-Language" content="en-US">
+    <meta content="ffDiaporama Team" name="author">
+    <link rel="stylesheet" type="text/css" href="wiki.css"/>
+</head>
+<body>
+    <div>Syntax : ffDiaporama [-lang=] [-loglevel=] [Filename]</div>
+    <br>
+    <table border="1" cellpadding="2" cellspacing="0"><tbody>
+        <tr>
+            <td colspan="1" rowspan="1" style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">Setting</td>
+            <td colspan="1" rowspan="1" style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">Explanation</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">Filename</td>
+            <td style="vertical-align: top;">Filename of the project file to load at application startup</td>
+        </tr>
+        <tr>
+        <td>-lang=</td>
+        <td>The language to be used. can take the following values:
+            <ul>
+                <li><b>cz</b> to use Czech</li>
+                <li><b>de</b> to use German</li>
+                <li><b>en</b> to use English</li>
+                <li><b>es</b> to use Spanish</li>
+                <li><b>el</b> to use Greek</li>
+                <li><b>fr</b> to use French</li>
+                <li><b>gl</b> to use Galician</li>
+                <li><b>it</b> to use Italian</li>
+                <li><b>nl</b> to use Dutch</li>
+                <li><b>pt</b> to use Portuguese</li>
+                <li><b>ru</b> to use Russian</li>
+                <li><b>zh-tw</b> to use Taiwanese</li>
+            </ul>
+        </td>
+        </tr>
+        <tr>
+        <td>-loglevel=</td>
+        <td>Adjust the level of messages shown in the console:
+            <ul>
+                <li>1 to show all the messages of Debug, Information, Warning and Error levels</li>
+                <li>2 to show the messages of Information, Warning and Error levels</li>
+                <li>3 to show the messages of Warning and Error levels</li>
+                <li>4 to show only the messages of Error levels</li>
+            </ul>
+          Note: messages appear only if you launched the program from a console (CMD under Windows or Terminal under Linux). It is possible to redirect these messages into a log file by using &gt;.
+        </td>
+        </tr>
+    </tbody></table>
+</body>
+</html>

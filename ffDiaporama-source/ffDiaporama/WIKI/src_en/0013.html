@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Dynamic variables</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="Content-Language" content="en-US">
+    <meta content="ffDiaporama Team" name="author">
+    <link rel="stylesheet" type="text/css" href="wiki.css"/>
+</head>
+<body>
+    <div>The big interest of variables is that they are inserted into text (see: <a href="0120.html">Edit text dialog</a>) and are transformed into values ​​only when they are used.</div>
+    <div>It's why variables are used in many parts of the application (slide, thumbnails, predefined titles slides, video tags, xbmc nfo, etc...)</div>
+    <div>&nbsp;</div>
+    <div>The following table lists all the available variables:</div>
+    <div>&nbsp;</div>
+    <table border="1" cellpadding="2" cellspacing="0"><tbody>
+      <tr>
+          <td style="background-color: rgb(0, 0, 102); color: white;"><span style="font-weight: bold;">Category</span></td>
+          <td style="background-color: rgb(0, 0, 102); color: white;"><span style="font-weight: bold;">Variable</span></td>
+          <td style="background-color: rgb(0, 0, 102); color: white;"><span style="font-weight: bold;">Content</span></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;" rowspan="17">Project properties values</td>
+            <td style="vertical-align: top;">%PTT%</td>
+            <td style="vertical-align: top;">Value of the <b><i>Project title</i></b> field of the <a href="0108.html">Project properties</a></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%PAU%</td>
+            <td style="vertical-align: top;">Value of the <b><i>Project author</i></b> field of the <a href="0108.html">Project properties</a></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%PAI%</td>
+            <td style="vertical-align: top;">Value of the <b><i>Project author</i></b> field of the <a href="0108.html">Project properties</a> displayed as <u>Author presents</u></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%PAP%</td>
+            <td style="vertical-align: top;">Value of the <b><i>Project author</i></b> field of the <a href="0108.html">Project properties</a> displayed as <u>A Author production</u></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%PAL%</td>
+            <td style="vertical-align: top;">Value of the <b><i>Project album</i></b> field of the <a href="0108.html">Project properties</a></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%PLN%</td>
+            <td style="vertical-align: top;">Value of the <b><i>Project location name</i></b> field of the <a href="0108.html">Project properties</a></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%PLA%</td>
+            <td style="vertical-align: top;">Value of the <b><i>Project location address</i></b> field of the <a href="0108.html">Project properties</a></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%PCT%</td>
+            <td style="vertical-align: top;">Value of the <b><i>Project comment</i></b> field of the <a href="0108.html">Project properties</a></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%PDD%</td>
+            <td style="vertical-align: top;">Duration of the project displayed as <u>hh:mm:ss</u></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%PSC%</td>
+            <td style="vertical-align: top;">Project slide count (Number of slide in the project)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%PLD%</td>
+            <td style="vertical-align: top;">Long date (The form of the display depends on geographical information provided by the computer, depending on the current language)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%PSD%</td>
+            <td style="vertical-align: top;">Short date (The form of the display depends on <b><i>Short date format</i></b> selected in the <a href="0101.html">Application options dialog</a>)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%PYR%</td>
+            <td style="vertical-align: top;">Year (The year of the event date as a four digit number)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%PMM%</td>
+            <td style="vertical-align: top;">Month (The month of the event date as a name, depending on the current language: January, February, etc...)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%PMD%</td>
+            <td style="vertical-align: top;">Month as number (The month of the event date as a two digit number)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%PDY%</td>
+            <td style="vertical-align: top;">Day (The day of the event date as a two digit number)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%PDW%</td>
+            <td style="vertical-align: top;">Day of week (The day of week of the event date as a name, depending on the current language: Monday, Thuesday, etc...)</td>
+        </tr>
+
+        <tr>
+            <td style="vertical-align: top;" rowspan="2">Current slide values</td>
+            <td style="vertical-align: top;">%CSN%</td>
+            <td style="vertical-align: top;">Value of the <b><i>Slide name</i></b> field of the slide as defined in the <u>Slide settings zone</u> of the <a href="0119.html">Slide properties dialog</a></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%CSR%</td>
+            <td style="vertical-align: top;">Current slide number</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;" rowspan="14">Chapters values</td>
+            <td style="vertical-align: top;">%CCN%</td>
+            <td style="vertical-align: top;">Value of the <b><i>Chapter name</i></b> field of the latest slide which defined <u>Chapters information</u>. (Chapters information may be defined in <a href="0105.html">Chapter properties dialog</a> or in <a href="0103.html">Predefined title slide dialog</a>).</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%CCR%</td>
+            <td style="vertical-align: top;">Current chapter number</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%CCI%</td>
+            <td style="vertical-align: top;">Current chapter number displayed as <u>Chapter N°</u> (depending on the current language)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%CCD%</td>
+            <td style="vertical-align: top;">Current chapter duration</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%CCT%</td>
+            <td style="vertical-align: top;">Chapter count (Number of chapter in the project)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%CLN%</td>
+            <td style="vertical-align: top;">Current chapter location name (if one is defined or project's location name).</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%CLA%</td>
+            <td style="vertical-align: top;">Current chapter location address (if one is defined or project's location address).</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%CLD%</td>
+            <td style="vertical-align: top;">Long date of the chapter (if one is defined or project's date). (The form of the display depends on geographical information provided by the computer, depending on the current language)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%CSD%</td>
+            <td style="vertical-align: top;">Short date of the chapter (if one is defined or project's date). (The form of the display depends on <b><i>Short date format</i></b> selected in the <a href="0101.html">Application options dialog</a>)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%CYR%</td>
+            <td style="vertical-align: top;">Year of the chapter's date (if one is defined or year of project's date), as a four digit number.</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%CMM%</td>
+            <td style="vertical-align: top;">Month of the chapter's date (if one is defined or month of project's date) as a name (depending on the current language: January, February, etc...)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%CMD%</td>
+            <td style="vertical-align: top;">Month of the chapter's date (if one is defined or month of project's date) as a two digit number.</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%CDY%</td>
+            <td style="vertical-align: top;">Day of the chapter's date (if one is defined or day of project's date) as a two digit number.</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%CDW%</td>
+            <td style="vertical-align: top;">Day of week of the chapter's date (if one is defined or day of project's date) as a a name (depending on the current language: Monday, Thuesday, etc...)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;" rowspan="13">Various values</td>
+            <td style="vertical-align: top;">%FFD%</td>
+            <td style="vertical-align: top;">ffDiaporama version as <u>ffDiaporama 1.7 (20130919)</u></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%CPY%</td>
+            <td style="vertical-align: top;">Copyright of the project construct as <u>© Year - Author</u> with <b><i>Year</i></b> is the year of today's date and <b><i>Author</i></b> is the value of the <b><i>Project author</i></b> field of the <a href="0108.html">Project properties</a></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%END%</td>
+            <td style="vertical-align: top;">The end (depending on the current language)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%STA%</td>
+            <td style="vertical-align: top;">A full text composed of: Project done the <u><b><i>short date</i></b></u> with «<u><b><i>ffDiaporama version</i></b></u>» on a <u><b><i>Operating system</i></b></u> (<u><b><i>Number of Core/CPU</i></b></u> Core/CPU) computer.</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%STP%</td>
+            <td style="vertical-align: top;">A full text composed of project statistics (Number of slides, project duration, list of chapters, list of musics, how many photo, vector images, videos and predefined title slides, etc...) </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%STM%</td>
+            <td style="vertical-align: top;">A full text composed of list of musics</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%TLD%</td>
+            <td style="vertical-align: top;">Current date as long date format (The form of the display depends on geographical information provided by the computer, depending on the current language)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%TSD%</td>
+            <td style="vertical-align: top;">Current date as short date format (The form of the display depends on <b><i>Short date format</i></b> selected in the <a href="0101.html">Application options dialog</a>)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%TYR%</td>
+            <td style="vertical-align: top;">Current date's year as a four digit number</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%TMM%</td>
+            <td style="vertical-align: top;">Current date's month as a name (depending on the current language: January, February, etc...)</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%TMD%</td>
+            <td style="vertical-align: top;">Current date's month as as a two digit number</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%TDY%</td>
+            <td style="vertical-align: top;">Current date's day as a two digit number</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">%TDW%</td>
+            <td style="vertical-align: top;">Current date's day of week as a a name (depending on the current language: Monday, Thuesday, etc...)</td>
+        </tr>
+    </tbody></table>
+    <div>&nbsp;</div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <QtHelpProject version="1.0">
+    <namespace>ffdiaporama_gl</namespace>
+    <virtualFolder>doc</virtualFolder>
+    <customFilter name="ffdiaporama_gl">
+        <filterAttribute>ffdiaporama_gl</filterAttribute>
+    </customFilter>
+    <filterSection>
+        <toc>
+            <section         ref="main.html" title="Benvido ao WIKI de ffDiaporama">
+                <section     ref="0010.html" title="Como traballa o ffDiaporama">
+                    <section ref="0011.html" title="Principios de funcionamento"/>
+                    <section ref="0012.html" title="Diapositiva predefinida de título"/>
+                    <section ref="0014.html" title="A propiedade «Visíbel» dos bloques e a xestión das pausas"/>
+                    <section ref="0015.html" title="Todos os axustes das tomas vs os axustes da toma actual"/>
+                    <section ref="0016.html" title="Follas de estilo"/>
+                    <section ref="0013.html" title="Variábeis dinámicas"/>
+                </section>
+                <section     ref="0020.html" title="Descrición da interfce">
+                    <section ref="0021.html" title="A xanela principal"/>
+                    <section ref="0022.html" title="A barra de ferramentas"/>
+                    <section ref="0023.html" title="A liña de tempo"/>
+                    <section ref="0024.html" title="O navegador de ficheiros multimedia"/>
+                    <section ref="0020.html" title="Xanelas de diálogo">
+                        <section ref="0020.html" title="Xanelas de diálogo de configuracións ">
+                            <section ref="0101.html" title="Opcións do programa"/>
+                            <section ref="0102.html" title="Xestionar os dispositivos"/>
+                            <section ref="0106.html" title="Comprobar a configuración"/>
+                            <section ref="0116.html" title="Propiedades das guías"/>
+                            <section ref="0117.html" title="Editar o modelo de miniatura"/>
+                        </section>
+                        <section ref="0020.html" title="Editando as xanelas de diálogo">
+                            <section ref="0103.html" title="Engadir ou modificar un título predefinido de diapositiva"/>
+                            <section ref="0119.html" title="Propiedades das diapositivas"/>
+                            <section ref="0118.html" title="Definir a duración da primeira toma para un grupo de diapositivas"/>
+                            <section ref="0104.html" title="Propiedades do fondo"/>
+                            <section ref="0105.html" title="Propiedades do capítulo"/>
+                            <section ref="0114.html" title="Propiedades da música"/>
+                            <section ref="0122.html" title="Propiedades das transicións"/>
+                            <section ref="0121.html" title="Seleccionar a duración da transición para un grupo de diapositivas"/>
+                            <section ref="0110.html" title="Corrixir, reencadrar ou cortar a imaxe ou vídeo"/>
+                            <section ref="0120.html" title="Editar o texto"/>
+                            <section ref="0123.html" title="Engadir ou modificar unha localización"/>
+                            <section ref="0124.html" title="Cortar un ficheiro de son"/>
+                        </section>
+                        <section ref="0020.html" title="As xanelas de diálogo relacionadas co proxecto">
+                            <section ref="0108.html" title="Propiedades do proxecto"/>
+                            <section ref="0115.html" title="Xerar o vídeo"/>
+                            <section ref="0107.html" title="Exportar o proxecto"/>
+                        </section>
+                        <section ref="0020.html" title="Xanelas de diálogo varias">
+                            <section ref="0109.html" title="Ficheiros seleccionados"/>
+                            <section ref="0111.html" title="Información do ficheiro"/>
+                            <section ref="0112.html" title="Xestionar os favoritos"/>
+                            <section ref="0113.html" title="Xestionar o estilo"/>
+                        </section>
+                    </section>
+                </section>
+                <section     ref="0030.html" title="Xerar vídeos">
+                    <section ref="0031.html" title="Xerar vídeos"/>
+                    <section ref="0032.html" title="Teléfonos intelixentes e tabletas"/>
+                    <section ref="0033.html" title="Dispositivos portátiles"/>
+                    <section ref="0034.html" title="Sistemas multimedia (Home cinema)"/>
+                    <section ref="0035.html" title="Para a WEB"/>
+                    <section ref="0036.html" title="Códec de vídeo"/>
+                    <section ref="0037.html" title="Códec de son"/>
+                    <section ref="0038.html" title="Contedores"/>
+                    <section ref="0039.html" title="Normas de vídeo e resolucións"/>
+                    <section ref="003A.html" title="Ficheiros anexos (Thumbnails, nfo, etc...)"/>
+                </section>
+                <section     ref="0040.html" title="Información técnica en ffDiaporama">
+                    <section ref="0041.html" title="Argumentos da liña de ordes en ffDiaporama"/>
+                    <section ref="0042.html" title="Ficheiros de proxecto do ffDiaporama"/>
+                    <section ref="0043.html" title="Os ficheiros de configuración para ffDiaporama"/>
+                    <section ref="0044.html" title="Ficheiros nfo de XBMC"/>
+                    <section ref="0045.html" title="Tipos de obxectos en ffDiaporama"/>
+                </section>
+            </section>
+        </toc>
+        <files>
+            <file>*.html</file>
+            <file>img/*.png</file>
+            <file>img/Transitions/*.png</file>
+            <file>img/Arrange/*.png</file>
+            <file>img/Filter/*.png</file>
+            <file>img/Text/*.png</file>
+            <file>img/MediaIcons/16x16/*.png</file>
+            <file>wiki_img/*.png</file>
+            <file>wiki.css</file>
+        </files>
+    </filterSection>
+ </QtHelpProject>

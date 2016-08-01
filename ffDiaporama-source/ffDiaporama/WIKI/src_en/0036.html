@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Video codec</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="Content-Language" content="en-US">
+    <meta content="ffDiaporama Team" name="author">
+    <link rel="stylesheet" type="text/css" href="wiki.css"/>
+</head>
+<body>
+    <div>The following table lists the video codecs which ffDiaporama can use to generate videos:</div>
+    <div>&nbsp;</div>
+    <table border="1" cellpadding="2" cellspacing="0"><tbody>
+        <tr>
+            <td colspan="1" rowspan="1" style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">Codec</td>
+            <td colspan="1" rowspan="1" style="text-align: left; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">Name</td>
+            <td colspan="1" rowspan="1" style="vertical-align: middle; background-color: rgb(0, 0, 65); font-weight: bold; color: white;">WIKIPEDIA/Remark</td>
+        </tr>
+        <tr>
+            <td colspan="1" rowspan="1" style="vertical-align: middle;">MPJEP</td>
+            <td style="vertical-align: top;">Motion JPEG</td>
+            <td colspan="1" rowspan="1" style="vertical-align: top;"><a href="http://en.wikipedia.org/wiki/Motion_JPEG">http://en.wikipedia.org/wiki/Motion_JPEG</a></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">MPEG2</td>
+            <td style="vertical-align: top;">MPEG-2 video</td>
+            <td style="vertical-align: top;"><a href="http://en.wikipedia.org/wiki/MPEG-2">http://en.wikipedia.org/wiki/MPEG-2</a></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">MPEG4</td>
+            <td style="vertical-align: top;">DivX/XVid/MPEG-4</td>
+        <td style="vertical-align: top;"><a href="http://en.wikipedia.org/wiki/Xvid">http://en.wikipedia.org/wiki/Xvid</a></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">
+              <div>H264HQ</div>
+            </td>
+            <td style="vertical-align: top;">
+              <div>High Quality H.264 AVC/MPEG-4 AVC</div>
+            </td>
+            <td colspan="1" rowspan="2" style="vertical-align: top;">
+              <div><a href="http://en.wikipedia.org/wiki/H.264/MPEG-4_AVC">http://en.wikipedia.org/wiki/H.264/MPEG-4_AVC</a></div>
+              <div>ffDiaporama uses specific settings for encoding with x264. This settings are including:
+                <br>- <b>High Quality</b> for "Home Cinema" devices based on x264 <u>main</u> profile, with 3 refs and 3 bframes.
+                <br>- <b>Phone Quality</b> for mobile devices based on x264 <u>baseline</u> profile, with 3 refs and 0 bframes.
+                <br>Both settings are using <u>veryfast</u> preset.
+                <br>Note: Variable bitrate is used with these two codecs. For more information on variable bitrate, see: <a href="0115.html">Render video</a></div>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">H264PQ</td>
+            <td style="vertical-align: top;">Phone Quality H.264 AVC/MPEG-4 AVC</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">X264LL</td>
+            <td style="vertical-align: top;">x264 Lossless</td>
+            <td style="vertical-align: top;"><a href="http://en.wikipedia.org/wiki/X264">http://en.wikipedia.org/wiki/X264</a>
+                <br>ffDiaporama uses the standard x264 <u>fast</u> preset with 3 refs and qp set to 0.</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">VP8</td>
+            <td style="vertical-align: top;">WebP (WebM-VP8)</td>
+            <td style="vertical-align: top;"><a href="http://en.wikipedia.org/wiki/WebM">http://en.wikipedia.org/wiki/WebM</a></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">H263</td>
+            <td style="vertical-align: top;">Sorenson H.263</td>
+            <td style="vertical-align: top;"><a href="http://en.wikipedia.org/wiki/H.263">http://en.wikipedia.org/wiki/H.263</a></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top;">THEORA</td>
+            <td style="vertical-align: top;">Theora VP3</td>
+            <td style="vertical-align: top;"><a href="http://en.wikipedia.org/wiki/Theora">http://en.wikipedia.org/wiki/Theora</a></td>
+        </tr>
+    </tbody></table>
+</body>
+</html>

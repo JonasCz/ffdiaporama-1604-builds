@@ -1,0 +1,79 @@
+<!DOCTYPE ffDiaporama>
+<Model>
+    <TitleModel NextIndexKey="6" ShotNumber="3">
+        <ObjectComposition TypeComposition="1" CompositionNumber="3">
+            <Composition-0 IsVisible="1" FontName="Comic Sans MS" FontSize="28" Text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'Comic Sans MS'; font-size:28pt; color:#fff7c1;&quot;>%PTT%&lt;/span>&lt;/p>&lt;/body>&lt;/html>" TMType="0" StyleText="4" FontShadowColor="#442e0e" FontColor="#fff7c1" SameAsPrevShot="0" TypeComposition="1" w="0,5" x="0,25" IndexKey="2" y="0,25" h="0,5" VAlign="0">
+                <BackgroundBrush BrushType="0" TypeComposition="1">
+                    <ImageCorrection AspectRatio="0,5625" ZoomFactor="1" X="0" Y="0"/>
+                </BackgroundBrush>
+            </Composition-0>
+            <Composition-1 IsVisible="1" FontName="Serif" FontSize="20" Text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'Serif'; font-size:20pt; color:#f5f2d8;&quot;>%PAI%&lt;/span>&lt;/p>&lt;/body>&lt;/html>" TMType="0" StyleText="4" FontShadowColor="#442e0e" FontColor="#f5f2d8" SameAsPrevShot="0" TypeComposition="1" w="0,5" x="0,25" IndexKey="4" y="0,25" h="0,5">
+                <BackgroundBrush BrushType="0" TypeComposition="1">
+                    <ImageCorrection AspectRatio="0,5625" ZoomFactor="1" X="0" Y="0"/>
+                </BackgroundBrush>
+            </Composition-1>
+            <Composition-2 IsVisible="1" FontName="Comic Sans MS" FontSize="28" Text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'Comic Sans MS'; font-size:28pt; color:#a38557;&quot;>%PLD%&lt;/span>&lt;/p>&lt;/body>&lt;/html>" TMType="0" StyleText="4" FontShadowColor="#442e0e" FontColor="#a38557" SameAsPrevShot="0" TypeComposition="1" w="0,5" x="0,25" IndexKey="5" y="0,25" h="0,5" VAlign="2">
+                <BackgroundBrush BrushType="0" TypeComposition="1">
+                    <ImageCorrection AspectRatio="0,5625" ZoomFactor="1" X="0" Y="0"/>
+                </BackgroundBrush>
+            </Composition-2>
+        </ObjectComposition>
+        <Shot-0 StaticDuration="3000">
+            <ShotComposition TypeComposition="2" CompositionNumber="3">
+                <Composition-0 IsVisible="1" TMType="0" BlockAnimType="2" SameAsPrevShot="0" TypeComposition="2" w="0,8999999999999998" x="0,04999999999999999" IndexKey="4" y="0,04999999999999999" h="0,8999999999999998">
+                    <BackgroundBrush BrushType="0" TypeComposition="2">
+                        <ImageCorrection AspectRatio="0,5625" ZoomFactor="1" X="0" Y="0"/>
+                    </BackgroundBrush>
+                </Composition-0>
+                <Composition-1 IsVisible="1" TMType="0" SameAsPrevShot="0" TxtZoomLevel="0" TypeComposition="2" w="0,9" x="0,05" IndexKey="2" y="0,5008448540706606" h="0,4491551459293396">
+                    <BackgroundBrush BrushType="0" TypeComposition="2">
+                        <ImageCorrection AspectRatio="0,5625" ZoomFactor="1" X="0" Y="0"/>
+                    </BackgroundBrush>
+                </Composition-1>
+                <Composition-2 IsVisible="1" TMType="0" SameAsPrevShot="0" TxtZoomLevel="0" TypeComposition="2" w="0,9" x="0,05" IndexKey="5" y="0,04999999999999999" h="0,4491551459293396">
+                    <BackgroundBrush BrushType="0" TypeComposition="2">
+                        <ImageCorrection AspectRatio="0,5625" ZoomFactor="1" X="0" Y="0"/>
+                    </BackgroundBrush>
+                </Composition-2>
+            </ShotComposition>
+        </Shot-0>
+        <Shot-1 StaticDuration="3000">
+            <ShotComposition TypeComposition="2" CompositionNumber="3">
+                <Composition-0 IsVisible="0" TMType="0" SameAsPrevShot="0" TxtZoomLevel="0" TypeComposition="2" w="0,9" x="0,05" IndexKey="2" y="0,5008448540706606" h="0,4491551459293396">
+                    <BackgroundBrush BrushType="0" TypeComposition="2">
+                        <ImageCorrection AspectRatio="0,5625" ZoomFactor="1" X="0" Y="0"/>
+                    </BackgroundBrush>
+                </Composition-0>
+                <Composition-1 IsVisible="0" TMType="0" BlockAnimType="2" SameAsPrevShot="0" TypeComposition="2" w="0,8999999999999998" x="0,04999999999999999" IndexKey="4" y="0,04999999999999999" h="0,8999999999999998">
+                    <BackgroundBrush BrushType="0" TypeComposition="2">
+                        <ImageCorrection AspectRatio="0,5625" ZoomFactor="1" X="0" Y="0"/>
+                    </BackgroundBrush>
+                </Composition-1>
+                <Composition-2 IsVisible="1" TMType="0" SameAsPrevShot="0" TypeComposition="2" w="0,9" x="0,05" IndexKey="5" y="0,04999999999999999" h="0,4491551459293396">
+                    <BackgroundBrush BrushType="0" TypeComposition="2">
+                        <ImageCorrection AspectRatio="0,5625" ZoomFactor="1" X="0" Y="0"/>
+                    </BackgroundBrush>
+                </Composition-2>
+            </ShotComposition>
+        </Shot-1>
+        <Shot-2 StaticDuration="3000">
+            <ShotComposition TypeComposition="2" CompositionNumber="3">
+                <Composition-0 IsVisible="1" TMType="0" SameAsPrevShot="0" TypeComposition="2" w="0,9" x="0,05" IndexKey="2" y="0,5008448540706606" h="0,4491551459293396">
+                    <BackgroundBrush BrushType="0" TypeComposition="2">
+                        <ImageCorrection AspectRatio="0,5625" ZoomFactor="1" X="0" Y="0"/>
+                    </BackgroundBrush>
+                </Composition-0>
+                <Composition-1 IsVisible="0" TMType="0" BlockAnimType="2" SameAsPrevShot="0" TypeComposition="2" w="0,8999999999999998" x="0,04999999999999999" IndexKey="4" y="0,04999999999999999" h="0,8999999999999998">
+                    <BackgroundBrush BrushType="0" TypeComposition="2">
+                        <ImageCorrection AspectRatio="0,5625" ZoomFactor="1" X="0" Y="0"/>
+                    </BackgroundBrush>
+                </Composition-1>
+                <Composition-2 IsVisible="1" TMType="0" SameAsPrevShot="0" TypeComposition="2" w="0,9" x="0,05" IndexKey="5" y="0,04999999999999999" h="0,4491551459293396">
+                    <BackgroundBrush BrushType="0" TypeComposition="2">
+                        <ImageCorrection AspectRatio="0,5625" ZoomFactor="1" X="0" Y="0"/>
+                    </BackgroundBrush>
+                </Composition-2>
+            </ShotComposition>
+        </Shot-2>
+    </TitleModel>
+</Model>

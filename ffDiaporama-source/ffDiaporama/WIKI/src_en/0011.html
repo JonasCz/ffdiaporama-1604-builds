@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Functional principles</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="Content-Language" content="en-US">
+    <meta content="ffDiaporama Team" name="author">
+    <link rel="stylesheet" type="text/css" href="wiki.css"/>
+</head>
+<body>
+    <h2>Functional principles</h2>
+    <div style="margin-left: 40px;">
+        <div>The main control element of ffDiaporama is the timeline. The timeline lists the slides which compose the project.</div>
+        <div><img src="wiki_img/Timeline.png"></div>
+        <div>It consists of 3 tracks:
+            <ul>
+              <li>the background track</li>
+              <li>the mounting track</li>
+              <li>and the music track.</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>The slides</h2>
+    <div style="margin-left: 40px;">
+        <div>Slides are shown one after another, in the order in which they appear in the time line.</div>
+        <div>The following diagram shows how slides function:</div>
+        <br>
+        <div><img src="wiki_img/Schema.png"></div>
+        <br>
+        <div>The upper part of the diagram represents four slides: A, B, C and D.
+            <ul>
+              <li>Each slide possesses an entering transition (symbolized on the diagram by a small rectangle labelled T). The transitions can have different durations (symbolized on the diagram by the lengths TA', TB', etc.): It is possible to define the duration of the entering transition for each slide separately (or to indicate no transition: duration=0).</li>
+              <li>Each slide possesses a duration which is appropriate for it (symbolized on the diagram by the lengths B', C', etc.): Some last only a few seconds while others can last several minutes. The durations are expressed in seconds but are not necessarily whole numbers: a slide might last 12.234 seconds.</li>
+              <li>Each slide is a composite, an assembly of one or more multimedia elements which are animated over time. The animation is realized through shots.</li>
+              <li>Each slide can define a new background (that is shown under the multimedia elements of the slide if they don't fill out the whole screen).</li>
+              <li>Each slide can define a new musical play-list.</li>
+            </ul>
+        </div>
+        <div>Slides which do not define a background use the background defined in a previous slide. So in the following example:
+            <ul>
+              <li>Slide 1: Defines a background</li>
+              <li>Slide 2: Does not define a background and therefore uses the background defined by slide 1</li>
+              <li>Slide 3: Does not define a background and therefore uses the background defined by slide 1</li>
+              <li>Slide 4: Defines a background</li>
+              <li>Slide 5: Does not define a background and therefore uses the background defined by slide 4</li>
+            </ul>
+        </div>
+        <div>The same principle applies to the musical play-lists. As long as slides do not define a new play-list, they use the last defined play-list.</div>
+        <br>
+        <h4>Remarks:</h4>
+        <div style="margin-left: 40px;">The total duration of the project is not equal to the sum of the durations of the slides because the transitions make the slides overlap: Two slides of 10 seconds, each with a transition of 1 second, will give a total duration for the project of 19 seconds (and not 20 seconds)!</div>
+        <br>
+    </div>
+
+
+    <h2>Shots and blocks</h2>
+    <div style="margin-left: 40px;">
+        <div>The lower part of the diagram represents the composition of slide C.
+            <ul>
+              <li>Each slide comprises one or more shots. The shots are represented on the diagram by rectangles C1, C2, C3, etc...</li>
+              <li>Each shot has its own duration (symbolized on the diagram by the lengths C1 ', C2 ', C3 ', etc.). Some shots can last only seconds while others can last several minutes. Some shots can have a duration of zero. (The durations are expressed in seconds but are not necessarily whole numbers: A shot can very well last 12.234 seconds).</li>
+              <li>The shots can contain several multimedia objects. The multimedia objects are integrated into blocks which can be of three types: title (containing only text), images (or photos), or video.</li>
+              <li>The blocks define where and how the multimedia object appears on the screen. Each block can have a different framing that defines what is visible from the multimedia object within the block.</li>
+              <li>The background of the shots is transparent. This means that if the image does not fill the whole screen, the background will appear.</li>
+            </ul>
+        </div>
+        <h4>Remarks:</h4>
+        <ul>
+          <li>The shots define the arrangement of blocks (multimedia objects) at any given moment.</li>
+          <li>The shot animations are generated by the transformation of these arrangements from one shot to another.</li>
+          <li>The lengths of the shot animations are defined by the shot durations.</li>
+        </ul>
+        <div>Specifically, if in the foreground, a block containing an image occupies the whole screen, and then in the following shot the same block occupies only a small part of the screen, then the animation will consist of the transformation of the image from the whole screen into that small part of the screen.</div>
+        <br>
+        <h4>Example:</h4>
+        <div style="margin-left: 40px;">
+            <div>Let's have 3 shots within a slide:</div>
+            <div><img src="wiki_img/Animation_1.png"></div>
+            <ul>
+              <li>Shot 1: Image using the whole screen: Duration=2 seconds.</li>
+              <li>Shot 2: Image using only the bottom right screen quarter: Duration 3 seconds.</li>
+              <li>Shot 3: Image again using the whole screen: Duration=2 seconds.</li>
+            </ul>
+        </div>
+        <h4>Result:</h4>
+        <ul>
+          <li>The image will be shown on the whole screen for 2 seconds, will shrink gradually over 3 seconds towards the right lower quarter of the screen, and then will grow again for 2 seconds until it once more occupies the whole screen.</li>
+          <li>The slide will end as soon as the image has reached the position defined in shot 3.</li>
+        </ul>
+        <h4>Remarks:</h4>
+        <ul>
+          <li>The transformations are gradual: in the example you will see the image being gradually reduced.</li>
+          <li>The transformations are made over the whole duration of the following shot.</li>
+        </ul>
+        <div>The framing definition of the objects in each block can vary from one shot to another. The following example shows three different definitions from the same block:</div>
+        <div><img src="wiki_img/Animation_2.png">
+            <ul>
+              <li>1st shot: The image is complete.</li>
+              <li>2nd shot: The image is re-framed on the statue.</li>
+              <li>3rd shot: The image is re-framed on the pedestrians.</li>
+            </ul>
+        </div>
+        <div>If we apply these framing definitions to the previous 3 shots:
+            <ul>
+              <li>The complete image will be shown on all the screen for 2 seconds, then it will be reduced gradually towards the right lower quarter of the screen over 3 seconds while zooming in on the statue, then it will grow again over 2 seconds until it once more occupies the whole screen while the "camera" moves towards the pedestrians.</li>
+            </ul>
+        </div>
+        <h4>Remarks:</h4>
+        <ul>
+          <li>ffDiaporama can manage up to several hundreds slides in a single project.</li>
+          <li>Each slide can consist of tens of shots.</li>
+          <li>Each slide can contain tens of blocks.</li>
+          <li>Blocks can be visible on some shots and invisible on other.</li>
+        </ul>
+    </div>
+</body>
+</html>

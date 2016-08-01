@@ -1,0 +1,51 @@
+<!DOCTYPE ffDiaporama>
+<Thumbnail>
+    <ProjectThumbnail ShotNumber="1" ThumbnailName="100205" NextIndexKey="8">
+        <ObjectComposition CompositionNumber="4" TypeComposition="1">
+            <Composition-0 TypeComposition="1" IsVisible="1" IndexKey="1" VAlign="2" StyleText="1" HAlign="2" FontColor="#f2f2f2" FontName="Sans Serif" FontSize="6" TMType="0" FontShadowColor="#000000" Text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:6pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p align=&quot;right&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;br />&lt;/p>&lt;/body>&lt;/html>" w="0,5" SameAsPrevShot="0" x="0,25" y="0,25" h="0,5">
+                <BackgroundBrush TypeComposition="1" ImageOrientation="-1" BrushFileName="%MODELFOLDER%/Thumbnails/100200.png" BrushType="6">
+                    <ImageCorrection X="0,2" Y="0,1" ZoomFactor="0,6" AspectRatio="1,333333333333333" LockGeometry="1"/>
+                </BackgroundBrush>
+            </Composition-0>
+            <Composition-1 TypeComposition="1" IsVisible="1" IndexKey="2" FontColor="#ffffff" FontName="Sans Serif" FontSize="72" TMType="0" FontShadowColor="#000000" Text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:72pt; color:#ffffff;&quot;>%PTT%&lt;/span>&lt;/p>&lt;/body>&lt;/html>" w="0,5" SameAsPrevShot="0" x="0,25" y="0,25" h="0,5">
+                <BackgroundBrush TypeComposition="1" BrushType="0">
+                    <ImageCorrection X="0" Y="0" ZoomFactor="1" AspectRatio="0,5625"/>
+                </BackgroundBrush>
+            </Composition-1>
+            <Composition-2 TypeComposition="1" IsVisible="1" IndexKey="3" StyleText="4" FontColor="#fff084" FontName="Sans Serif" FontSize="72" TMType="0" FontShadowColor="#000000" Text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:72pt; color:#fff084;&quot;>%PSD%&lt;/span>&lt;/p>&lt;/body>&lt;/html>" w="0,5" SameAsPrevShot="0" x="0,25" y="0,25" h="0,5">
+                <BackgroundBrush TypeComposition="1" BrushType="0">
+                    <ImageCorrection X="0" Y="0" ZoomFactor="1" AspectRatio="0,5625"/>
+                </BackgroundBrush>
+            </Composition-2>
+            <Composition-3 TypeComposition="1" IsVisible="1" TMType="0" BackgroundTransparent="2" h="0,5" FontName="Sans Serif" StyleText="1" SameAsPrevShot="0" FontShadowColor="#000000" Text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:6pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p align=&quot;right&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;br />&lt;/p>&lt;/body>&lt;/html>" VAlign="2" w="0,2550335570469798" IndexKey="7" x="0,3724832214765101" y="0,25" FontColor="#f2f2f2" FontSize="6" HAlign="2">
+                <BackgroundBrush TypeComposition="1" ImageOrientation="0" BrushFileName="%MODELFOLDER%/Thumbnails/Glass.svg" BrushType="6">
+                    <ImageCorrection X="0,3213508448699415" Y="0,03300484009861909" ZoomFactor="0,3572983102601169" AspectRatio="2,614035087719298" LockGeometry="1"/>
+                </BackgroundBrush>
+            </Composition-3>
+        </ObjectComposition>
+        <Shot-0>
+            <ShotComposition CompositionNumber="4" TypeComposition="2">
+                <Composition-0 TypeComposition="2" IsVisible="1" IndexKey="1" TMType="0" w="1" SameAsPrevShot="0" x="0" y="0" h="0,9999999999999997">
+                    <BackgroundBrush TypeComposition="2" BrushType="6">
+                        <ImageCorrection X="0,2" Y="0,1" ZoomFactor="0,6" AspectRatio="1,333333333333333" LockGeometry="1"/>
+                    </BackgroundBrush>
+                </Composition-0>
+                <Composition-1 TypeComposition="2" BackgroundTransparent="2" IsVisible="1" IndexKey="7" TMType="0" w="0,3438207431184214" SameAsPrevShot="0" x="0,3280896284407893" y="0,1898879823751872" h="0,6740696147979577">
+                    <BackgroundBrush TypeComposition="2" BrushType="6">
+                        <ImageCorrection X="0,3213508448699415" Y="0,03300484009861909" ZoomFactor="0,3572983102601169" AspectRatio="2,614035087719298" LockGeometry="1"/>
+                    </BackgroundBrush>
+                </Composition-1>
+                <Composition-2 TypeComposition="2" IsVisible="1" IndexKey="2" TMType="0" w="1" SameAsPrevShot="0" x="-1,110223024625157e-16" y="0,146643109540636" h="0,8533568904593638">
+                    <BackgroundBrush TypeComposition="2" BrushType="0">
+                        <ImageCorrection X="0" Y="0" ZoomFactor="1" AspectRatio="0,5625"/>
+                    </BackgroundBrush>
+                </Composition-2>
+                <Composition-3 TypeComposition="2" TxtZoomLevel="120" IsVisible="1" IndexKey="3" TMType="0" w="1" SameAsPrevShot="0" x="0" y="0" h="0,1295013850415513">
+                    <BackgroundBrush TypeComposition="2" BrushType="0">
+                        <ImageCorrection X="0" Y="0" ZoomFactor="1" AspectRatio="0,5625"/>
+                    </BackgroundBrush>
+                </Composition-3>
+            </ShotComposition>
+        </Shot-0>
+    </ProjectThumbnail>
+</Thumbnail>
