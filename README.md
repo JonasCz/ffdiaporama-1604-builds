@@ -2,13 +2,13 @@
 
 This repository contains builds / packages of ffDiaporama 2.2 (the latest version) for Ubuntu 16.04, as well as the patched sources used to build them.
 
-What's here:
+### Packages:
 
 * **[ffdiaporama-data_2.2-1_i386.deb](https://github.com/JonasCz/ffdiaporama-1604-builds/raw/master/ffdiaporama-data_2.2-1_i386.deb)**. This package contains the data files needed by ffDiaporama. Install this first.
 
 * **[ffdiaporama_2.2-20160801-1_i386.deb](https://github.com/JonasCz/ffdiaporama-1604-builds/raw/master/ffdiaporama_2.2-20160801-1_i386.deb)** The main ffDiaporama package.
 
-If you want to use these packages, just install them and you'll be good to go.
+If you want to use these packages, just install them and you'll be good to go. Otherwise, you can compile from source:
 
 ---
 
@@ -22,31 +22,38 @@ Either clone this repository (the source here is already patched), _or_ download
 
 * Compile (in the ffDiaporama sources directory):
 
-            qmake ffDiaporama.pro /PREFIX=/usr
-            make
+        qmake ffDiaporama.pro /PREFIX=/usr
+        make
 
 * Installation:
 
-            sudo make install
+        sudo make install
 
 For the resources (`ffDiaporama_rsc`):
+
+* 
 
         qmake ffDiaporama_rsc.pro /PREFIX=/usr
         make install
         
-And you should (hopefully..) have a working ffDiaporama ! Note that I didn't extensively test this, and I didn't test the packages at all (yet), but it does work on my system.
+And you should have a working ffDiaporama !
 
-Note that there's a few bugs, notably:
+### Notes (read before using):
 
-* The preview in the application plays a bit too fast, but it's fine in the final rendered video
+* **These are _not_ official builds !**
 
-* Video rendering somethimes hangs at the end if the audio / music is shorter than the video duration
+* There's a few bugs, notably:
 
----
+    * The preview in the application plays a bit too fast, but it's fine in the final rendered video
 
-Thanks to:
+    * Video rendering somethimes hangs at the end if the audio / music is shorter than the video duration
 
-* http://ffdiaporama.tuxfamily.org/Forum/viewtopic.php?id=1299
 
-* http://ffdiaporama.tuxfamily.org/Forum/viewtopic.php?id=1280
+* I didn't extensively test this, and I didn't test the packages at all (yet), but it does work on my system.
+
+* Thanks to:
+
+    * http://ffdiaporama.tuxfamily.org/Forum/viewtopic.php?id=1299
+
+    * http://ffdiaporama.tuxfamily.org/Forum/viewtopic.php?id=1280
 
