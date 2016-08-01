@@ -4,9 +4,9 @@ This repository contains builds / packages of ffDiaporama 2.2 (the latest versio
 
 What's here:
 
-* **[ffdiaporama-data_2.2-1_i386.deb](http://test)**. This package contains the data files needed by ffDiaporama. Install this first.
+* **[ffdiaporama-data_2.2-1_i386.deb](https://github.com/JonasCz/ffdiaporama-1604-builds/raw/master/ffdiaporama-data_2.2-1_i386.deb)**. This package contains the data files needed by ffDiaporama. Install this first.
 
-* **[ffdiaporama_2.2-20160801-1_i386.deb](http://test)** The main ffDiaporama package.
+* **[ffdiaporama_2.2-20160801-1_i386.deb](https://github.com/JonasCz/ffdiaporama-1604-builds/raw/master/ffdiaporama_2.2-20160801-1_i386.deb)** The main ffDiaporama package.
 
 If you want to use these packages, just install them and you'll be good to go.
 
