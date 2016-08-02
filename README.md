@@ -18,6 +18,7 @@ Either clone this repository (the source here is already patched), _or_ download
 
 * Install the necessary dependencies for compiling :
 
+        sudo apt-get update
         sudo apt-get install libqt5multimedia5-plugins libtag1-dev libssh-dev libssl-dev libcurl4-openssl-dev libcurlpp-dev libcurlpp0 libqgsttools-p1 libqt5multimediaquick-p5 qtmultimedia5-dev build-essential libavcodec-dev libavdevice-dev libavfilter-dev libavformat-dev libavresample-dev libexiv2-dev libflac-dev libswscale-dev qt5-image-formats-plugins qt5-qmake libqt5quickwidgets5 libsdl-image1.2-dev libsdl-mixer1.2-dev qt5-default qttools5-dev-tools qttools5-dev libqt5svg5-dev libqt5help5 libqt5sql5-sqlite
 
 * Compile (in the ffDiaporama sources directory):
@@ -49,7 +50,7 @@ And you should have a working ffDiaporama !
     * Video rendering somethimes hangs at the end if the audio / music is shorter than the video duration
 
 
-* I didn't extensively test this, and I didn't test the packages at all (yet), but it does work on my system.
+* Both the packages an the tarball work for me on a fresh install.
 
 * Thanks to:
 
