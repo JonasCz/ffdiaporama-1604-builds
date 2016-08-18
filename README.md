@@ -1,6 +1,6 @@
 # Builds of ffDiaporama 2.2 for Ubuntu 16.04.
 
-This repository contains builds / packages of ffDiaporama 2.2 (the latest version) for Ubuntu 16.04, as well as the patched sources used to build them.
+This repository contains builds / packages (32-bit only for now) of ffDiaporama 2.2 (the latest version) for Ubuntu 16.04, as well as the patched sources used to build them.
 
 ### Packages:
 
