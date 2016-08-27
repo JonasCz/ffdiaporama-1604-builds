@@ -50,11 +50,13 @@ And you should have a working ffDiaporama !
     * Video rendering somethimes hangs at the end if the audio / music is shorter than the video duration (Possibly only when using .wav files for music / audio)
 
 
-* Both the packages an the tarball work for me on a fresh install.
+* Both the packages and the tarball work for me on a fresh install.
 
 * Thanks to:
 
     * http://ffdiaporama.tuxfamily.org/Forum/viewtopic.php?id=1299
 
     * http://ffdiaporama.tuxfamily.org/Forum/viewtopic.php?id=1280
+    
+    * Instructions on how to compile (in French) / Instructions pour la compilation (en Français ) : https://forum.ubuntu-fr.org/viewtopic.php?id=1994993
 
