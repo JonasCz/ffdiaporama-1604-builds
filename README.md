@@ -60,5 +60,5 @@ And you should have a working ffDiaporama !
     
     * Instructions on how to compile (in French) / Instructions pour la compilation (en Français ) : https://forum.ubuntu-fr.org/viewtopic.php?id=1994993
     
-    * Instructions in german / Anleitungen auf Deutsch: http://multimedia4linux.de/index.php/bildbearbeitung/ffdiaporama/installation-von-ffdiaporama-auf-ubuntu-16-04
+    * Instructions in German / Anleitungen auf Deutsch: http://multimedia4linux.de/index.php/bildbearbeitung/ffdiaporama/installation-von-ffdiaporama-auf-ubuntu-16-04
 
