@@ -1,12 +1,14 @@
 # Builds of ffDiaporama 2.2 for Ubuntu 16.04.
 
-This repository contains builds / packages (32-bit only for now) of ffDiaporama 2.2 (the latest development version) for Ubuntu 16.04, as well as the patched sources used to build them.
+This repository contains builds / packages of ffDiaporama 2.2 (the latest development version) for Ubuntu 16.04, as well as the patched sources used to build them.
 
 ### Packages:
 
 * **[ffdiaporama-data_2.2-1_i386.deb](https://github.com/JonasCz/ffdiaporama-1604-builds/raw/master/ffdiaporama-data_2.2-1_i386.deb)**. This package contains the data files needed by ffDiaporama. Install this first.
 
 * **[ffdiaporama_2.2-20160801-1_i386.deb](https://github.com/JonasCz/ffdiaporama-1604-builds/raw/master/ffdiaporama_2.2-20160801-1_i386.deb)** The main ffDiaporama package.
+
+* 64-bit builds (not by me) can be found here: https://forums.linuxmint.com/viewtopic.php?f=47&t=229333&p=1213312&hilit=ffdiaporama#p1213146
 
 If you want to use these packages, just install them and you'll be good to go. Otherwise, you can compile from source:
 
