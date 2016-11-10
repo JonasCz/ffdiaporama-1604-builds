@@ -50,6 +50,8 @@ And you should have a working ffDiaporama !
     * The preview in the application plays a bit too fast, but it's fine in the final rendered video
 
     * Video rendering somethimes hangs at the end if the audio / music is shorter than the video duration (Possibly only when using .wav files for music / audio)
+    
+    * My packages have more dependencies than the program actually needs (most notably some `-dev` packages), I'll fix this at some point when I have time.
 
 
 * Both the packages and the tarball work for me on a fresh install.
